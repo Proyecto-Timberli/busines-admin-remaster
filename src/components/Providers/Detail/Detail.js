@@ -8,7 +8,7 @@ import Header from './Header'
 import Footer from '@/components/Footers/FooterAdmin'
 import { getProvider, deleteProvider} from '@/apiFunctions/endPoints'
 import {alertConfirmacion} from '@/components/Reusables/Alerts'
-import Formprovider from "./Formprovider";
+import FormProvider from "./FormProvider";
 
 const deleted = async (userProfile, id, navigation) => {
   const response = await deleteProvider(userProfile, id)
@@ -41,7 +41,7 @@ export default function Detail(){
                 <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
                   Provider
                 </h6>  
-                {provider?<Formprovider provider={provider}/>
+                {provider?<FormProvider provider={provider}/>
                 :<div className='bg-slate-300 rounded shadow-lg dark:bg-stone-700 w-full py-6'><Loading/></div> }           
                   
               </div>

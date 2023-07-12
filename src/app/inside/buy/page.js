@@ -1,4 +1,4 @@
-import Buy from '@/components/buy/buy'
+import Buy from '@/components/Buy/Buy'
 
 export default function BuyPage() {
     return (
