@@ -1,34 +1,12 @@
 
 "use client"
-import React, { useEffect, useState } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
-import { useAuth } from '@/context/authContext'
-import Loading from '@/components/Reusables/Loading'
+import React from "react";
 import Header from './Header'
 import Footer from '@/components/Footers/FooterAdmin'
-import { getClient, deleteClient} from '@/apiFunctions/endPoints'
-import {alertConfirmacion} from '@/components/Reusables/Alerts'
-import FormClient from "./FormClient";
-
-const deleted = (userProfile, id, navigation) => {
-  deleteClient(userProfile, id)
-  navigation()
-  return true
-}
+import FormProvider from "./FormProvider";
 
 export default function Add(){
-  const searchParams = useSearchParams()
-  const router = useRouter()
-  const id = searchParams.get('id')
-  const [client, setClient] = useState(null)
-  const { userProfile, userPermissions } = useAuth()
 
-//   useEffect(()=>{
-//     getClient(userProfile,id,setClient)
-//   },[userProfile])
-//   useEffect(()=>{
-//     console.log(client)
-//   },[client])
   
   return (
     <>
@@ -39,9 +17,9 @@ export default function Add(){
             <div className="flex w-full flex-wrap items-center">
               <div className="relative w-full max-w-full flex-grow flex-1">
                 <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
-                  Create new client
+                  Create new provider
                 </h6>  
-                <FormClient client={client}/>     
+                <FormProvider />     
               </div>
             </div>
           </div>

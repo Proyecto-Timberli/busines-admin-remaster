@@ -8,7 +8,7 @@ import Header from './Header'
 import Footer from '@/components/Footers/FooterAdmin'
 import { useRouter,} from "next/navigation";
 
-export default function Sales() {
+export default function Provider() {
   const router = useRouter();
   const {userProfile,} = useAuth()
   ////////////////////conexion Api////////////////////////////
@@ -21,7 +21,6 @@ export default function Sales() {
   },[userProfile]) 
   useEffect(() => {
     setDataRender([...providersApi])
-    console.log(providersApi)
   },[providersApi])
   /////////////////////////////////////////////////////
   

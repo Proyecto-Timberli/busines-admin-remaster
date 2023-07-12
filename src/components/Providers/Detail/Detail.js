@@ -26,9 +26,7 @@ export default function Detail(){
   useEffect(()=>{
     getProvider(userProfile,id,setProvider)
   },[userProfile])
-  useEffect(()=>{
-    console.log(provider)
-  },[provider])
+
   
   return (
     <>

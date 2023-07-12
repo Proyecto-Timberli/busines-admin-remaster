@@ -514,6 +514,18 @@ export const deleteProvider = async (userProfile, id)=>{
     return response;
 }
 
+export const postProvider = async (userProfile, data) => {
+    let response = { error: 'The provider was not created'};
+    try {
+      const selectedCollection = collection(getFirestore(), `users/${userProfile}/providers`);
+      await postFirestore(selectedCollection, data);
+      response = { success:'Provider added successfully'};
+    } catch (error) {
+        response = { error: error.message };
+    }
+    return response
+  };
+
 export const postBuy = async (userProfile, data)=>{
     let response = { error: 'The buy was not registered' };
     try{

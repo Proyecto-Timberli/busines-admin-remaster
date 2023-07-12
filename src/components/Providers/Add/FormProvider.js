@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useAuth } from '@/context/authContext'
-import { postClient } from '@/apiFunctions/endPoints'
+import { postProvider } from '@/apiFunctions/endPoints'
 import { alertConfirmacion } from '@/components/Reusables/Alerts'
 
-export default function FormClient() {
+export default function FormProvider() {
   const { userProfile } = useAuth()
   const [formState, setFormState] = useState({
     id:"",
@@ -23,7 +23,7 @@ export default function FormClient() {
     if(!formState.identifier){
       return {error: 'Completed fields'}
     }
-    const response = await postClient(userProfile, formState)
+    const response = await postProvider(userProfile, formState)
     setFormState({
       id:"",
       identifier:"",

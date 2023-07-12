@@ -22,6 +22,9 @@ export default function FormProduct() {
       [e.target.name]:e.target.value
     })
   }
+  const createFullProducts = ()=>{
+    Promise.all
+  }
   const createProduct = () => {
     if(!formState.name){return {error:'Complete fields'}}
     const response = postProduct(userProfile, formState)
