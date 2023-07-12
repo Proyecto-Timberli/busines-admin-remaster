@@ -1,0 +1,231 @@
+.container-navBar {
+    width: 67%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 23%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    min-height: 49px;
+    max-height: 49px;
+}
+
+.container-navBar-login {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    /* background:  #1a6b91; */
+    min-height: 49px;
+    max-height: 49px;
+}
+
+.button-navBar {
+    background-color: transparent;
+    margin-right: 60px;
+    font-weight: bold;
+    font-size: 15px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: transparent;
+    transition: all .6s ease;
+}
+
+.textButton-Navbar {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1a6b91;
+    letter-spacing: 1px;
+    transition: 0.5s;
+
+}
+
+.textButton-Navbar:hover {
+    color: aqua;
+}
+
+.buttonOculto-navBar {
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    border-right-style:dotted;
+    border-width: 1px;
+    border-color: #1a6b91;
+    margin-left: 1%;
+    padding-right: 1.5%;
+    
+}
+
+.logo-navBar {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 49px;
+    max-height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgLogo-navBar {
+    width: 23%;
+    height: auto;
+    max-width: 60px;
+    min-width: 33px;
+}
+
+.logo2-navBar {
+    padding-left: 5%;
+    align-items: center;
+    justify-content: center;
+
+    z-index: -1;
+}
+
+.textContainerLogo-navBar {
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.textLogo-navBar {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.textLogo2-navBar {
+    margin-top: -10%;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #4798C8;
+}
+.buttonLogout-NavBar{
+    border: none;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 1099px) {
+    .burger-navBar {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1099px) {
+    .logo-navBar {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .logo-navBar {
+        padding-left: 5%;
+        width: 50%;
+        justify-content: left;
+    }
+
+    .imgLogo-navBar {
+        width: 30%;
+        height: auto;
+    }
+
+    .burger-navBar {
+        padding: 10px;
+        position: absolute;
+        top: 1%;
+        right: 10px;
+    }
+
+    .container-navBar {
+        width: 100%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 0%;
+        padding-left: 0%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        min-height: 49px;
+        max-height: 49px;
+    }
+
+    .container-navBar.active-navBar {
+        width: 100%;
+        padding-top: 65px;
+        padding-bottom: 0px;
+        padding-right: 0%;
+        min-height: none;
+        max-height: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.75) 0px 6px 6px -6px;
+    }
+
+    .buttonOculto-navBar {
+        background-color: transparent;
+        margin: 15px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 15px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: white;
+        position: absolute;
+        top: -700px;
+        left: -2000px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: black;
+        font-size: 2rem;
+        display: block;
+        transition: all 6s ease-out;
+    }
+
+    .container-navBar-login {
+        width: 100%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 0%;
+        padding-left: 0%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: right;
+        min-height: 49px;
+        max-height: 49px;
+    }
+
+    .button-navBar {
+        width: 100%;
+        border: none;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-color: rgb(222, 227, 236);
+        margin-right: 0;
+    }
+    .buttonLogout-NavBar{
+        width: 100%;
+        padding-top: 13px;
+        padding-bottom: 8px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-color: rgb(222, 227, 236);
+    }
+}

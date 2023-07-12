@@ -1,0 +1,1709 @@
+
+# productos cargados en tuplas
+# formato (0000,"seccion","tipo","marca","sub tipo",00.00),
+# (codigo_de_barra, seccion, tipo, marca_de_producto, sub_tipo, precio)
+# (CODIGO_DE_BARRA, alimentos, fiedeos, 308, subtipo, precio)
+(7790427005049, "alimentos", "fideos" , "308","tirabuzon c/huevo",72.00),
+(7790427005094,"alimentos","fideos","308","monitos c/huevo",93.00),
+(7790427005124,"alimentos","fideos","308","corbata c/huevo",93.00),
+(7790427005018,"alimentos","fideos","308","mostacholes c/huevo",72.00),
+(7790427005209,"alimentos","fideos","308","dedales c/huevo",72.00),
+(7790427002086,"alimentos","fideos","308","noquiz",0),
+(7790427002093,"alimentos","fideos","308","tirabuzon",63.00),
+(7790427002123,"alimentos","fideos","308","codos grandes",63.00),
+(7790427000099,"alimentos","fideos","308","celentanos",63.00),
+(7790427000440,"alimentos","fideos","308","nido n4 c/huevo",89.00),
+(7790427000051,"alimentos","fideos","308","nido espinaca",109.00),
+(7790427005179,"alimentos","fideos","308","cinta argentina c/huevo",118.00),
+(7790427002079,"alimentos","fideos","308","rigatti",63.00),
+(7790427000037,"alimentos","fideos","308","nido n3 c/huevo",89.00),
+(7790427000044,"alimentos","fideos","308","nido c/morron",109.00),
+(7790427000020,"alimentos","fideos","308","nido n2 c/huevo",89.00),
+(7790427000174,"alimentos","fideos","308","mostachol tricolor",83.00),
+(7790427000167,"alimentos","fideos","308","tirabuzon tricolor",83.00),
+(7790427004103,"alimentos","fideos","308","moñitos color",86.00),
+# (CODIGO_DE_BARRA, alimentos, fiedeos, marolio, subtipo, precio)
+(7797470000953,"alimentos","fideos","marolio","codos",50.00),
+(7797470000984,"alimentos","fideos","marolio","rigatti",50.00),
+(7797470006986,"alimentos","fideos","marolio","cabello de angel",50.00),
+(7797470003145,"alimentos","fideos","marolio","foratti",50.00),
+(7797470003121,"alimentos","fideos","marolio","spaghetti",50.00),
+# (CODIGO_DE_BARRA, alimentos, fiedeos, fusarella, subtipo, precio)
+(7791164000014,"alimentos","fideos","fusarella","nidos",50.00),
+(7791164050057,"alimentos","fideos","fusarella","nido verde",50.00),
+(7791164000014,"alimentos","fideos","fusarella","nidos",50.00),
+# (CODIGO_DE_BARRA, alimentos, fiedeos, knorr, subtipo, precio)
+(7798031155587,"alimentos","fideos","knorr","rigatti",79.00),
+(7798031155662,"alimentos","fideos","knorr","tirabuzon",79.00),
+(7798031154122,"alimentos","fideos","knorr","rigatti",79.00),
+(7798031155655,"alimentos","fideos","knorr","moñoz",79.00),
+(7798031155549,"alimentos","fideos","knorr","tallarines",79.00),
+(7798031154177,"alimentos","fideos","knorr","foratti",79.00),
+(7798031155532,"alimentos","fideos","knorr","spaghetti",79.00),
+(7798031155624,"alimentos","fideos","knorr","ave maria",79.00),
+(7798031155594,"alimentos","fideos","knorr","coditos",79.00),
+(7798031155303,"alimentos","fideos","knorr","mostachol integrales",115.00),
+(7798031154252,"alimentos","fideos","knorr","mostachol mix de sabores",115.00),
+(7798031154245,"alimentos","fideos","knorr","tirabuzon mix de sabores",115.00),
+# (CODIGO_DE_BARRA, alimentos, fiedeos, giacomo, subtipo, precio)
+(7792390620120,"alimentos","fideos","giacomo","verdura",222.00),
+(7792390620229,"alimentos","fideos","giacomo","queso y jamon",222.00),
+# (CODIGO_DE_BARRA, alimentos, fiedeos, cica, subtipo, precio)
+(7798031155167,"alimentos","fideos","cica","rigatti",63.00),
+(7798031154474,"alimentos","fideos","cica","mostachol",63.00),
+(7798031155747,"alimentos","fideos","cica","tallarines",63.00),
+(7798031155730,"alimentos","fideos","cica","spaghetti",63.00),
+# (CODIGO_DE_BARRA, alimentos, fiedeos, molto, subtipo, precio)
+(7798138552517,"alimentos","fideos","molto","codos",62.00),
+(7798138552364,"alimentos","fideos","molto","tirabuzon",00.00),
+(7798138552524,"alimentos","fideos","molto","dedales",62.00),
+(7798138552326,"alimentos","fideos","molto","mostachol rayado",62.00),
+(7798138552609,"alimentos","fideos","molto","cabello de angel",62.00),
+(7798138552500,"alimentos","fideos","molto","caracoles",62.00),
+(7798138552791,"alimentos","fideos","molto","mostachol rayado tricolor",68.00),
+(7798138552548,"alimentos","fideos","molto","celentano",62.00),
+(7798138552579,"alimentos","fideos","molto","foratti",62.00),
+(7798138552340,"alimentos","fideos","molto","spaghetti",62.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, polentas, presto pronta, subtipo, precio)
+(7790580660000,"alimentos","polentas","presto pronta","polenta instantanea 500gr",76.00),
+(7790580126322,"alimentos","polentas","presto pronta","panceta y queso 250gr",65.00),
+(7790580126315,"alimentos","polentas","presto pronta","espinaca a la crema 250gr",65.00),
+# (CODIGO_DE_BARRA, alimentos, polentas, presto pronta, subtipo, precio)
+(7798004720088,"alimentos","polentas","del campo","polenta instantanea 500gr",00.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, azucar, marca, subtipo, precio)
+(736684266073,"alimentos","azucar","la muñeca","azucar comun 1kg",0.00),
+# (CODIGO_DE_BARRA, alimentos, azucar, marca, subtipo, precio)
+(7792540260138,"alimentos","azucar","ledesma","clasica 1kg",00.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, biscochuelos, marca, subtipo, precio)
+(7790580131753,"alimentos","polvo para biscochuelo","godet","marmolado 500gr",170.00),
+(7790580131746,"alimentos","polvo para biscochuelo","godet","vainilla 480gr",155.00),
+(7790580131760,"alimentos","polvo para biscochuelo","godet","chocolate 480gr",185.00),
+# (CODIGO_DE_BARRA, alimentos, biscochuelos, marca, subtipo, precio)
+(7790971000170,"alimentos","polvo para biscochuelo","ravana","vainilla 540gr",170.00),
+# (CODIGO_DE_BARRA, alimentos, biscochuelos, marca, subtipo, precio)
+(7792180130242,"alimentos","polvo para biscochuelo","mama cocina","chocolate 540gr",115.00),
+(7792180130266,"alimentos","polvo para biscochuelo","mama cocina","limon 540gr",115.00),
+# (CODIGO_DE_BARRA, alimentos, biscochuelos, marca, subtipo, precio)
+(7790580126087,"alimentos","polvo para biscochuelo","arcor premescla","libre de gluten chocolate 500gr ",203.00),
+(7790580126070,"alimentos","polvo para biscochuelo","arcor premescla","libre de gluten vainilla 500gr ",203.00),
+# (CODIGO_DE_BARRA, alimentos, biscochuelos, marca, subtipo, precio)
+(7794000003545,"alimentos","polvo para biscochuelo","maizena","buenas semilas vainilla 500gr",200.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, chocolate en polvo, marca, subtipo, precio)
+(7613287315359,"alimentos","chocolate en polvo","nesquik","360gr",210.00),
+(7613287314666,"alimentos","chocolate en polvo","nesquik","180gr",106.00),
+# (CODIGO_DE_BARRA, alimentos, chocolate en polvo, marca, subtipo, precio)
+(7790150830857,"alimentos","chocolate en polvo","chocolino","180gr",81.00),
+(7790150830888,"alimentos","chocolate en polvo","chocolino","360gr",160.00),
+# (CODIGO_DE_BARRA, alimentos, chocolate en polvo, marca, subtipo, precio)
+(7730908402998,"alimentos","chocolate en polvo","quicker","360gr",90.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, cereales, marca, subtipo, precio)
+(7896004006376,"alimentos","cereales","zucaritas kelloggs","120gr",135.00),
+(7790045001607,"alimentos","cereales","skarchitos granix","240gr",105.00),
+(7790045001584,"alimentos","cereales","copos de maiz granix","160gr",55.00),
+(7790045826965,"alimentos","cereales","aritos frutales granix","130gr",95.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, cereales, marca, subtipo, precio)
+(601202013265,"alimentos","premesclas","ceacion libre de gluten","pizzas 500gr",140.00),
+(601202013272,"alimentos","premesclas","ceacion libre de gluten","reposteria 500gr",140.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, edulcorante, marca, subtipo, precio)
+(7794940000819,"alimentos","edulcorante","hileret","clasico 250ml",88.00),
+(7790490998019,"alimentos","edulcorante","hileret","mate 400ml",175.00),
+(7790490998002,"alimentos","edulcorante","hileret","mate 200ml",135.00),
+(7794940000864,"alimentos","edulcorante","hileret","zucra 400ml",215.00),
+(7794940000857,"alimentos","edulcorante","hileret","zucra 2000ml",110.00),
+(7794940000796,"alimentos","edulcorante","hileret","stevia 200ml",190.00),
+(7794940000109,"alimentos","edulcorante","hileret","clasico en sobres 40gr",80.00),
+(7794940000536,"alimentos","edulcorante","hileret","light en polvo 500gr",107.00),
+# (CODIGO_DE_BARRA, alimentos, edulcorante, marca, subtipo, precio)
+(7790036020204,"alimentos","edulcorante","sidiet","clasico 250ml",115.00),
+(7790036020235,"alimentos","edulcorante","sidiet","clasico 600ml",210.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, cafe, marca, subtipo, precio)
+(7790170904637,"alimentos","cafe instantaneo","la morenita","torrado equilibrado 170gr",344.00),
+(7790170901858,"alimentos","cafe instantaneo","la morenita","clasico 125gr",110.00),
+(7790170901872,"alimentos","cafe instantaneo","la morenita","clasico 250gr",210.00),
+(7790170901971,"alimentos","cafe instantaneo","la morenita","intenso 250gr",210.00),
+# (CODIGO_DE_BARRA, alimentos, cafe, marca, subtipo, precio)
+(7790150100356,"alimentos","cafe instantaneo","la virginia","torrado equilibrado 170gr",350.00),
+(7790150100752,"alimentos","cafe instantaneo","la virginia","clasico 100gr",240.00),
+(7790150102039,"alimentos","cafe instantaneo","la virginia","suave 100gr",240.00),
+(7790150100387,"alimentos","cafe instantaneo","la virginia","pack ahorro clasico 170gr",0.00),
+(7790150161005,"alimentos","cappuccino","la virginia","mousse de chocolate y avellana 155gr",195.00),
+(7790150161104,"alimentos","cappuccino","la virginia","espuma de vainilla 155gr",195.00),
+(7790150161203,"alimentos","cappuccino","la virginia","dulce de leche 155gr",195.00),
+(7790150079973,"alimentos","cafe en saquitos","la virginia","20 saquitos",165.00),
+(7790150006320,"alimentos","cafe instantaneo","la virginia","torrado equilibrado 250gr",210.00),
+(7790150006108,"alimentos","cafe instantaneo","la virginia","torrado equilibrado 125gr",110.00),
+(7790150811061,"alimentos","filtros de papel para cafe","la virginia","40 unidades",210.00),
+# (CODIGO_DE_BARRA, alimentos, cafe, marca, subtipo, precio)
+(7790550013850,"alimentos","cafe instantaneo","la planta de cafe cabrales","suave 170gr",0.00),
+(7790550801501,"alimentos","cafe instantaneo","la planta de cafe cabrales","torrado 130gr",0.00),
+(7790550010125,"alimentos","cafe en saquitos","cabrales","20 saquitos",205.00),
+# (CODIGO_DE_BARRA, alimentos, cafe, marca, subtipo, precio)
+(7790070936516,"alimentos","cafe instantaneo","arlistan","suave 50gr",175.00),
+# (CODIGO_DE_BARRA, alimentos, cafe, marca, subtipo, precio)
+(7791118000824,"alimentos","malta","el pocillo lheritier","125gr",150.00),
+# (CODIGO_DE_BARRA, alimentos, cafe, marca, subtipo, precio)
+(7613287290380,"alimentos","cafe instantaneo","nescafe","tradicion 150gr",195.00),
+(7613287290427,"alimentos","cafe instantaneo","nescafe dolca","torrado 170gr",195.00),
+(7613287260390,"alimentos","cafe instantaneo","nescafe dolca","cortado 125gr",195.00),
+(7613287261113,"alimentos","cappuccino","nescafe dolca","light 100gr",195.00),
+(7613287260376,"alimentos","cappuccino","nescafe dolca","125gr",195.00),
+(7613287292858,"alimentos","cafe instantaneo","nescafe dolca","170gr",165.00),
+(7613287294074,"alimentos","cafe instantaneo","nescafe dolca","100gr",125.00),
+(7613035070981,"alimentos","cafe instantaneo","nescafe dolca","suave 100gr",125.00),
+(7613031154111,"alimentos","cafe instantaneo","nescafe","gold 100gr",165.00),
+(7891000016589,"alimentos","cafe instantaneo","nescafe","tradicion 100gr",165.00),
+(7613035068353,"alimentos","cafe instantaneo","nescafe dolca","50gr",100.00),
+(7613287294210,"alimentos","cafe instantaneo","nescafe dolca","suave 50gr",100.00),
+(7613287294098,"alimentos","cafe instantaneo","nescafe dolca","50gr",100.00),
+(7613035379213,"alimentos","cafe instantaneo","nescafe","descafeinado 100gr",165.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, te en saquitos, marca, subtipo, precio)
+(7790387010305,"alimentos","te en saquitos","taragui","25 saquitos",52.00),
+(7790387712056,"alimentos","te en saquitos","taragui","mezcla de hierbas 10 saquitos",42.00),
+(7790387001785,"alimentos","te en saquitos","taragui","te verde 20 saquitos",115.00),
+(7790387000290,"alimentos","te en saquitos","taragui","boldo 10 saquitos",42.00),
+(7790387000283,"alimentos","te en saquitos","taragui","manzanilla 10 saquitos",42.00),
+(7790387000306,"alimentos","te en saquitos","taragui","tilo 10 saquitos",42.00),
+(7790387000849,"alimentos","mate cocido en saquitos","taragui","25 saquitos",86.00),
+# (CODIGO_DE_BARRA, alimentos, te en saquitos, marca, subtipo, precio)
+(7790150255025,"alimentos","te en saquitos","la virginia","te rojo 20 saquitos",120.00),
+(7790150015797,"alimentos","te en saquitos","la virginia","virgin islands te clasico 25 saquitos",98.00),
+(7790150360262,"alimentos","te en saquitos","la virginia","mezcla de hierbas naturales 25 saquitos",98.00),
+(7790150330166,"alimentos","te en saquitos","la virginia","manzanilla 25 saquitos",95.00),
+(7790150350133,"alimentos","te en saquitos","la virginia","cedron 25 saquitos",110.00),
+(7790150310267,"alimentos","te en saquitos","la virginia","boldo 25 saquitos",110.00),
+(7790150240274,"alimentos","te en saquitos","la virginia","limon 20 saquitos",120.00),
+(7790150211793,"alimentos","te en saquitos","la virginia","25 saquitos",49.00),
+(7790150321065,"alimentos","te en saquitos","la virginia","tilo manzanilla y cedron 25 saquitos",126.00),
+(7790150260876,"alimentos","mate cocido en saquitos","la virginia","25 saquitos",90.00),
+# (CODIGO_DE_BARRA, alimentos, te en saquitos, marca, subtipo, precio)
+(7790320100056,"alimentos","te en saquitos","crysf","te clasico 50 saquitos",105.00),
+(7790320100032,"alimentos","te en saquitos","crysf","te clasico 25 saquitos",51.00),
+# (CODIGO_DE_BARRA, alimentos, te en saquitos, marca, subtipo, precio)
+(7790387010589,"alimentos","mate cocido en saquitos","union","suave 25 saquitos",86.00),
+# (CODIGO_DE_BARRA, alimentos, te en saquitos, marca, subtipo, precio)
+(7790170914100,"alimentos","te en saquitos","la morenita","clasico 25 saquitos",49.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7792280002869,"alimentos","yerba","cachamate","1kg",365.00),
+(7792280002890,"alimentos","yerba","cachamate","hierbas serranas 500gr",180.00),
+(7792280000612,"alimentos","yerba","cachamate","hierbas cuyanas 500gr",180.00),
+(7792280001466,"alimentos","yerba","cachamate","hierbas 500gr",180.00),
+(7792280000469,"alimentos","yerba","cachamate","hierbas 500gr",180.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790387014617,"alimentos","yerba","union","1kg",490.00),
+(7790387014433,"alimentos","yerba","union","hierbas del litoral 500gr",280.00),
+(7790387014624,"alimentos","yerba","union","original 500gr",245.00),
+(7790387014419,"alimentos","yerba","union","hierbas serranas 500gr",280.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790387013610,"alimentos","yerba","taragui","1kg",490.00),
+(7790387013627,"alimentos","yerba","taragui","500gr",245.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7798039850019,"alimentos","yerba","andresito","1kg",410.00),
+(7798039850422,"alimentos","yerba","andresito","suave 500gr",260.00),
+(7798039850026,"alimentos","yerba","andresito","500gr",205.00),
+(7798039850194,"alimentos","yerba","andresito","seleccion especial 500gr",260.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7793704000225,"alimentos","yerba","playadito","1kg",550.00),
+(7793704000911,"alimentos","yerba","playadito","500gr",285.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7792198005266,"alimentos","yerba","natura","1kg",420.00),
+(7792198006546,"alimentos","yerba","natura","hierbas serranas 500gr",190.00),
+(7792198005273,"alimentos","yerba","natura","500gr",225.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790802000171,"alimentos","yerba","romance","suave 500gr",180.00),
+(7790802000010,"alimentos","yerba","romance","500gr",0.00),
+(7790802000034,"alimentos","yerba","romance","especial 500gr",250.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7792710000182,"alimentos","yerba","amanda","tradicional 500gr",205.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7793670000687,"alimentos","yerba","verdeflor","tradicional 500gr",0.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790480000371,"alimentos","yerba","la tranquera","tradicional 500gr",205.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790387015508,"alimentos","yerba","la merced","500gr",370.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790710000157,"alimentos","yerba","cbse","limon 500gr",205.00),
+(7790710000102,"alimentos","yerba","cbse","hierbas serranas 500gr",205.00),
+(7790710000140,"alimentos","yerba","cbse","naranja 500gr",205.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790217000544,"alimentos","yerba","la cumbrecita","seleccion especial 500gr",205.00),
+(7790217000032,"alimentos","yerba","la cumbrecita","500gr",175.00),
+(7790217000070,"alimentos","yerba","la cumbrecita","naranja 500gr",175.00),
+(7790217000087,"alimentos","yerba","la cumbrecita","limon 500gr",175.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790387015324,"alimentos","yerba","mañanita","500gr",255.00),
+# (CODIGO_DE_BARRA, alimentos, yerba, marca, subtipo, precio)
+(7790070507112,"alimentos","yerba","nobleza gaucha","500gr",230.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7792180001665,"alimentos","aceite","cañuelas","girasol 1,5L",335.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7790272001029,"alimentos","aceite","natura","girasol 1,5L",360.00),
+(7790272001005,"alimentos","aceite","natura","girasol 900ml",215.00),
+(7790272000831,"alimentos","aceite","natura","rocio vegetal 120gr",235.00),
+(7790272001036,"alimentos","aceite","natura"," girasol 3L",730.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7790272005553,"alimentos","aceite","sojola","soja 900ml",235.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7790272000794,"alimentos","aceite","mazola","maiz 900ml",350.00),
+(7790272000787,"alimentos","aceite","mazola","maiz 500ml",200.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7798092710602,"alimentos","aceite","olivi hnos.","oliva y girasol 500ml",150.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7790272001289,"alimentos","aceite","familiar","soja y girasol",0.00),
+(7790272007991,"alimentos","aceite","familiar","soja y girasol 1,5L",312.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7790580160807,"alimentos","aceite","arcor","maiz 900ml",250.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7797470005514,"alimentos","aceite","marolio","girasol 900ml",195.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7798163140604,"alimentos","aceite","valle gran","oliva 500ml",450.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7798303170089,"alimentos","aceite","solemne","girasol 5L",866.00),
+# (CODIGO_DE_BARRA, alimentos, aceite, marca, subtipo, precio)
+(7792180004536,"alimentos","aceite","caracas","girasol",635.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, grasa, marca, subtipo, precio)
+(7798001880464,"alimentos","grasa","esani","vacuna 500gr",185.00),
+(7790115000035,"alimentos","grasa","esani","porcina 500gr",185.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, sal, marca, subtipo, precio)
+(7791004000051,"alimentos","sal","celusal","parilla 1kg",71.00),
+(7791004000099,"alimentos","sal","celusal","gruesa 1kg",65.00),
+(7790072001014,"alimentos","sal","celusal","fina 500gr",55.00),
+(7790072001038,"alimentos","sal","celusal","fina salero 500gr",180.00),
+(7790072179607,"alimentos","sal","celusal","light caja 500gr",175.00),
+# (CODIGO_DE_BARRA, alimentos, sal, marca, subtipo, precio)
+(7792900009124,"alimentos","sal","dos anclas","light caja 500gr",175.00),
+(7792900000428,"alimentos","sal","dos anclas","fina 500gr",45.00),
+# (CODIGO_DE_BARRA, alimentos, sal, marca, subtipo, precio)
+(7790936000016,"alimentos","sal","tresal","gruesa 1kg",45.00),
+(7790936000054,"alimentos","sal","tresal","entrefina 1kg",45.00),
+(7790936000030,"alimentos","sal","tresal","fina 500gr",25.00),
+# (CODIGO_DE_BARRA, alimentos, sal, marca, subtipo, precio)
+(7792900092706,"alimentos","sal","dos estrellas","fina 500gr",35.00),
+# (CODIGO_DE_BARRA, alimentos, sal, marca, subtipo, precio)
+(7796373001456,"alimentos","sal","la parmesana","dietetica 75gr",65.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, vinagre, marca, subtipo, precio)
+(7798142740030,"alimentos","vinagre","silva","vinagre de vino 960ml",81.00),
+(7798142740023,"alimentos","vinagre","silva","vinagre de manzana 960ml",99.00),
+(7798142740016,"alimentos","vinagre","silva","vinagre de alcohol 960ml",60.00),
+(7798142740177,"alimentos","vinagre","silva","jugo de limon 500ml",98.00),
+# (CODIGO_DE_BARRA, alimentos, vinagre, marca, subtipo, precio)
+(7792900093246,"alimentos","vinagre","dos anclas","vinagre de alcohol 1L",97.00),
+(7792900093024,"alimentos","vinagre","dos anclas","vinagre de alcohol 500ml",55.00),
+(7792900000251,"alimentos","vinagre","dos anclas","aceto 250ml",130.00),
+# (CODIGO_DE_BARRA, alimentos, vinagre, marca, subtipo, precio)
+(7790139003173,"alimentos","vinagre","casalta","vinagre de alcohol 1L",78.00),
+(7790139003166,"alimentos","vinagre","casalta","vinagre de alcohol 500ml",56.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7793360000478,"alimentos","pulpa de tomate","la campagnola","520gr",70.00),
+(7793360000485,"alimentos","pure de tomate","la campagnola","520gr",81.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7794000599826,"alimentos","pure de tomate","cica","520gr",80.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7795184001907,"alimentos","pure de tomate","noel","520gr",67.00),
+(7795184945904,"alimentos","salsa","noel","pomarola 340gr",66.00),
+(7795184946604,"alimentos","salsa","noel","filetto 340gr",66.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7794000003699,"alimentos","salsa","knorr","pizza 340gr",80.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7790580408343,"alimentos","salsa","arcor","pizza 200gr",55.00),
+(7790580956707,"alimentos","salsa","arcor","pizza 340gr",72.00),
+(7790580567101,"alimentos","tomate cubeteado","arcor","lata 400gr",110.00),
+(7790580567903,"alimentos","tomates peritas","arcor","lata 400gr",102.00),
+(7790580221904,"alimentos","pure de tomate","arcor","520gr",78.00),
+(7790580650919,"alimentos","pulpa de tomate","arcor","520gr",72.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7790036567440,"alimentos","pure de tomate","de la huerta","530gr",80.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7798138554603,"alimentos","pure de tomate","molto","520gr",65.00),
+(7798138553637,"alimentos","pure de tomate","molto","200gr",44.00),
+(7798138553002,"alimentos","salsa","molto","filetto 340gr",50.00),
+(7798138553033,"alimentos","salsa","molto","portuguesa 340gr",50.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7793360000157,"alimentos","pure de tomate","salsati","520gr",78.00),
+(7793360000140,"alimentos","pulpa de tomate","salsati","520gr",75.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7790790008012,"alimentos","estracto de tomates","inca","lata 150gr",104.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7791885410338,"alimentos","tomates peritas","cumana","lata 400gr",99.00),
+(7791885001390,"alimentos","tomate triturado","cumana","botella 950gr",181.00),
+# (CODIGO_DE_BARRA, alimentos, pure de tomate, marca, subtipo, precio)
+(7798079670059,"alimentos","tomate triturado","don francisco","botella 950gr",0.00),
+(7798079670042,"alimentos","tomate triturado","don francisco","botella 500gr",0.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, pan rallado, marca, subtipo, precio)
+(7792180004789,"alimentos","pan rallado","mama cocina","rebozador horno 500gr",95.00),
+(7792180004741,"alimentos","pan rallado","mama cocina","500gr",95.00),
+(7792180004765,"alimentos","pan rallado","mama cocina","rebozador freir 500gr",95.00),
+# (CODIGO_DE_BARRA, alimentos, pan rallado, marca, subtipo, precio)
+(7791990000066,"alimentos","pan rallado","rosa blanca","1kg",125.00),
+(7791990000158,"alimentos","pan rallado","rosa blanca","rebozador 1kg",125.00),
+(7791990000141,"alimentos","pan rallado","rosa blanca","rebozador 500gr",65.00),
+# (CODIGO_DE_BARRA, alimentos, pan rallado, marca, subtipo, precio)
+(7791422000060,"alimentos","pan rallado","sequito","400gr",52.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7790070507228,"alimentos","harina","blancaflor","leudante 1kg",105.00),
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7792180001528,"alimentos","harina","cañuelas","000 1kg",57.00),
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7790070507235,"alimentos","harina","favorita","000 1kg",60.00),
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7792180136657,"alimentos","harina","pureza","leudante sin sodio 1kg",91.00),
+(7792180004567,"alimentos","harina","pureza","pizzas caseras 1kg",105.00),
+(7792180134516,"alimentos","harina","pureza","integral 1kg",125.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7792180006752,"alimentos","ñoquiz de papa","mama cocina","400gr",115.00),
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7798267770004,"alimentos","fecula de mandioca","femag","1kg",160.00),
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7791422002231,"alimentos","harina de maiz","silvina","400gr",60.00),
+(7791422000497,"alimentos","harina de maiz","silvina","900gr",118.00),
+(7791422000268,"alimentos","semola","silvina","400gr",75.00),
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7794000599185,"alimentos","almidon de maiz","maizena","520gr",169.00),
+(7891150077638,"alimentos","almidon de maiz","maizena","200gr",65.00),
+# (CODIGO_DE_BARRA, alimentos, harina, marca, subtipo, precio)
+(7798049540184,"alimentos","semola","la abadia","400gr",75.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, legumbres secas, marca, subtipo, precio)
+(7798049540290,"alimentos","legumbres secas","la abadia","arvejas partidas 400gr",85.00),
+(7798049540313,"alimentos","legumbres secas","la abadia","lentejas 400gr",135.00),
+(7798049540337,"alimentos","legumbres secas","la abadia","lentejones 400gr",150.00),
+(7798049540337,"alimentos","legumbres secas","la abadia","porotos alubia 400gr",75.00),
+(7798049540368,"alimentos","legumbres secas","la abadia","maiz pisingallo 400gr",70.00),
+(7798049540306,"alimentos","legumbres secas","la abadia","garbanzos 400gr",80.00),
+(7798049540344,"alimentos","legumbres secas","la abadia","maiz pisado blanco 400gr",50.00),
+(7798049540566,"alimentos","avena","la abadia","avena instantanea 400gr",120.00),
+(7798049540580,"alimentos","avena","la abadia","arrollada tradicional 400gr",120.00),
+# (CODIGO_DE_BARRA, alimentos, legumbres secas, marca, subtipo, precio)
+(7790279001121,"alimentos","legumbres secas","adenomar","lentejon 400gr",135.00),
+# (CODIGO_DE_BARRA, alimentos, legumbres secas, marca, subtipo, precio)
+(7795499000503,"alimentos","legumbres secas","moneda","lentejas 400gr",115.00),
+# (CODIGO_DE_BARRA, alimentos, legumbres secas, marca, subtipo, precio)
+(7792170000654,"alimentos","avena","quaker","integral extrafina 500gr",160.00),
+(7792170000678,"alimentos","avena","quaker","integral tradicional 500gr",165.00),
+(7792170000661,"alimentos","avena","quaker","integral tradicional 300gr",125.00),
+# (CODIGO_DE_BARRA, alimentos, legumbres secas, marca, subtipo, precio)
+(7790150611104,"alimentos","semillas","alicante","mix panes 150gr",135.00),
+# (CODIGO_DE_BARRA, alimentos, legumbres secas, marca, subtipo, precio)
+(7790070318886,"alimentos","vitina","vitina","clasica 250gr",130.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, pure instantaneo, marca, subtipo, precio)
+(7613287236456,"alimentos","pure de papas instantaneo","maggi","original 125gr",91.00),
+(7790981000016,"alimentos","pure de papas instantaneo","fleiss","125gr",91.00),
+(7790981000016,"alimentos","pure de papas instantaneo","knorr","125gr",96.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, arroz, marca, subtipo, precio)
+(7791830000058,"alimentos","arroz","moneda","500gr",60.00),
+(7791830000065,"alimentos","arroz","moneda","1kg",110.00),
+# (CODIGO_DE_BARRA, alimentos, arroz, marca, subtipo, precio)
+(7797470003718,"alimentos","arroz","marolio","1kg",125.00),
+(7797470003701,"alimentos","arroz","marolio","500gr",65.00),
+# (CODIGO_DE_BARRA, alimentos, arroz, marca, subtipo, precio)
+(7791120031557,"alimentos","arroz","molinos ala","1kg",130.00),
+(7791120099854,"alimentos","arroz","molinos ala","no se pasa 1kg",165.00),
+(7791120031564,"alimentos","arroz","molinos ala","500gr",75.00),
+# (CODIGO_DE_BARRA, alimentos, arroz, marca, subtipo, precio)
+(7790847060567,"alimentos","arroz","don marcos","1kg",115.00),
+(7790847060529,"alimentos","arroz","don marcos","integral 1kg",137.00),
+(7790847060543,"alimentos","arroz","don marcos","no se pasa 1kg",117.00),
+# (CODIGO_DE_BARRA, alimentos, arroz, marca, subtipo, precio)
+(7798138553057,"alimentos","arroz","molto","1kg",125.00),
+(7798138553040,"alimentos","arroz","molto","500gr",65.00),
+# (CODIGO_DE_BARRA, alimentos, arroz, marca, subtipo, precio)
+(7790070410610,"alimentos","arroz","lucchetti","500gr",76.00),
+# (CODIGO_DE_BARRA, alimentos, arroz, marca, subtipo, precio)
+(7790070411716,"alimentos","arroz","gallo","caja 1kg",200.00),
+(7790070416179,"alimentos","arroz","gallo","1kg",170.00),
+(7790070411839,"alimentos","arroz","gallo","500gr",88.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7792350004526,"alimentos","arvejas secas remojadas","inalpa","350gr",43.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7790580982102,"alimentos","arvejas secas remojadas","arcor","300gr",78.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7797470007426,"alimentos","arvejas secas remojadas","marolio","340gr",43.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7798138552838,"alimentos","arvejas secas remojadas","molto","340gr",49.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7790790124293,"alimentos","lentejas en lata","molto","202gr",65.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7790580983505,"alimentos","lentejas en lata","arcor","203gr",105.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7790499000645,"alimentos","chauchas en lata","la banda","350gr",71.00),
+(7790499000577,"alimentos","espinaca en lata","la banda","350gr",99.00),
+(7790499000584,"alimentos","remolachas en lata","la banda","350gr",71.00),
+(7790499001055,"alimentos","choclo en lata","la banda","350gr",90.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7798149560037,"alimentos","pimientos en lata","logroño","185gr",130.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7798350460058,"alimentos","jardinera","tayal","350gr",55.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7790580980801,"alimentos","choclo en lata","arcor","cremoso 300gr",115.00),
+(7790580980009,"alimentos","choclo en lata","arcor","300gr",110.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7798138551305,"alimentos","choclo en lata","molto","300gr",85.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7791885005053,"alimentos","pimientos en lata","cumana","210gr",130.00),
+(7791885000805,"alimentos","palmitos en lata","cumana","396gr",145.00),
+(7791885000096,"alimentos","palmitos en lata","cumana","en trozos 396gr",115.00),
+(7791885000577,"alimentos","palmitos en lata","cumana","800gr",285.00),
+(7791885000829,"alimentos","palmitos en lata","cumana","en trozos 800gr",235.00),
+(7791885005121,"alimentos","champiñones en lata","cumana","284gr",195.00),
+(7791885005138,"alimentos","champiñones en lata","cumana","caminados 284gr",180.00),
+(7791885004025,"alimentos","champiñones en lata","cumana","400gr",230.00),
+(7791885004032,"alimentos","champiñones en lata","cumana","caminados 400gr",195.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7790360720115,"alimentos","picadillo en lata","swift","90gr",48.00),
+(7790360720382,"alimentos","pate en lata","swift","90gr",48.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7798138551961,"alimentos","duraznos en lata","molto","820gr",250.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7798149560013,"alimentos","duraznos en lata","logroño","820gr",210.00),
+# (CODIGO_DE_BARRA, alimentos, latas, marca, subtipo, precio)
+(7791885004407,"alimentos","duraznos en lata","cumana","820gr",280.00),
+(7791885004520,"alimentos","peras en lata","cumana","820gr",200.00),
+(7791885004810,"alimentos","ananas en lata","cumana","836gr",450.00),
+(7791885004834,"alimentos","trozos de ananas en lata","cumana","836gr",450.00),
+(7791885004223,"alimentos","coctel en lata","cumana","820gr",250.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos,pescados en latas, marca, subtipo, precio)
+(7791885001208,"alimentos","atun","cumana","desmenuzado en aceite 170gr",123.00),
+(7791885001550,"alimentos","atun","cumana","desmenuzadoal natural 170gr",123.00),
+(7791885001109,"alimentos","pescados en latas","cumana","jurel en agua y aceite 425gr",235.00),
+(7791885001116,"alimentos","pescados en latas","cumana","jurel al natural 425gr",235.00),
+(7791885004087,"alimentos","atun","cumana","lomitos al natural 170gr",196.00),
+(7791885004094,"alimentos","atun","cumana","lomitos en agua y aceite 170gr",196.00),
+(7791885005459,"alimentos","pescados en latas","cumana","caballa al natural 380gr",240.00),
+(7791885000515,"alimentos","pescados en latas","cumana","sardinas en aceite y agua 125gr",151.00),
+# (CODIGO_DE_BARRA, alimentos,pescados en latas, marca, subtipo, precio)
+(7793360005169,"alimentos","atun","la campagnola","lomo al natural 300gr",554.00),
+(7793360005084,"alimentos","atun","la campagnola","natural 170gr",342.00),
+(7793360005060,"alimentos","atun","la campagnola","lomo en aceite 170gr",342.00),
+(7793360005107,"alimentos","atun","la campagnola","lomo en aceite 300gr",554.00),
+(7793360129940,"alimentos","atun","la campagnola","desmenuzado en aceite y agua 170gr",197.00),
+(7793360730504,"alimentos","pescados en latas","la campagnola","caballa en aceite y agua 300gr",295.00),
+(7793360006142,"alimentos","pescados en latas","la campagnola","caballa al natural 300gr",295.00),
+# (CODIGO_DE_BARRA, alimentos,pescados en latas, marca, subtipo, precio)
+(7793360119804,"alimentos","atun","nereida","desmenuzado al natural 170gr",197.00),
+(7793360119590,"alimentos","atun","nereida","desmenuzado en aceite y agua 170gr",197.00),
+# (CODIGO_DE_BARRA, alimentos,pescados en latas, marca, subtipo, precio)
+(7790748235149,"alimentos","pescados en latas","puglisi","merluza en aceite 380gr",197.00),
+(7790748235187,"alimentos","pescados en latas","puglisi","merluza al natural 380gr",252.00),
+(7790748000020,"alimentos","pescados en latas","puglisi","caballa al agua 380gr",285.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7795735600917,"alimentos","galletitas","don satur","glisines mix de semillas 140gr",130.00),
+(7795735000243,"alimentos","galletitas","don satur","glisines queso 110gr",130.00),
+(7795735000106,"alimentos","galletitas","don satur","glisines 140gr",130.00),
+(7795735000335,"alimentos","galletitas","don satur","bizcocho dulce 200gr",75.00),
+(7795735000328,"alimentos","galletitas","don satur","bizcocho salado 200gr",75.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790040704909,"alimentos","galletitas","serranas","x 3 sandwich 336gr",110.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7622300847234,"alimentos","galletitas","express","clasicas x 3 324gr",120.00),
+(7622300847210,"alimentos","galletitas","express","clasicas 108gr",46.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790040872202,"alimentos","galletitas","traviata","original x 3 303gr",120.00),
+(7790040872103,"alimentos","galletitas","traviata","original 101gr",34.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790040377806,"alimentos","galletitas","criollitas","original x 3 300gr",98.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7798141972371,"alimentos","galletitas","la providencia","x 3 303gr",90.00),
+(7798141972388,"alimentos","galletitas","la providencia","x 5 505gr",140.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790697000522,"alimentos","galletitas","rc","sin sal 225gr",90.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7792180007315,"alimentos","galletitas","paseo","5 semillas 300gr",95.00),
+(7792180006455,"alimentos","galletitas","paseo","mini salvado 300gr",95.00),
+(7792180007285,"alimentos","galletitas","paseo","sesamo 300gr",95.00),
+(7792180006448,"alimentos","galletitas","paseo","300gr",95.00),
+(7792180136329,"alimentos","galletitas","paseo","zapallo 150gr",40.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7798179490045,"alimentos","galletitas","ns","marineras tradicionales sin sal 400gr",93.00),
+(7798179490052,"alimentos","galletitas","ns","marineras 5 cereales 400gr",93.00),
+(7798179490212,"alimentos","galletitas","ns","marineras mix de semillas 400gr",93.00),
+(7798179490083,"alimentos","galletitas","ns","marineras lino y chia 400gr",93.00),
+(7798179490038,"alimentos","galletitas","ns","marineras tradicionales 400gr",93.00),
+(7798179490069,"alimentos","galletitas","ns","marineras tradicionales con gluten 400gr",93.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7793123160272,"alimentos","galletitas","oblita","frutilla 100gr",40.00),
+(7793123160265,"alimentos","galletitas","oblita","vainilla 100gr",40.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790071090118,"alimentos","galletitas","riera","tostadas dulces 200gr",87.00),
+(7790071090217,"alimentos","galletitas","riera","tostadas 200gr",87.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7798177410151,"alimentos","galletitas","urquiza","merenguitos 100gr",60.00),
+(7798177400138,"alimentos","galletitas","urquiza","cubanitos 100gr",95.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790369000089,"alimentos","galletitas","mini tapitas fachita","400gr",130.00),
+(7790369007811,"alimentos","galletitas","mini coronitas fachitas","chocolate 140gr",52.00),
+(7790369000997,"alimentos","galletitas","mini coronitas fachitas","frambuesa 140gr",61.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7791672000766,"alimentos","galletitas","fantoche","tapitas 350gr",95.00),
+(7791672000827,"alimentos","galletitas","fantoche","yayita 275gr",92.00),
+(7791672000155,"alimentos","galletitas","fantoche","yayita black 250gr",92.00),
+(7791672000735,"alimentos","galletitas","fantoche","espumita 300gr",92.00),
+(7791672002012,"alimentos","galletitas","fantoche","mini 150gr",115.00),
+(7791672002005,"alimentos","galletitas","fantoche","mini blanco 150gr",115.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790040123694,"alimentos","galletitas","cereales bagley","con arroz 181gr",95.00),
+(7790040123717,"alimentos","galletitas","cereales bagley","con avena 155gr",95.00),
+(7790040129559,"alimentos","galletitas","cereales bagley","con salvado 169gr",95.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7791324157435,"alimentos","galletitas","mini pitusas parnor","chocolate 300gr",105.00),
+(7791324157046,"alimentos","galletitas","mini pitusas parnor","chocolate 160gr",60.00),
+(7791324156827,"alimentos","galletitas","morochitas parnor","140 gr",52.00),
+(7791324157466,"alimentos","galletitas","mini pitusas parnor","frutilla 160gr",60.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7793890256567,"alimentos","galletitas","valente","magdalenas vainilla 200gr",110.00),
+(7793890256550,"alimentos","galletitas","valente","magdalenas dulce de leche 180gr",110.00),
+(7793890252880,"alimentos","galletitas","valente","vainillas 148gr",57.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790907000717,"alimentos","pandulce","benjamin","chip de chocolate 400gr",200.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790907000533,"alimentos","pandulce","mar de oro","400gr",170.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790263119597,"alimentos","galletitas","okebon","clasicas 273gr",85.00),
+(7790263110839,"alimentos","galletitas","okebon","clasicas 165gr",85.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790349000863,"alimentos","galletitas","zupay","mantequitas 200gr",65.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790040720800,"alimentos","galletitas","mana","x 3 vainilla 393gr",175.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7798036830014,"alimentos","galletitas","glins","rellenas frambuesa 200gr",98.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790040120006,"alimentos","galletitas","mini polvorita lia","vainilla 147gr",48.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7792684000706,"alimentos","galletitas","solitas","legendaria 500gr",0.00),
+(7792684001246,"alimentos","galletitas","solitas","pensamientos 500gr",126.00),
+(7792684001581,"alimentos","galletitas","solitas","mini alfajor blanco 300gr",180.00),
+(7792684001673,"alimentos","galletitas","solitas","mini alfajor 160gr",112.00),
+(7792684000782,"alimentos","galletitas","solitas","mini alfajor 300gr",180.00),
+(7792684001345,"alimentos","galletitas","solitas","mini alfajor blanco 160gr",112.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7792684000133,"alimentos","galletitas","aritos","aritos glaseados 500gr",126.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7791787001085,"alimentos","galletitas","trio","chocolatina 300gr",105.00),
+(7791787000026,"alimentos","galletitas","trio","scons 350gr",100.00),
+(7791787000040,"alimentos","galletitas","trio","pepas 500gr",111.00),
+(7791787100283,"alimentos","galletitas","trio","variette 500gr",115.00),
+(7791787001108,"alimentos","galletitas","trio","oskito 500gr",105.00),
+(7791787100450,"alimentos","galletitas","trio","glasy pepas glaseadas 500gr",100.00),
+(7791787100672,"alimentos","galletitas","trio","pepas con chips 500gr",100.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7798054220149,"alimentos","galletitas","terepin","pepas 400gr",95.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7793176000242,"alimentos","galletitas","cigarritos","chocolate 200gr",165.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7798186030708,"alimentos","galletitas","mini polvoron oro dulce","vainilla 200gr",35.00),
+(7798186030715,"alimentos","galletitas","mini polvoron oro dulce","coco 200gr",35.00),
+(7798186030739,"alimentos","galletitas","mantecada oro dulce","200gr",35.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790628102714,"alimentos","galletitas","fauna","150gr",50.00),
+(7790628000034,"alimentos","galletitas","fauna","400gr",121.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7795643001615,"alimentos","galletitas","lenguitas cilo","340gr",65.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790957000538,"alimentos","galletitas","jorgito","alfajorcitos blancos 155gr",175.00),
+(7790957000545,"alimentos","galletitas","jorgito","alfajorcitos 155gr",175.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7795733000139,"alimentos","galletitas","membrillitos","500gr",170.00),
+(7795733001082,"alimentos","galletitas","membrillitos","200gr",96.00),
+(7795733000146,"alimentos","galletitas","galleguitas","500gr",148.00),
+(7795733001075,"alimentos","galletitas","galleguitas","200gr",81.00),
+(7795733000375,"alimentos","galletitas","galleguitas","coco 200gr",55.00),
+(7795733000184,"alimentos","galletitas","cañoncitos","membrillo 500gr",170.00),
+(7795733001099,"alimentos","galletitas","cañoncitos","membrillo 200gr",96.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790040132771,"alimentos","galletitas","surtido bagley","500gr",148.00),
+(7798063060071,"alimentos","galletitas","manolito","pepas,aros,pepas marmoladas",45.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7798036830168,"alimentos","galletitas","celosas","110gr",44.00),
+(7798036830175,"alimentos","galletitas","celosas","230gr",88.00),
+(7798036830151,"alimentos","galletitas","celosas","350gr",116.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7790040132764,"alimentos","galletitas","diversion","390gr",120.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7792184003146,"alimentos","galletitas","biscuits","130gr",67.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7792200000159,"alimentos","galletitas","9 de oro","bizcochos 200gr",68.00),
+(7792200000319,"alimentos","galletitas","9 de oro","bizcochos azucarados 210gr",68.00),
+(7792200000128,"alimentos","galletitas","9 de oro","bizcochos agridulces 200gr",68.00),
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+(7793450000111,"alimentos","galletitas","hojalmar","triangulos 250gr",130.00),
+(7793450000128,"alimentos","galletitas","hojalmar","triangulos 150gr",78.00),
+(7793450000159,"alimentos","galletitas","hojalmar","larguitas 150gr",78.00),
+(7793450000142,"alimentos","galletitas","hojalmar","larguitas 250gr",130.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos,galletitas, marca, subtipo, precio)
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, tallas femininas, marca, subtipo, precio)
+(7793620003218,"perfumeria","toallas femeninas","kotex","ultra fina con alas extra suave x16",283.00),
+(7793620003256,"perfumeria","toallas femeninas","kotex","normal con alas extra suave x16",240.00),
+(7793620003249,"perfumeria","toallas femeninas","kotex","normal con alas extra suave x8",115.00),
+(7793620003201,"perfumeria","toallas femeninas","kotex","ultrafina con alas extra suave x8",145.00),
+(7794626999253,"perfumeria","toallas femeninas","kotex","esencial normal con alas x8",65.00),
+(7793620003515,"perfumeria","protectores diarios","kotex","esencial x20",108.00),
+(7793620003522,"perfumeria","protectores diarios","kotex","esencial x60",310.00),
+# (CODIGO_DE_BARRA, perfumeria, tallas femininas, marca, subtipo, precio)
+(7794626010347,"perfumeria","toallas femeninas","lina","normal con alas anatomicas x16",125.00),
+(7793620003393,"perfumeria","toallas femeninas","lina","normal sin alas x8",75.00),
+(7794626996702,"perfumeria","toallas femeninas","lina","ultrafila con alas x8",85.00),
+(7794626996764,"perfumeria","toallas femeninas","lina","normal con alas x8",75.00),
+(7794626999505,"perfumeria","toallas femeninas","lina","icontinencia nocturna x8",135.00),
+#7 (CODIGO_DE_BARRA, perfumeria, tallas femininas, marca, subtipo, precio)
+(7790770002504,"perfumeria","toallas femeninas","calipso","normal sin alas x8",55.00),
+(7790770002382,"perfumeria","toallas femeninas","calipso","normal con alas con fragancia x8",55.00),
+(7790770002337,"perfumeria","protectores diarios","calipso","normal x80",230.00),
+(7790770004010,"perfumeria","protectores diarios","calipso","normal x50",140.00),
+(7790770004003,"perfumeria","protectores diarios","calipso","normal con fragancia x50",140.00),
+(7790770004034,"perfumeria","protectores diarios","calipso","multiestilo x50",156.00),
+(7790770004027,"perfumeria","protectores diarios","calipso","cola less x50",160.00),
+(7790770600601,"perfumeria","protectores diarios","calipso","normal x20",65.00),
+(7790770600786,"perfumeria","protectores diarios","calipso","normal con fragancia x20",65.00),
+(7790770002290,"perfumeria","protectores diarios","calipso","multiestilo x20",65.00),
+# (CODIGO_DE_BARRA, perfumeria, tallas femininas, marca, subtipo, precio)
+(7790770002887,"perfumeria","toallas femeninas","nosotras","invisible x16",186.00),
+(7702027430657,"perfumeria","toallas femeninas","nosotras","ultrainvisible rapisec x8",115.00),
+(7702026179632,"perfumeria","toallas femeninas","nosotras","ultrainvisible x14",0.00),
+(7790770002863,"perfumeria","toallas femeninas","nosotras","invisible x8",0.00),
+(7702026179649,"perfumeria","toallas femeninas","nosotras","ultrainvisible rapisec x14",186.00),
+(7790770003129,"perfumeria","protectores diarios","nosotras","x20",70.00),
+(7790770600571,"perfumeria","protectores diarios","nosotras","x15",95.00),  
+(7702027042010,"perfumeria","toallas femeninas","nosotras","maternidad x10",250.00), 
+(7702027440281,"perfumeria","protectores de lactancia","nosotras","x12",135.00), 
+# (CODIGO_DE_BARRA, perfumeria, tallas femininas, marca, subtipo, precio)
+(7500435167857,"perfumeria","toallas femeninas","always","suave noches tranquilas x8",165.00),
+(7500435023313,"perfumeria","toallas femeninas","always","seca barreras antiderrames x8",115.00),
+(7501007499758,"perfumeria","protectores diarios","always","con perfume X15",90.00),
+(7506339346671,"perfumeria","protectores diarios","always","ultrafinos X30",235.00),
+(7500435125833,"perfumeria","protectores diarios","always","respiravel X30",85.00),
+(7500435125819,"perfumeria","protectores diarios","always","sin perfume X30",90.00),
+# (CODIGO_DE_BARRA, perfumeria, tallas femininas, marca, subtipo, precio)
+(7790250097129,"perfumeria","toallas femeninas","ladysoft","slim ultradelgada x8",140.00),
+(7790250096788,"perfumeria","toallas femeninas","ladysoft","confort normal x8",145.00),
+# (CODIGO_DE_BARRA, perfumeria, protectores diarios, marca, subtipo, precio)
+(7790010616744,"perfumeria","protectores diarios","carefree","x60",460.00),
+(7790010616768,"perfumeria","protectores diarios","carefree","x20",180.00),
+(7702031704256,"perfumeria","protectores diarios","carefree","x25",235.00),
+# (CODIGO_DE_BARRA, perfumeria, protectores diarios, marca, subtipo, precio)
+(7790010669085,"perfumeria","toallas femeninas","siemprelibre","ultrafina x8",150.00),  
+(7891010599294,"perfumeria","toallas femeninas","siemprelibre","adapt plus con alas x8",180.00), 
+(7790010614849,"perfumeria","toallas femeninas","siemprelibre","normal x8",149.00), 
+(7790010596619,"perfumeria","toallas femeninas","siemprelibre","adapt plus sin alas x8",135.00), 
+(7790010599269,"perfumeria","toallas femeninas","siemprelibre","tanga x8",160.00), 
+# (CODIGO_DE_BARRA, perfumeria, protectores diarios, marca, subtipo, precio)
+(7797749001278,"perfumeria","oleo calcareo","simply baby","1l",0.00), 
+(7798040055267,"perfumeria","oleo calcareo","simply baby","500ml",160.00), 
+(7891010037185,"perfumeria","bebe","johmsons","200ml",300.00), 
+(7790010596299,"perfumeria","bebe","johmsons","baño liquido 200ml",265.00), 
+(7891150025950,"perfumeria","shampoo","dove","baby 400ml",350.00), 
+# (CODIGO_DE_BARRA, perfumeria, protectores diarios, marca, subtipo, precio)
+(7794626997617,"perfumeria","toallitas humedas","kimbies","x48",125.00), 
+# (CODIGO_DE_BARRA, perfumeria, protectores diarios, marca, subtipo, precio)
+(7500435148450,"perfumeria","toallitas humedas","pampers","x48",170.00), 
+# (CODIGO_DE_BARRA, perfumeria, protectores diarios, marca, subtipo, precio)
+(7794626007170,"perfumeria","toallitas humedas","huggies","x48",190.00), 
+(7794626011023,"perfumeria","toallitas humedas","huggies","triple proteccion x48",190.00), 
+# (CODIGO_DE_BARRA, perfumeria, protectores diarios, marca, subtipo, precio)
+(7792281003605,"bazar","cubiertos","carol55","para niños",750.00), 
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, protectores diarios, marca, subtipo, precio)
+(7500435133180,"perfumeria","pañales","pampers","xxg x8",345.00), 
+(7500435133173,"perfumeria","pañales","pampers","xg x8",345.00), 
+(7500435133142,"perfumeria","pañales","pampers","p x8",345.00), 
+(7500435133166,"perfumeria","pañales","pampers","g x8",345.00), 
+(7500435112697,"perfumeria","pañales","pampers","m x8",345.00), 
+# (CODIGO_DE_BARRA, perfumeria, pañales, marca, subtipo, precio)
+(7794626997471,"perfumeria","pañales","kimbies","xg x9",184.00), 
+(7794626998652,"perfumeria","pañales","kimbies","g x9",184.00), 
+(7794626998645,"perfumeria","pañales","kimbies","m x9",184.00), 
+# (CODIGO_DE_BARRA, perfumeria, pañales, marca, subtipo, precio)
+(7500435133401,"perfumeria","pañales","pampers","m x48",635.00), 
+(7500435168618,"perfumeria","pañales","pampers","g x40",635.00),
+(7500435133425,"perfumeria","pañales","pampers","xg x32",635.00),
+(7500435131513,"perfumeria","pañales","pampers","xxg x30",635.00),
+(7500435168717,"perfumeria","pañales","pampers","m x8",205.00),
+(7500435133333,"perfumeria","pañales","pampers","xg x8",205.00),
+(7500435133326,"perfumeria","pañales","pampers","g x8",205.00),
+(7500435133340,"perfumeria","pañales","pampers","xxg x8",205.00),
+# (CODIGO_DE_BARRA, perfumeria, pañales, marca, subtipo, precio)
+(7794626997938,"perfumeria","pañales","huggies","active sec xg x8",195.00),
+(7794626008795,"perfumeria","pañales","huggies","active sec g x9",195.00),
+(7794626997914,"perfumeria","pañales","huggies","active sec m x8",195.00),
+(7794626010903,"perfumeria","pañales","huggies","triple proteccion xxg x8",155.00),
+(7794626999765,"perfumeria","pañales","huggies","protect plus g x8",185.00),
+(7794626999758,"perfumeria","pañales","huggies","protect plus m x8",185.00),
+(7794626999772,"perfumeria","pañales","huggies","protect plus xg x8",185.00),
+(7794626996931,"perfumeria","pañales","huggies","triple proteccion m x8",135.00),
+(7794626009174,"perfumeria","pañales","huggies","triple proteccion g x9",155.00),
+(7794626996917,"perfumeria","pañales","huggies","triple proteccion p x8",165.00),
+(7794626009167,"perfumeria","pañales","huggies","triple proteccion m x10",155.00),
+(7794626009242,"perfumeria","pañales","huggies","triple proteccion xxg x17",455.00),
+(7794626009211,"perfumeria","pañales","huggies","triple proteccion m x26",455.00),
+(7794626009235,"perfumeria","pañales","huggies","triple proteccion xg x18",455.00),
+(7794626009228,"perfumeria","pañales","huggies","triple proteccion g x22",455.00),
+(7794626008658,"perfumeria","pañales","huggies","triple proteccion g x44",850.00),
+(7794626008665,"perfumeria","pañales","huggies","triple proteccion xg x36",850.00),
+(7794626008672,"perfumeria","pañales","huggies","triple proteccion xxg x34",850.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7793344904013,"perfumeria","rollos de cocina","elegante","x3",0.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7793344004300,"perfumeria","rollos de cocina","new dicha","x3",87.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7793344904853,"perfumeria","rollos de cocina","elegante","premiun x3",150.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7798130889383,"perfumeria","rollos de cocina","cautiva","x3",75.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7793344902057,"perfumeria","servilletas","elegante","x80",66.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7793344000463,"perfumeria","servilletas","elegante","premiun x100",93.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7793620003089,"perfumeria","pañuelos descartables","kleenex","x75",57.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7793344904327,"perfumeria","pañuelos descartables","elegante","x12",65.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7794626999215,"perfumeria","papel higienico","scott","esencias x4",192.00),
+(7798038152671,"perfumeria","papel higienico","scott","simple hoja xg x4",240.00),
+(7798038152909,"perfumeria","papel higienico","scott","simple hoja g x4",121.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7792009011479,"perfumeria","papel higienico","solcipiel","x1",20.00),
+(7792009011509,"perfumeria","papel higienico","solcipiel","x4",80.00),
+(7792009011516,"perfumeria","papel higienico","solcipiel","x6",120.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7791818001961,"perfumeria","papel higienico","vual","ecologico x4",90.00),
+(7791818001978,"perfumeria","papel higienico","vual","ecologico x6",128.00),
+(7791818007383,"perfumeria","papel higienico","vual","excel x6",184.00),
+(7798130888621,"perfumeria","papel higienico","vual","x4",112.00),
+(7791818003422,"perfumeria","papel higienico","vual","x4",122.00),
+(7798130888638,"perfumeria","papel higienico","vual","x6",160.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7790250015109,"perfumeria","papel higienico","higienol","duo x4",290.00), 
+(7790250015079,"perfumeria","papel higienico","higienol","max 80 x6",292.00), 
+(7790250019572,"perfumeria","papel higienico","higienol","premium x6",364.00), 
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7793344904228,"perfumeria","papel higienico","elegante","premiun max x4",280.00),
+(7793344009503,"perfumeria","papel higienico","elegante","extra confort x4",280.00),
+(7793344904150,"perfumeria","papel higienico","elegante","suavidad y absorcion x6",175.00),
+(7793344000517,"perfumeria","papel higienico","elegante","doble hoja x4",234.00),
+(7793344904143,"perfumeria","papel higienico","elegante","suavidad y absorcion x4",112.00),
+# (CODIGO_DE_BARRA, perfumeria, papel higienico, marca, subtipo, precio)
+(7713042196022,"perfumeria","algodon","caress","x6",160.00),
+(7790064000261,"perfumeria","algodon","estrella","clasico",70.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, suavizante, marca, subtipo, precio)
+(7500435140966,"perfumeria","suavizante","downy","brisa de verano 400ml",230.00), 
+(7506339332643,"perfumeria","suavizante","downy","brisa de verano 1l",540.00), 
+(7506339389876,"perfumeria","suavizante","downy","lirios del campo 1l",540.00), 
+(7500435153850,"perfumeria","suavizante","downy","frescura de la primavera 1l",540.00), 
+(7506339396133,"perfumeria","suavizante","downy","adorable 1l",540.00),
+(7506195143872,"perfumeria","suavizante","downy","adorable 500ml",330.00),
+(7506339396126,"perfumeria","suavizante","downy","perfume 500ml",330.00),
+# (CODIGO_DE_BARRA, perfumeria, suavizante, marca, subtipo, precio)
+(7791290010529,"perfumeria","suavizante","vivere","hierbas frescas y jasmin 900ml",146.00), 
+(7791290010512,"perfumeria","suavizante","vivere","bouquel de flores silvestres 900ml",146.00), 
+(7791290013582,"perfumeria","suavizante","vivere","plancha facil 810ml",146.00), 
+# (CODIGO_DE_BARRA, perfumeria, suavizante, marca, subtipo, precio)
+(7795412304930,"perfumeria","suavizante","el bambi","900ml",110.00), 
+# (CODIGO_DE_BARRA, perfumeria, suavizante, marca, subtipo, precio)
+(7791290010444,"perfumeria","suavizante","comfort","clasic 900ml",205.00),
+(7791290789524,"perfumeria","suavizante","comfort","intense 450ml",240.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon liquido, marca, subtipo, precio)
+(7500435169509,"perfumeria","jabon liquido","ariel","2,7l",620.00),
+(7500435175425,"perfumeria","jabon liquido","ariel","800ml",240.00),
+(7500435180504,"perfumeria","jabon liquido","ariel","+perfumante 700ml",230.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon liquido, marca, subtipo, precio)
+(7791290790957,"perfumeria","jabon liquido","ala","matic 3l",680.00),
+(7791290790964,"perfumeria","jabon liquido","ala","matic 800ml",250.00),
+(7791290009745,"perfumeria","jabon liquido","ala","camellito ropa fina matic 450ml",150.00),
+(7791290009752,"perfumeria","jabon liquido","ala","camellito ropa fina 450ml",150.00),
+(7791290009776,"perfumeria","jabon liquido","ala","camellito ropa fina 120ml",55.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon liquido, marca, subtipo, precio)
+(7791290011526,"perfumeria","jabon liquido","skip","evolution 800ml",275.00),
+(7791290788497,"perfumeria","jabon liquido","skip","evolution 400ml",195.00),
+(7791290790872,"perfumeria","jabon liquido","skip","fibercare 3l",790.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon liquido, marca, subtipo, precio)
+(7500435139847,"perfumeria","jabon liquido","ace","clasico 400ml",86.00),
+(7500435127806,"perfumeria","jabon liquido","ace","concentrado 1,2l",390.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon liquido, marca, subtipo, precio)
+(7791290790391,"perfumeria","jabon liquido","drive","colores radiantes 800ml",150.00),
+(7791290790384,"perfumeria","jabon liquido","drive","colores radiantes 3l",550.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon liquido, marca, subtipo, precio)
+(7791290787384,"perfumeria","jabon liquido","granby","800ml",0.00),
+(7791290788305,"perfumeria","jabon liquido","granby","3l",535.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon liquido, marca, subtipo, precio)
+(7791130001311,"perfumeria","jabon liquido","woolite","seda y lana lavado a mano 450ml",150.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon blanco, marca, subtipo, precio)  
+(7797749003302,"perfumeria","jabon blanco","el coloso","clasico 150g",55.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon blanco, marca, subtipo, precio)  
+(7791290010734,"perfumeria","jabon blanco","ala","multiaccion 200g",55.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon blanco, marca, subtipo, precio)  
+(7796311000022,"perfumeria","jabon blanco","seiseme","",95.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon blanco, marca, subtipo, precio)  
+(7790900015114,"perfumeria","antihumedad","iberia air","mini lavanda 75g",500.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)  
+(7791290786776,"perfumeria","jabon en polvo","ala","antibacterial matic 800g",176.00),
+(7791290790582,"perfumeria","jabon en polvo","ala","mañana de sol matic 800g",176.00),
+(7791290011717,"perfumeria","jabon en polvo","ala","matic 800g",176.00),
+(7791290011960,"perfumeria","jabon en polvo","ala","lavado a mano 400g",100.00),
+(7791290011700,"perfumeria","jabon en polvo","ala","matic 400g",100.00),
+(7791290790643,"perfumeria","jabon en polvo","ala","matic 400g",100.00),
+(7791290011892,"perfumeria","jabon en polvo","ala","matic 400g",100.00),
+(7791290790728,"perfumeria","jabon en polvo","ala","lavado a mano 400g",100.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791290787117,"perfumeria","jabon en polvo","granby","lavado a mano 400g",70.00),
+(7791290000742,"perfumeria","jabon en polvo","granby","matic 400g",70.00),
+(7791290001008,"perfumeria","jabon en polvo","granby","matic 800g",120.00),
+(7791290004603,"perfumeria","jabon en polvo","granby","lavado a mano 800g",120.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791290790407,"perfumeria","jabon en polvo","drive","lavado a mano colores radiantes 400g",65.00),
+(7791290010833,"perfumeria","jabon en polvo","drive","lavado a mano 5 en uno 800g",125.00),
+(7791290010901,"perfumeria","jabon en polvo","drive","matic 5 en uno 800g",125.00),
+(7791290010888,"perfumeria","jabon en polvo","drive","matic 5 en uno 400g",65.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791290788091,"perfumeria","jabon en polvo","skip","evolution 480g",147.00),
+ # (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)   
+(7793253003241,"perfumeria","quita manchas","ayudin","colores vivos 650ml",175.00),
+(7793253003234,"perfumeria","quita manchas","ayudin","colores vivos 400ml",130.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)   
+(7791130002240,"perfumeria","quita manchas","vanish","400ml",95.00),
+(7791130001748,"perfumeria","quita manchas","vanish","ropa color 400ml",95.00),
+(7791130001762,"perfumeria","quita manchas","vanish","oxi gel 400ml",128.00),
+(7791130001786,"perfumeria","quita manchas","vanish","white 400ml",95.00),
+(7791130002271,"perfumeria","quita manchas","vanish","crystal white 400ml",95.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)   
+(7791130001212,"perfumeria","apresto para la ropa","robin","plancha facil 900ml",60.00),
+(7791130001137,"perfumeria","apresto para la ropa","robin","plancha facil 500ml",250.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)  
+(7790345008535,"limpieza","microfibras","samanta","limpieza vidrios",300.00),
+(7790345008542,"limpieza","microfibras","samanta","limpieza muebles",300.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)  
+(7790132009158,"limpieza","anticorrosivo","plomero liquido","1l",300.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)  
+(7790520981967,"limpieza","limpiador en aerosol","mr musculo","limpia en frio 360ml",300.00),
+(7790520018649,"limpieza","limpiador liquido","mr musculo","vidrios y multiuso 450ml",75.00),
+(7790520025203,"limpieza","limpiador liquido","mr musculo","cocina extra power 450ml",115.00),
+(7790520012432,"limpieza","limpiador liquido","mr musculo","cocina 450ml",75.00),
+(7790520024992,"limpieza","limpiador liquido","mr musculo","cocina extra power 500ml",241.00),
+(7790520012418,"limpieza","limpiador liquido","mr musculo","cocina 500ml",185.00),
+(7790520018632,"limpieza","limpiador liquido","mr musculo","vidrios y multiuso 500ml",185.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)  
+(7790463000084,"limpieza","lustra muebles en aerosol","blem","embellece original 360ml",220.00),
+(7790520024176,"limpieza","lustra muebles en aerosol","blem","embellece limon 360ml",280.00),
+(7790520991515,"limpieza","lustra muebles en aerosol","blem","embellece argan 360ml",280.00),
+(7790520004307,"limpieza","limpiador en aerosol","blem","electronicos 235ml",280.00),
+(7790520012012,"limpieza","lustra muebles en crema","blem","embellece original 200ml",250.00),
+(7790520011961,"limpieza","limpiador liquido","blem","multipisos 400ml",135.00),
+(7790520012692,"limpieza","limpiador liquido","blem","rojo 450ml",135.00),
+(7790520007193,"limpieza","limpiador liquido","blem","brillo pisos de madera 1l",500.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)  
+(7791290001534,"limpieza","limpiador liquido","cif","antibacterial 500ml",175.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio) 
+(7790520991256,"limpieza","lustra muebles en aerosol","ceramicol","lavanda 360ml",250.00),
+(7790463000114,"limpieza","lustra muebles en aerosol","ceramicol","360ml",250.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio) 
+(7791290787537,"limpieza","limpiador liquido","vim","limpia inodoros original 300ml",280.00),
+(7791290786400,"limpieza","lavandina","vim","en gel lavanda 700ml",115.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7793253001438,"limpieza","lavandina","ayudin","doble rendimiento 1l",70.00),
+(7793253000400,"limpieza","lavandina","ayudin","1l",70.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7798026680063,"limpieza","filtro purificador de aire","pur air","38x56",100.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7798092968799,"perfumeria","aromatizante de ambiente","skon","citrico 270ml",300.00),
+(7798092968782,"perfumeria","aromatizante de ambiente","skon","chicle 270ml",300.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7798092965460,"perfumeria","aromatizante de ambiente","make fresh","jazmin sunset 270ml",300.00),
+(7798092965354,"perfumeria","aromatizante de ambiente","make fresh","citrico 270ml",300.00),
+(7798092965378,"perfumeria","aromatizante de ambiente","make fresh","fahren 270ml",300.00),
+(7798092965347,"perfumeria","aromatizante de ambiente","make fresh","vainilla 270ml",300.00),
+(7798092964999,"perfumeria","aromatizante de ambiente","make fresh","270ml",300.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7793253004231,"perfumeria","aromatizante de ambiente","poet","lavanda 360ml",160.00),
+(7793253004255,"perfumeria","aromatizante de ambiente","poet","suavidad de bebe 360ml",160.00),
+(7793253004262,"perfumeria","aromatizante de ambiente","poet","suavidad de algodon 360ml",160.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7793253000943,"limpieza","desinfectante en aerosol","ayudin","original 332ml",195.00),
+(7793253003364,"limpieza","desinfectante en aerosol","ayudin","bebe 332ml",195.00),
+(7793253003340,"limpieza","desinfectante en aerosol","ayudin","original 332ml",195.00),
+(7793253000950,"limpieza","desinfectante en aerosol","ayudin","frescura matinal 332ml",195.00),
+(7793253098902,"limpieza","toallitas desinfectantes","ayudin","limon x35",195.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791130681438,"limpieza","limpia inodoros","harpis","blanco y brillante 500ml",165.00),
+(7791130681391,"limpieza","limpia inodoros","harpis","power plus 500ml",165.00),
+(7791130681384,"limpieza","limpia inodoros","harpis","removedor de sarro 500ml",165.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520012524,"limpieza","limpiador en crema","mr musculo","glade citrus 500ml",165.00),
+(7790520012395,"limpieza","limpiador liquido","mr musculo","baño 450ml",95.00),
+(7790520990020,"limpieza","limpiador en gel","mr musculo","remueve sarro 500ml",185.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791290790506,"limpieza","limpiador en crema","cif","limon 250ml",105.00),
+(7791290790490,"limpieza","limpiador en crema","cif","original 250ml",105.00),
+(7791290787827,"limpieza","limpiador en gel","cif","original 500ml",190.00),
+(7790520006479,"limpieza","limpiador en crema","cif","doble accion 450ml",190.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520024947,"limpieza","desinfectante liquido","lysoform","concentrado 420ml",135.00),
+(7790520024930,"limpieza","desinfectante en aerosol","lysoform","bebe 360ml",215.00),
+(7790520014214,"limpieza","desinfectante en aerosol","lysoform","citrica 360ml",215.00),
+(7790520014221,"limpieza","desinfectante en aerosol","lysoform","aire de montaña 360ml",215.00),
+(7790520014207,"limpieza","desinfectante en aerosol","lysoform","frutal 360ml",215.00),
+(7790520014177,"limpieza","desinfectante en aerosol","lysoform","original 360ml",215.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791130683715,"limpieza","limpiador liquido","procenex","bebe 900ml",85.00),
+(7791130684330,"limpieza","limpiador liquido","procenex","primavera 900ml",85.00),
+(7791130003087,"limpieza","limpiador liquido","procenex","orquideas 900ml",85.00),
+(7791130683678,"limpieza","limpiador liquido","procenex","limon 900ml",85.00),
+(7791130683661,"limpieza","limpiador liquido","procenex","marina 900ml",85.00),
+(7791130683661,"limpieza","limpiador liquido","procenex","marina 900ml",85.00),
+(7791130683753,"limpieza","desinfectante liquido","procenex","original 900ml",120.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7793253003517,"limpieza","limpiador liquido","poett","lavanda 1.8l",245.00),
+(7793253003586,"limpieza","limpiador liquido","poett","solo para ti 1.8l",245.00),
+(7790520009364,"limpieza","limpiador liquido","poett","bosques de pinos 1.8l",235.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520009289,"limpieza","limpiador liquido","glade","bosques de pinos 900ml",99.00),
+(7790520009272,"limpieza","limpiador liquido","glade","paraiso azul 900ml",99.00),
+(7790520009333,"limpieza","limpiador liquido","glade","mañana de campo 900ml",99.00),
+(7790520009326,"limpieza","limpiador liquido","glade","i love you 900ml",99.00),
+(7790520009319,"limpieza","limpiador liquido","glade","harmony 900ml",99.00),
+(7790520009296,"limpieza","limpiador liquido","glade","caricias de bebe 900ml",99.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7795412304893,"limpieza","limpiador liquido","el bambi","900ml",65.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7793253000936,"limpieza","limpiador liquido","pino luz","lavanda 900ml",118.00),
+(7793253000905,"limpieza","limpiador liquido","pino luz","pino 900ml",118.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520017314,"limpieza","limpiador liquido","ceramicol","autobrillo incoloro 450ml",200.00),
+(7790520995650,"limpieza","limpiador liquido","ceramicol","autobrillo incoloro 450ml",200.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520995667,"limpieza","limpiador liquido","echo","clasico 450ml",250.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790613071537,"limpieza","cera en pasta","suiza","roble claro 450ml",450.00),
+(7790613071544,"limpieza","cera en pasta","suiza","roble oscuro 450ml",450.00),
+(7790613071520,"limpieza","cera en pasta","suiza","incoloro 450ml",450.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7793241424072,"limpieza","lavandina","el bambi","1l",52.00),
+(7793253004446,"limpieza","lavandina","el bambi","2l",131.00),
+(7798120123459,"limpieza","lavandina","el bambi","2l",91.00),
+(7795412304954,"limpieza","lavandina","el bambi","5l",230.00),
+(7795412304947,"limpieza","detergente","el bambi","5l",200.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7793253002350,"limpieza","lavandina","ayudin","ropa 2l",150.00),
+(7793253001445,"limpieza","lavandina","ayudin","2l",150.00),
+(7793253003777,"limpieza","lavandina","ayudin","1l",106.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791290790797,"limpieza","detergente","ala","limon 750ml",93.00),
+(7791290012417,"limpieza","detergente","ala","plus 750ml",93.00),
+(7791290790773,"limpieza","detergente","ala","colageno 750ml",93.00),
+(7791290000735,"limpieza","detergente","ala","glicerina 300ml",80.00),
+(7791290000681,"limpieza","detergente","ala","limon 500ml",80.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791290791145,"limpieza","detergente","cif","limon 500ml",190.00),
+(7791290012158,"limpieza","detergente","cif","limon 300ml",87.00),
+(7791290012226,"limpieza","detergente","cif","citrica 300ml",87.00),
+(7791290786493,"limpieza","detergente","cif","citrica 500ml",190.00),
+(7791290791107,"limpieza","detergente","cif","limon verde 300ml",87.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7500435170178,"limpieza","detergente","magistral","limon 300ml",66.00),
+(7500435170192,"limpieza","detergente","magistral","limon 750ml",320.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791290012523,"limpieza","detergente","cif","ollas y sartenes 300ml",100.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520009906,"insecticida","insecticida en aerosol","raid","mata pulgas y garrapata 390ml",495.00),
+(7790520991829,"insecticida","insecticida en aerosol","raid","extermina cucarachas 360ml",220.00),
+(7790520991836,"insecticida","insecticida en aerosol","raid","casa y jardin 360ml",250.00),
+(7790520009920,"insecticida","insecticida en aerosol","raid","mata hormigas 390ml",275.00),
+(7790520009890,"insecticida","insecticida en aerosol","raid","mata polillas y larvas 390ml",195.00),
+(7790520017420,"insecticida","insecticida en aerosol","raid","mata moscas y msoquitos y zancudos 360ml",222.00),
+(7790520017437,"insecticida","insecticida en aerosol","raid","mata moscas y msoquitos 360ml",300.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520005816,"insecticida","insecticida en aerosol","fuyi","mata moscas y msoquitos 360ml",202.00),
+(7793253003326,"insecticida","insecticida en aerosol","selton","mata moscas y msoquitos 360ml",155.00),
+(7793253001513,"insecticida","insecticida en aerosol","selton","mata cucarachas 360ml",220.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520017567,"insecticida","insecticida en aerosol","baygon","mata cucarachas y arañas 360ml",165.00),
+(7790520023995,"insecticida","insecticida en aerosol","baygon","mata moscas y msoquitos 300ml",165.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7791905024194,"insecticida","insecticida","mosqui trap","moscas y msoquitos 270ml",125.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520010452,"insecticida","espirales insecticidas","raid","x12",95.00),
+(7790520010476,"insecticida","espirales insecticidas","fuyi","doble accion x12",95.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7794783000854,"insecticida","insecticida liquido","citro max","1l",720.00),
+(7798011110018,"insecticida","insecticida liquido","citro max","1l",720.00),
+(7794783000847,"insecticida","insecticida liquido","citro max","500ml",525.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790139000318,"limpieza","alcohol etilico","formula hogar","1l",720.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7497878500054,"limpieza","desinfectante","el bambi","500ml",235.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7798115860314,"insecticida","trampa pegamentosa","pegatrap","trampa pegamentosa atrapa roedores",500.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(6932271700423,"insecticida","trampa pegamentosa","mouse y rat","x1",600.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520013224,"insecticida","cebos insecticidas","raid","mata cucarachas",375.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7798101550045,"insecticida","insecticida en gel","geltek","jeringa cucarachas",195.00),
+(7798101550366,"insecticida","insecticida en gel","geltek","cebo en gel cucarachas",150.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520986160,"insecticida","insecticida en gel","raid","mata cucarachas",396.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520985347,"insecticida","insecticida en gel","baygon","mata cucarachas",515.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7790520000941,"insecticida","insecticida en  polvo","raid","jardin hormigas 250g",300.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7792961001068,"insecticida","insecticida en  polvo","hortal","jardin hormigas 250g",250.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7796594000559,"insecticida","insecticida","babosil","mata babosas y caracoles 75g",250.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7798101550366,"insecticida","insecticida en gel","geltek","75g",150.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7796135000666,"insecticida","antipolilla perfumado","viance","larvas y polillas 200g",100.00),
+# (CODIGO_DE_BARRA, perfumeria, jabon en polvo, marca, subtipo, precio)
+(7792961022018,"insecticida","insecticida","hortal","hormiguicida cebo 250g",200.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+(7796373002446,"condimentos","ajo en polvo","la parmesana","25g",75.00),
+(7796373114903,"condimentos","ajo granulado","la parmesana","25g",75.00),
+(7796373002460,"condimentos","provenzal","la parmesana","25g",60.00),
+(7796373002453,"condimentos","perejil","la parmesana","25g",72.00),
+(7796373002286,"condimentos","pizzadobo","la parmesana","25g",60.00),
+(7796373002361,"condimentos","nuez moscada molida","la parmesana","25g",106.00),
+(7796373112800,"condimentos","tomillo","la parmesana","20g",90.00),
+(7796373002316,"condimentos","comino","la parmesana","50g",113.00),
+(7796373000374,"condimentos","pimienta negra en grano","la parmesana","20g",95.00),
+(7796373002330,"condimentos","mezcla de especias surtidas","la parmesana","50g",75.00),
+(7796373113005,"condimentos","albaca","la parmesana","20g",90.00),
+(7796373112305,"condimentos","pimenton extra dulce","la parmesana","25g",90.00),
+(7796373000336,"condimentos","pimienta blanca molida","la parmesana","25g",95.00),
+(7796373000367,"condimentos","pimienta negra molida","la parmesana","25g",95.00),
+(7796373002330,"condimentos","mezcla de especias surtidas","la parmesana","50g",75.00),
+(7796373112602,"condimentos","romero","la parmesana","20g",60.00),
+(7790150067062,"condimentos","salsa blanca","la parmesana","40g",58.00),
+(7796373182001,"condimentos","salsa blanca","la parmesana","con leche y nuez moscada 40g",65.00),
+(7796373182100,"condimentos","pesto","la parmesana","20g",75.00),
+(7796373002309,"condimentos","azafran español molido","la parmesana","2 capsulas",233.00),
+(7796373114002,"condimentos","carne asada","la parmesana","20g",48.00),
+(7796373002323,"condimentos","arroz","la parmesana","20g",55.00),
+(7796373114101,"condimentos","pescado","la parmesana","20g",36.00),
+(7796373114408,"condimentos","curry","la parmesana","20g",46.00),
+(7796373113906,"condimentos","pollo","la parmesana","20g",51.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7790150570180,"condimentos","provenzal","alicante","25g",80.00),
+(7790150497241,"condimentos","para empanadas","alicante","25g",65.00),
+(7790150497043,"condimentos","para milanesas","alicante","25g",50.00),
+(7790150470305,"condimentos","para arroz","alicante","25g",50.00),
+(7790150406915,"condimentos","aji triturado","alicante","25g",75.00),
+(7790150490396,"condimentos","para pizza","alicante","25g",65.00),
+(7790150405338,"condimentos","pimienta blanca molida","alicante","25g",85.00),
+(7790150535233,"condimentos","nuez moscada molida","alicante","25g",150.00),
+(7790150536254,"condimentos","nuez moscada entera","alicante","20g",81.00),
+(7790150405055,"condimentos","aji triturado","alicante","25g",75.00),
+(7790150497708,"condimentos","cocina en bolsa","alicante","mostaza y miel 30g",85.00),
+(7790150497654,"condimentos","cocina en bolsa","alicante","albahaca y ajo 30g",85.00),
+(7790150497609,"condimentos","cocina en bolsa","alicante","tipo criolla 30g",85.00),
+(7790150497753,"condimentos","cocina en bolsa","alicante","barbacoa 27g",85.00),
+(7790150497500,"condimentos","cocina en bolsa","alicante","finas hierbas 30g",85.00),
+(7790150497555,"condimentos","cocina en bolsa","alicante","pimenton 30g",85.00),
+(7790150611050,"condimentos","semillas","alicante","mix ensaladas 150g",135.00)
+(7796373002378,"condimentos","nuez moscada","alicante","rallador y nuez moscada",135.00),
+(7790150556726,"condimentos","pimienta negra","alicante","moledor 45g",205.00),
+(7790150420300,"condimentos","anis en grano","alicante","25g",60.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7793875122115,"condimentos","clavo de olor","centurion","10g",65.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7793875315951,"condimentos","paprika","aromas y sabores","25g",86.00),
+(7793875325806,"condimentos","para empanadas","aromas y sabores","25g",57.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7798161230017,"condimentos","arroz, pimenton comino, aji molido, adobo, oregano","que barbaro","25g",30.00),
+(7798161230031,"condimentos","pimienta, canela, anis","que barbaro","25g",30.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7793360124969,"condimentos","aji triturado","la campañola","50g",49.00),
+(7793360124945,"condimentos","tomillo","la campañola","15g",30.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7794000004917,"condimentos","bolsa para horno","knorr","ajo y cebolla 21g",75.00),
+(7891150058118,"condimentos","bolsa para horno","knorr","romero y tomillo 21g",75.00),
+(7891150058125,"condimentos","bolsa para horno","knorr","hierbas y especias 21g",75.00),
+(7794000004924,"condimentos","bolsa para horno","knorr","tipo criollo 21g",75.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7796373000497,"condimentos","mostaza con miel","la parmesana","300g",162.00),
+(7796373002705,"condimentos","criolla","la parmesana","300g",162.00),
+(7796373003177,"condimentos","chimichurri ahumado","la parmesana","300g",162.00),
+(7796373002682,"condimentos","chimichurri","la parmesana","300g",162.00),
+(7796373000657,"condimentos","bbq","la parmesana","300g",162.00),
+(7798224210406,"condimentos","soja glaze","la parmesana","300g",162.00),
+(7796373003160,"condimentos","chimichurri hot","la parmesana","300g",162.00),
+(7796373002712,"condimentos","soja","la parmesana","300g",162.00),
+(7796373000480,"condimentos","mostaza","la parmesana","300g",162.00),
+(7796373001463,"condimentos","salsa picante muy picante","la parmesana","180ml",162.00),
+(7796373000169,"condimentos","salsa picante medio","la parmesana","180ml",162.00),
+(7796373002934,"condimentos","salsa picante picante","la parmesana","180ml",162.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(9780201379822,"condimentos","sal gourmet","bhavani","sabor norteño 250g",150.00),
+(9780201379846,"condimentos","sal gourmet","bhavani","sabor criollo 250g",150.00),
+(9780201379839,"condimentos","sal gourmet","bhavani","sabor patagonico 250g",150.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7794000004467,"condimentos","carne","knorr","140g",80.00),
+(7794000004450,"condimentos","carne","knorr","70g",45.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7792070002345,"condimentos","cebollitas","nucete","300g",40.00),
+(7792070053729,"condimentos","pasta de aceituna","nucete","190g",125.00),
+# (CODIGO_DE_BARRA, alimentos, condimentos, marca, subtipo, precio)
+(7790710334023,"***","bolsas multiuso","extrafilm","8u 17x25",200.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+(7790710334023,"bebidas","licor","cusenier","menta","70cl",390.00),
+(7792410008600,"bebidas","licor","cusenier","triple sec","70cl",390.00),
+(7792410008228,"bebidas","licor","cusenier","blue curacao","70cl",390.00),
+(7792410134729,"bebidas","licor","cusenier","limoncello","70cl",390.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790121001705,"bebidas","licor","bar&pubs","manzana","1l",51.75),
+(7790121007486,"bebidas","licor","bar&pubs","triple sec","1l",51.75),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790260006128,"bebidas","coctel","american club","caipirovska","750ml",470.00),
+(7790260006029,"bebidas","coctel","american club","piña colada","750ml",470.00),
+(7790260006043,"bebidas","coctel","american club","frutilla colada","750ml",470.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790260013287,"bebidas","licor","tres plumas","curacao","700ml",390.00),
+(7790260013126,"bebidas","licor","tres plumas","frutilla","700ml",390.00),
+(7790260013164,"bebidas","licor","tres plumas","dulce de leche","700ml",390.00),
+(7790260013225,"bebidas","licor","tres plumas","chocolate a la menta","700ml",390.00),
+(7790260013065,"bebidas","licor","tres plumas","chocolate","700ml",390.00),
+(7790260013416,"bebidas","licor","tres plumas","chocolate a la frutilla","700ml",390.00),
+(7790260013232,"bebidas","licor","tres plumas","chocolate a la almendra","700ml",390.00),
+(7790260013348,"bebidas","licor","tres plumas","banana al dulce de leche","700ml",390.00),
+(7790260002267,"bebidas","licor","tres plumas","cafe al ron","750ml",390.00),
+(7790260002090,"bebidas","licor","tres plumas","cafe al whisky","750ml",390.00),
+(7790260002076,"bebidas","licor","tres plumas","cafe al coñac","750ml",390.00),
+(7790260002236,"bebidas","licor","tres plumas","cafe al chocolate","750ml",390.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7791200000220,"bebidas","licor","bols","chocolate","700ml",390.00),
+(7791200000411,"bebidas","licor","bols","melon","700ml",390.00),
+(7791200000268,"bebidas","licor","bols","dulce de leche","700ml",390.00),
+(7791200000244,"bebidas","licor","bols","chocolate blanco","700ml",390.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790119008778,"bebidas","licor","el abuelo","menta","700ml",390.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790290000332,"bebidas","licor","borghetti","cafe espresso","700ml",1350.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790163006140,"bebidas","licor","peters","maraschino","700ml",250.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790260008016,"bebidas","licor","valleviejo","grappa","1l",500.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7792410505352,"bebidas","licor","8 hermanos","anisette","1l",600.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790260014130,"bebidas","licor","1 de agosto","caña argentina","1l",360.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7798098830205,"bebidas","licor","la triestina","vainilla crema","1l",200.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7798098830205,"bebidas","tequila","camacho","","1l",0.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7798115010337,"bebidas","licor","otard-dupuy","extra seco","750ml",400.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790260016011,"bebidas","licor","tres plumas","seco delicado bouquet","930ml",350.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7792410505314,"bebidas","licor","cusenier","mariposa","750ml",350.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790314000102,"bebidas","vino","promesa","moscato","750ml",350.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790139002886,"bebidas","fernet","1882","fernet","450ml",270.00),
+(7790139002879,"bebidas","fernet","1882","fernet","750ml",450.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790290000523,"bebidas","fernet","branca","fernet","1l",985.00),
+(7790290101602,"bebidas","fernet","branca","fernet","750ml",750.00),
+(7790290001179,"bebidas","fernet","branca","fernet","450ml",485.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790290000011,"bebidas","fernet","vittone","fernet","1l",200.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790290000011,"bebidas","fernet","imperio","fernet","450ml",200.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7795633000109,"bebidas","mistela","fantelli","mistela","1l",260.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7794068001064,"bebidas","vino","jevez","crotta vino licoroso","750ml",300.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950134100,"bebidas","coctel","dr.lemon","con limon","1l",180.00),
+(7790950137804,"bebidas","coctel","dr.lemon","con vodka red berry","1l",180.00),
+(7790950134896,"bebidas","coctel","dr.lemon","con vodka pomelo","1l",180.00),
+(7790950131918,"bebidas","coctel","dr.lemon","con vodka","1l",180.00),
+(7790950132045,"bebidas","coctel","dr.tonic","gin tonic","650ml",110.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(77916976,"bebidas","whisky","ramsay","whisky","200ml",110.00),
+(77991867,"bebidas","tequila","rconquistador de mexico","tequila","200ml",150.00),
+(7791560000366,"bebidas","whisky","doble-v","añejo","200ml",175.00),
+(7791200004075,"bebidas","licor","bols","ginebra","200ml",150.00),
+(7798131200637,"bebidas","whisky","old smuggler","añejo","200ml",150.00),
+(77991874,"bebidas","licor","tres plumas","cafe al coñac","200ml",150.00),
+(77975225,"bebidas","whisky","criadores","whisky","195ml",175.00),
+(77991904,"bebidas","licor","tres plumas","cafe al whisky","200ml",150.00),
+(77991812,"bebidas","licor","tres plumas","anis","200ml",150.00),
+(77913692,"bebidas","licor","tres plumas","dulce de leche","200ml",150.00),
+(77990112,"bebidas","licor","tres plumas","cafe al coñac","200ml",150.00),
+(7790260014147,"bebidas","licor","1 de agosto","cafe al coñac","200ml",150.00),
+(77992246,"bebidas","licor","tres plumas","chocolate","200ml",150.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950133271,"bebidas","","terma","limon","1.35l",116.00),
+(7790950135992,"bebidas","","terma","citrus","1.35l",116.00),
+(7790950133288,"bebidas","","terma","limon sin azucares","1.35l",116.00),
+(7790950133363,"bebidas","","terma","pomelo rosado","1.35l",95.00),
+(890821,"bebidas","","terma","serrano","1.35l",116.00),
+(7790950133356,"bebidas","","terma","patagonico","1.35l",116.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950003437,"bebidas","","tres torres","blanco","1.5l",90.00),
+(7790950136609,"bebidas","","tres torres","pomelo rosado","1.5l",50.00),
+(7790950003444,"bebidas","","tres torres","limon","1.5l",90.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790260010026,"bebidas","granadina","dellepiane","granadina","750ml",350.00),
+(7790950131598,"bebidas","aperitivo","gancia","red bitter","750ml",395.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7791813111214,"bebidas","energizante","rockstar","energizante","500ml",75.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950112894,"bebidas","aperitivo","martini","","995ml",310.00),
+(7891136052000,"bebidas","aperitivo","campari","rosso","750ml",480.00),
+(7891136057029,"bebidas","aperitivo","aperol","rosso","750ml",450.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950112917,"bebidas","aperitivo","martini","blanco","9950ml",310.00),
+(7791200200552,"bebidas","aperitivo","cinzano","vermon","1l",0.00),
+(7790290008192,"bebidas","aperitivo","carpano","clasico","1l",230.00),
+(7791200000565,"bebidas","aperitivo","campari","clasico","450ml",230.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(1007084703536,"bebidas","energizante","monster","ultra paradize","475ml",150.00),
+(1007084703703,"bebidas","energizante","monster","ultra sunrise","475ml",150.00),
+(70847032861,"bebidas","energizante","monster","ultra sunrise","475ml",150.00),
+(1007084703475,"bebidas","energizante","monster","mango loco","475ml",150.00),
+(7798119220183,"bebidas","energizante","speed","speed","475ml",150.00),
+(7798119220015,"bebidas","energizante","speed","speed","250ml",95.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950137958,"bebidas","","michel torino","rojo+soda","473ml",75.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950610581,"bebidas","","pronto","bit","473ml",105.00),    
+(7790950610574,"bebidas","","pronto","shake","473ml",105.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7790950202823,"bebidas","","dr.lemon","con limon","473ml",105.00),
+(7790950202816,"bebidas","","dr.lemon","con vodka","473ml",105.00),
+(7790950141764,"bebidas","","dr.lemon","gin tonic","310ml",265.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7790480001613,"bebidas","whisky","criadores","whisky","1l",655.00),
+(7798131200613,"bebidas","whisky","old smuggler","añejo","1l",595.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7791250002625,"bebidas","whisky","vat 69","whisky apple vibe","1l",720.00),
+(7791250001246,"bebidas","whisky","vat 69","blended scotch whisky","1l",720.00),
+(7791250002618,"bebidas","whisky","vat 69","wild honey","1l",720.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7791250001253,"bebidas","whisky","whitehorse","whisky","750ml",895.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7501008603017,"bebidas","","bacardi","","750ml",1100.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(5010504100088,"bebidas","whisky","cutty sark","blended scotch","750ml",1800.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7791200000510,"bebidas","licor","bols","ginebra","1l",350.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7792410128827,"bebidas","licor","capitan de castilla","ponche","1l",300.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7790139000103,"bebidas","","jamaica","","1l",300.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7790290101527,"bebidas","vodka","sernova","frutilla","700ml",495.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio) 
+(7790290101534,"bebidas","vodka","sernova","limon","700ml",495.00),
+(7790290101534,"bebidas","vodka","sernova","limon","700ml",495.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7791250001345,"bebidas","vodka","smirnof","vodka","700ml",800.00),
+(7791250001871,"bebidas","vodka","smirnof","raspberry","700ml",800.00),
+(7791250001857,"bebidas","vodka","smirnof","green apple","700ml",800.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7791200200637,"bebidas","vodka","bols","original","750ml",400.00),
+(7798131200927,"bebidas","vodka","bols","mango-maracuya","750ml",400.00),
+(7791200001043,"bebidas","vodka","bols","frutilla","750ml",400.00),
+(7791200200453,"bebidas","vodka","bols","melon","750ml",400.00),
+(7791200002217,"bebidas","vodka","bols","tridestilada","1l",400.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7791200200668,"bebidas","vodka","skyy","coco","750ml",550.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950000160,"bebidas","aperitivo","gancia","americano","950ml",330.00),
+(7790950000191,"bebidas","aperitivo","gancia","americano","450ml",220.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950002768,"bebidas","aperitivo","marcela","americano","950ml",140.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790950001969,"bebidas","aperitivo","amargo obrero","aperitivo","950ml",250.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7791200000091,"bebidas","aperitivo","cynar","aperitivo","900ml",322.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7792316000036,"bebidas","anana fizz","la victoria","anana fizz","720ml",125.00),
+(7792316001019,"bebidas","sidra","la victoria","sidra","720ml",125.00),
+(7790154000027,"bebidas","anana fizz","del valle","anana fizz","720ml",125.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790119001793,"bebidas","sidra","real","sidra","720ml",150.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790314056086,"bebidas","vino","estancia mendoza","extra brut","750ml",500.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790314062100,"bebidas","vino","canciller","extra brut","750ml",500.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7792319678560,"bebidas","vino","cosecha especial norton","brut nature","750ml",705.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790717001195,"bebidas","vino","novecento","extra ducle","750ml",330.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7792319000118,"bebidas","vino","cosecha tardia norton","blanco dulce","750ml",500.00),
+(7792319002334,"bebidas","vino","cosecha tardia norton","rose dulce","750ml",450.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790480008919,"bebidas","vino","federico de alvear","extra dulce","750ml",390.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio)
+(7790314000034,"bebidas","vino","vino toro","blanco","1l",148.00),
+(7790314063824,"bebidas","vino","vino toro","tinto","1l",148.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio
+(7790265000275,"bebidas","vino","viñas riojanas","tinto","1l",155.00),
+(7790265000251,"bebidas","vino","viñas riojanas","blanco","1l",155.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio
+(7790314004346,"bebidas","vino","zumuva","tinto","1l",150.00),
+(7790314004353,"bebidas","vino","zumuva","blanco","1l",150.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio
+(7790036044323,"bebidas","vino","uvita","blanco","1l",166.00),
+(7790036046327,"bebidas","vino","uvita","tinto","1l",166.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7791540053351,"bebidas","vino","termidor","tinto","1l",165.00),
+(7791540045035,"bebidas","vino","termidor","blanco","1l",165.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314054099,"bebidas","vino","vino toro","tinto dulce","1l",148.00),
+(7790314000416,"bebidas","vino","vino toro","rosado","1l",148.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314005893,"bebidas","vino","toro viejo","bonarda sirah","3l",435.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7795633002790,"bebidas","vino","fantelli","vino tinto malvec","3l",660.00),
+(7795633004046,"bebidas","vino","caberceno patero","vino tinto dulce","3l",600.00),
+(7794068001071,"bebidas","vino","crotta","malbec","4.7l",630.00),
+(7794068001101,"bebidas","vino","crotta","cabernet sauvignon","4.7l",630.00),
+(7794068001347,"bebidas","vino","crotta","patero","4.7l",630.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790703002250,"bebidas","vino","marlo","marlo","750ml",280.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314005008,"bebidas","vino","canciller","ix blend","750ml",165.00),
+(7790314011276,"bebidas","vino","canciller","xv blend","750ml",165.00),
+(7790314004995,"bebidas","vino","canciller","i blend","750ml",130.00),
+(7790314010958,"bebidas","vino","canciller","iii blend","750ml",180.00),
+(7790314009693,"bebidas","vino","canciller","iv blend","750ml",180.00),
+(7790314010286,"bebidas","vino","canciller","vii blend","1125ml",216.00),
+(7790314011252,"bebidas","vino","canciller","iii blend","1125ml",216.00),
+(7790314006746,"bebidas","vino","canciller","i blend","1125ml",216.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314001475,"bebidas","vino","dilema","vino blanco","750ml",222.00),
+(7790314005718,"bebidas","vino","dilema","vino tinto dulce","750ml",0.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790415131279,"bebidas","vino","circus","dulce terrior","750ml",210.00),
+(7790415129047,"bebidas","vino","circus","malbec","750ml",315.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790265000374,"bebidas","vino","viñas riojanas","torrentes riojano","750ml",148.00),
+(7790265061771,"bebidas","vino","viñas riojanas","rosado","750ml",148.00),
+(7790265000381,"bebidas","vino","viñas riojanas","bonarda","750ml",170.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7792319970404,"bebidas","vino","cosecha tardia","blanco dulce","750ml",290.00),
+(7792319970411,"bebidas","vino","cosecha tardia","tinto dulce","750ml",330.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7795633004145,"bebidas","vino","fantelli tarde","blanco dulce","750ml",260.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314006029,"bebidas","vino","estancia mendoza","chenin chardonay","750ml",220.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790189021035,"bebidas","vino","elementos ","syrah tinto","750ml",260.00),
+(7790189021042,"bebidas","vino","elementos","tannat 2016","750ml",0.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790703165207,"bebidas","vino","newage","sweet wine","750ml",240.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7791540042706,"bebidas","vino","frizze","blue evolution","750ml",200.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790240128574,"bebidas","vino","finca las moras","cabernet","750ml",220.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790265000244,"bebidas","vino","santa florentina","malbec 2016","750ml",390.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7791540049590,"bebidas","vino","dada","8","750ml",310.00),
+(7791540044519,"bebidas","vino","dada","2","750ml",310.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7792319001917,"bebidas","vino","dalton","red blend","750ml",115.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7793817000143,"bebidas","vino","el bolson","patero","750ml",275.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790703100321,"bebidas","vino","don valentin lacrado","don valentin lacrado","750ml",270.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7795633003964,"bebidas","vino","2x4","malbec","750ml",190.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7794450004239,"bebidas","vino","bravio","malbec","750ml",220.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790036001470,"bebidas","vino","bodega privada","cabernet sauvignon","750ml",305.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7798000212037,"bebidas","vino","phebus","malbec 2016","750ml",230.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314007132,"bebidas","vino","resero","tinto","700ml",130.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790189000177,"bebidas","vino","don david","cabernet sauvignon","750ml",480.00),
+(7790189001129,"bebidas","vino","don david","malbec","750ml",480.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790703199172,"bebidas","vino","famiglia bianchi","red blend","750ml",395.00),
+(7790703002618,"bebidas","vino","bianchi","borgoña","700ml",220.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790717153078,"bebidas","vino","novecento","raices malbec","750ml",210.00),
+(7790717152002,"bebidas","vino","novecento","malbec","750ml",210.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790577001571,"bebidas","vino","san felipe","12uvas","750ml",290.00),
+(7790577000024,"bebidas","vino","san felipe","cosecha 2018","750ml",290.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314055386,"bebidas","vino","estancia medoza","malbec merlot","750ml",220.00),
+(7790314010262,"bebidas","vino","estancia medoza","syrah cabernet","750ml",220.00),
+(7790314056598,"bebidas","vino","estancia medoza","cabernet malbec","750ml",220.00),
+(7790314006043,"bebidas","vino","estancia medoza","malbec bonarda","750ml",220.00),
+(7790314056109,"bebidas","vino","estancia medoza","cabernet sauvignon","750ml",310.00),
+(7790314065101,"bebidas","vino","estancia medoza","malbec merlot","1125ml",257.00),
+(7790314065088,"bebidas","vino","estancia medoza","chenin chardonay","1125ml",257.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790762052340,"bebidas","vino","santa ana","seleccion","700ml",114.00),
+(7794450002037,"bebidas","vino","valderrobles","edicion aniversario","700ml",96.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790415002760,"bebidas","vino","lola","red blend","750ml",350.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790265057361,"bebidas","vino","santa florentina","malbec syrah","750ml",155.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7798008400481,"bebidas","vino","santa filomena","patero","750ml",96.00),
+(7798008400665,"bebidas","vino","santa filomena","patero","1125ml",265.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790415105010,"bebidas","vino","carcassone","clasico","700ml",195.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790336020775,"bebidas","vino","vasco viejo","tinto","700ml",110.00),
+(7792319065254,"bebidas","vino","clasico 1895 norton","tinto","750ml",210.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314066436,"bebidas","vino","estancia mendoza","cabernet malbec","1125ml",257.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7795633003391,"bebidas","vino","caberceno","patero","1125ml",250.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7792870019918,"bebidas","vino","suc. abel michel torino","tinto","1125ml",200.00),
+(7791093000017,"bebidas","vino","suc. abel michel torino","tinto seleccion","700ml",135.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(798190146607,"bebidas","vino","la salonera","patero","1125ml",240.00),
+(7798124440699,"bebidas","vino","la salonera","tinto","1125ml",190.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7791843008294,"bebidas","vino","viñas de balbo","tinto","1125ml",230.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7798000213300,"bebidas","vino","phebus","malbec","1125ml",310.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314005305,"bebidas","vino","toro","clasico tinto","1125ml",210.00),
+(7790314000027,"bebidas","vino","toro","tinto","930ml",125.00),
+(7790314000966,"bebidas","vino","toro","clasico tinto","700ml",155.00),
+# (CODIGO_DE_BARRA, bebidas, licor, marca, subtipo, precio,
+(7790314007170,"bebidas","vino","resero","tinto","1125ml",200.00),
+########### cambio de tipo ###############################  
+########### cambio de tipo ###############################
+########### cambio de tipo ###############################
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790895003288,"bebidas","agua saborizada","aquarius","pomelo","2.25l",175.00),
+(7790895003301,"bebidas","agua saborizada","aquarius","manzana","2.25l",175.00),
+(7790895003295,"bebidas","agua saborizada","aquarius","pera","2.25l",175.00),
+(7790895640490,"bebidas","agua saborizada","aquarius","pomelo","1.5l",123.00),
+(7790895640483,"bebidas","agua saborizada","aquarius","manzana","1.5l",123.00),
+(7790895640476,"bebidas","agua saborizada","aquarius","pera","1.5l",123.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790895646751,"bebidas","agua saborizada","cepita","manzana","1.5l",105.00),
+(7790895646775,"bebidas","agua saborizada","cepita","pomelo","1.5l",105.00),
+(7790895647864,"bebidas","agua saborizada","cepita","pomelo","2.25l",140.00),
+(7790895647888,"bebidas","agua saborizada","cepita","manzana","2.25l",140.00),
+(7790895647857,"bebidas","agua saborizada","cepita","naranja","2.25l",140.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790895643507,"bebidas","agua saborizada","hic","naranja","2.25l",108.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7798113302106,"bebidas","agua saborizada","placer","pera","1.5l",80.00),
+(7798113301130,"bebidas","agua saborizada","placer","naranja","1.5l",80.00),
+(7798113302090,"bebidas","agua saborizada","placer","naranja","1.5l",80.00),
+(7798113302069,"bebidas","agua saborizada","placer","anana","1.5l",80.00),
+(7798113302045,"bebidas","agua saborizada","placer","pera","500ml",40.00),
+(7798113302007,"bebidas","agua saborizada","placer","anana","500ml",40.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790895006951,"bebidas","gaseosa","crush","naranja","2.25l",115.00),
+(7790895007392,"bebidas","gaseosa","crush","pomelo","2.25l",115.00),
+(7790895007385,"bebidas","gaseosa","crush","lima limon","2.25l",115.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790639002201,"bebidas","gaseosa","cunnington","naranja","2.25l",105.00),
+(7790639002232,"bebidas","gaseosa","cunnington","naranja sin azucar","2.25l",105.00),
+(7790639001310,"bebidas","gaseosa","cunnington","pomelo","2.25l",105.00),
+(7790639002140,"bebidas","gaseosa","cunnington","lima limon sin azucar","2.25l",105.00),
+(7790639001365,"bebidas","gaseosa","cunnington","lima limon","2.25l",115.00),
+(7790639003130,"bebidas","gaseosa","cunnington","indian tonic sin azucar","2.25l",105.00),
+(7790639001068,"bebidas","gaseosa","cunnington","indian tonic","2.25l",105.00),
+(7790639001976,"bebidas","gaseosa","cunnington","cola","2.25l",105.00),
+(7790639002003,"bebidas","gaseosa","cunnington","cola sin azucar","2.25l",105.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790895001017,"bebidas","gaseosa","fanta","naranja","2.25l",160.00),
+(7790895001000,"bebidas","gaseosa","sprite","lima limon","2.25l",240.00),
+(7790895000447,"bebidas","gaseosa","sprite","lima limon","1.5l",170.00),
+(7790895000997,"bebidas","gaseosa","cocacola","cola","2.25l",240.00),
+(7790895001598,"bebidas","gaseosa","cocacola","cola retornable","1l",100.00),
+(7790895000218,"bebidas","gaseosa","cocacola","cola retornable","2l",165.00),
+(7790895000225,"bebidas","gaseosa","sprite","lima limon retornable","2l",165.00),
+(7790895063022,"bebidas","gaseosa","sprite","lima limon retornable","1l",100.00),
+(7790895067556,"bebidas","gaseosa","cocacola","cola sin azucar","1.5l",170.00),
+(7790895067716,"bebidas","gaseosa","fanta","naranja retornable","1l",100.00),
+(7790895000331,"bebidas","gaseosa","fanta","naranja retornable","2l",165.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7798113300041,"bebidas","gaseosa","manaos","naranja","2.25l",90.00),
+(7798113300010,"bebidas","gaseosa","manaos","cola","2.25l",90.00),
+(7798113300027,"bebidas","gaseosa","manaos","lima limon","2.25l",90.00),
+(7798113301024,"bebidas","gaseosa","manaos","pomelo","2.25l",90.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7798113301024,"bebidas","agua","nestle","agua","1.5l",95.00),
+(7792931000039,"bebidas","agua","glaciar","agua","2l",125.00),
+(7792931000022,"bebidas","agua","glaciar","agua","1.5l",95.00),
+(7798065730033,"bebidas","agua","sierra de los padres","agua","2l",95.00),
+(7790036001647,"bebidas","agua","fresh","manzana","1.5l",56.00),
+(7790036001562,"bebidas","agua","fresh","naranja","1.5l",56.00),
+(7790895064456,"bebidas","agua","kin","agua","1.5l",65.00),
+(7790895064135,"bebidas","agua","kin","agua","2.25l",90.00),
+(7790895009679,"bebidas","agua","kin","agua","6l",165.00),
+(7798065734123,"bebidas","soda","sierra de los padres","soda","2l",105.00),
+(7798113301529,"bebidas","soda","manaos","soda","2l",105.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790036002606,"bebidas","jugo","baggio","naranja","1.5l",150.00),
+(7790036000329,"bebidas","jugo","baggio","naranja","1l",120.00),
+(7790036000466,"bebidas","jugo","baggio","multifruta","1l",120.00),
+(7790036000343,"bebidas","jugo","baggio","durazno","1l",120.00),
+(7790036000336,"bebidas","jugo","baggio","manzana","1l",120.00),
+(7790036000350,"bebidas","jugo","baggio","pera","1l",120.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790895643842,"bebidas","jugo","ades","naranja","1l",175.00),
+(7798290580069,"bebidas","jugo","tutti","naranja","1l",71.00),
+(7798290580120,"bebidas","jugo","tutti","multifruta","1l",71.00),
+(7798290580151,"bebidas","jugo","tutti","duraznos","1l",71.00),
+(7798290580090,"bebidas","jugo","tutti","manzana","1l",71.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790895643842,"bebidas","jugo","cabaña mico","arandanos sin azucar","1.5l",335.00),
+(7793817000921,"bebidas","jugo","cabaña mico","arandanos","1.5l",335.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790895009815,"bebidas","jugo","cepita","naranja","1l",140.00),
+(7790895009846,"bebidas","jugo","cepita","durazno","1l",140.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7793147570606,"bebidas","cerveza","schneider","lager","710ml",148.00),
+(7793147118860,"bebidas","cerveza","schneider","lager","473ml",90.00),
+(7793147009199,"bebidas","cerveza","heineken","original","473ml",140.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7792170052271,"bebidas","jugo","gatorade","manzana","750ml",120.00),
+(7792170052264,"bebidas","jugo","gatorade","cool blue","750ml",120.00),
+(7792170052295,"bebidas","jugo","gatorade","frutas tropicales","750ml",120.00),
+(7792170110568,"bebidas","jugo","gatorade","frutas tropicales","1.25l",180.00),
+(7792170110575,"bebidas","jugo","gatorade","manzana","1.25l",180.00),
+(7792170042241,"bebidas","jugo","gatorade","uva","500ml",100.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7791813777021,"bebidas","gaseosa","7up","lima limon","354ml",70.00),
+(7791813555025,"bebidas","gaseosa","pepsi","cola","354ml",70.00),
+(7791813000310,"bebidas","gaseosa","mirinda","naranja","354ml",70.00),
+(7791813777007,"bebidas","gaseosa","7up","retornable lima limon","2l",145.00),
+(7791813555001,"bebidas","gaseosa","pepsi","retornable cola","2l",145.00),
+(9002490100070,"bebidas","energizante","red bull","red bull","250ml",175.00),
+(9002490248956,"bebidas","energizante","red bull","tropical edition x4","250ml",0.00),
+(9002490248949,"bebidas","energizante","red bull","tropical edition","250ml",175.00),
+(7791813900115,"bebidas","gaseosa","7up","lima limon sin azucar","2.25l",220.00),
+(7791813777052,"bebidas","gaseosa","7up","lima limon","2.25l",220.00),
+(7791813421580,"bebidas","gaseosa","7up","lima limon","1.5l",170.00),
+(7791813423386,"bebidas","gaseosa","paso de los toros","pomelo","2.25l",220.00),
+(7791813421382,"bebidas","gaseosa","paso de los toros","pomelo","1.5l",161.00),
+(7791813080039,"bebidas","gaseosa","paso de los toros","pomelo sin azucar","1.5l",161.00),
+(7791813421368,"bebidas","gaseosa","paso de los toros","tonica","1.5l",170.00),
+(7791813421511,"bebidas","gaseosa","h20","naranchelo","1.5l",161.00),
+(7791813421511,"bebidas","gaseosa","h20","citrus","1.5l",161.00),
+# (CODIGO_DE_BARRA, bebidas, gaseosa, marca, subtipo, precio,
+(7790950142167,"bebidas","coctel","meet","pomelo","354ml",100.00),
+(7790950142150,"bebidas","coctel","meet","lima","354ml",100.00),

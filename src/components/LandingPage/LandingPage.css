@@ -1,0 +1,187 @@
+
+.container-LandingPage{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ipsu-LandingPage{
+    padding-left: 4%;
+    width: 46%; 
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.title-LandingPage{
+    font-size: 50px;
+    color: rgb(52, 51, 72);
+    font-family: proxima-nova, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.subTitle-LandingPage{
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: rgb(106, 117, 135);
+    font-weight: 600;
+}
+.buttonscontainer-LandingPage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left
+}
+.button-LandingPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40%;
+    background-color: rgb(52, 51, 72);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 5%;
+    text-decoration: none;
+}
+.textbutton-LandingPage{
+    color: white;
+    margin-left: 4%;
+    font-weight: 600;
+    letter-spacing: 0.3px ;
+}
+
+.imagen-LandingPage{
+    width: 50%;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+}
+.img-LandingPage{
+    width: 740px;
+    height: auto;
+    margin-bottom: 4% ;
+}
+.imgBackGroundCustom{
+    position: absolute; 
+    left: 44vw;
+    transform: rotate(-20deg);
+    z-index: -1;
+    width: 600px;
+    height: 1000px;
+    bottom: 10vw;
+    opacity: 0.09;
+    background: rgb(52, 51, 72);
+    border-radius: 400px;
+}
+
+@media screen and (max-width: 1100px) {
+    .imgBackGroundCustom{
+       display: none;
+    }
+    .ipsu-LandingPage{
+        padding-right: 4%;
+        width: 92%; 
+        justify-content: center;
+        height: 400px;
+    }
+    .imagen-LandingPage{
+        width: 100%;
+    }
+    .title-LandingPage{
+        font-size: 40px;
+
+    }
+    .subTitle-LandingPage{
+        font-size: 20px;
+
+    }
+    .textbutton-LandingPage{
+        font-size: 15px;
+    }
+    .button-LandingPage{
+        width: 30%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .buttonscontainer-LandingPage{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    } 
+
+}
+@media screen and (max-width: 780px) {
+   
+    .img-LandingPage{
+        width: 500px;
+        height: auto;
+    }
+    .title-LandingPage{
+        font-size: 35px;
+
+    }
+    .subTitle-LandingPage{
+        font-size: 20px;
+
+    }
+    .textbutton-LandingPage{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .button-LandingPage{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 535px) {
+    .title-LandingPage{
+        font-size: 30px;
+
+    }
+    .subTitle-LandingPage{
+        font-size: 18px;
+
+    }
+    .ipsu-LandingPage{
+        height: 400px;
+    }
+    .buttonscontainer-LandingPage{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    } 
+    .button-LandingPage{
+        width: 49%;
+    }
+    .imagen-LandingPage{
+        display: flex;
+        align-items:start;
+        justify-content: center;
+    }
+    .img-LandingPage{
+        width: 400px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .buttonscontainer-LandingPage{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    } 
+    .ipsu-LandingPage{
+        height: 500px;
+    }
+    .img-LandingPage{
+        width: 340px;
+        height:auto;
+    }
+    .button-LandingPage{
+        width: 60%;
+    }
+}
+

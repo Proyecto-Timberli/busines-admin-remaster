@@ -1,0 +1,33 @@
+import React from "react";
+
+export default function CardLabel({
+  id, 
+  name, 
+  description,
+  onPress,
+  selectOn
+}) {
+  return (
+    <>
+      <div key={id} 
+        className={selectOn===id? "relative flex flex-col min-w-0 break-words bg-slate-500 rounded  xl:mb-0 shadow-lg dark:bg-stone-950  py-3 px-2 xl:my-4 max-xl:my-2"
+          :"relative flex flex-col min-w-0 break-words bg-slate-300 rounded  xl:mb-0 shadow-lg dark:bg-stone-700  py-3 px-2 xl:my-4 max-xl:my-2"}
+      >
+        <div className="flex flex-wrap justify-around items-center">
+          <button 
+            className="flex flex-wrap justify-around items-center w-10/12 h-full"
+            onClick={() => onPress({
+              id, 
+              name, 
+              description,
+            })}>  
+          <span className="font-semibold text-x text-blueGray-700 dark:text-slate-300">
+            {name}
+          </span>            
+         </button> 
+        </div>
+      </div>
+    </>
+  );
+}
+
