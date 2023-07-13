@@ -16,9 +16,13 @@ export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   useEffect(()=>{
-    if(!user){
-      router.push('/')
-    }
+    // setTimeout(()=>{
+    //   // espera 9 segundos para que cargen los datos del usuario, si no hay usuario logeado protege las vistas
+    //   if(!user){
+    //   console.log(user)
+    //   router.push('/')}
+    // }, 9000)
+    
   },[user])
   
   return (
