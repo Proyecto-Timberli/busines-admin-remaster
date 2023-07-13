@@ -15,8 +15,8 @@ export default function Header({deleted}) {
             <div className="flex flex-wrap">
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardButton
-                  statSubtitle="Delete client"
-                  statTitle="Delete"
+                  statSubtitle="Eliminar cliente"
+                  statTitle="Eliminar"
                   statIconName="delete"
                   statIconColor="bg-red-500"
                   onPress={deleted}
@@ -24,8 +24,8 @@ export default function Header({deleted}) {
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardButton
-                  statSubtitle="Sales history"
-                  statTitle="Sales"
+                  statSubtitle="Historial de ventas"
+                  statTitle="Ventas"
                   statIconName="print"
                   statIconColor="bg-orange-500"
                   onPress={null}
@@ -33,8 +33,8 @@ export default function Header({deleted}) {
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardButton
-                  statSubtitle="Customer"
-                  statTitle="Orders"
+                  statSubtitle="Clientes"
+                  statTitle="Pedidos"
                   statIconName="print"
                   statIconColor="bg-orange-500"
                   onPress={null}

@@ -53,14 +53,14 @@ export default function FormProduct() {
               type="button"
               onClick={()=>alertConfirmacion("Create new product?", null, createProduct, null)}
             >
-              Create product
+              Crear producto
             </button>
           </div>
         </div>
         <div className="flex-auto px-4 lg:px-10 py-10 pt-0" >
           <form className="dark:bg-stone-950">
             <h6 className="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
-              Product Information
+              Informacion del producto
             </h6>
             <div className="flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4">
@@ -69,7 +69,7 @@ export default function FormProduct() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Name
+                    Nombre
                   </label>
                   <input
                     type="text"
@@ -86,7 +86,7 @@ export default function FormProduct() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Price
+                    Precio
                   </label>
                   <input
                     
@@ -120,7 +120,7 @@ export default function FormProduct() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Category
+                    Etiqueta
                   </label>
                   <input
                     type="text"
@@ -137,7 +137,7 @@ export default function FormProduct() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Make
+                    Marca
                   </label>
                   <input
                     className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 dark:bg-stone-700 dark:text-slate-300"
@@ -153,7 +153,7 @@ export default function FormProduct() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Buy Price
+                    Precio de compra
                   </label>
                   <input
                     type="text"
@@ -170,7 +170,7 @@ export default function FormProduct() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Bar code
+                    Codigo de barra
                   </label>
                   <input
                     type="text"
@@ -187,7 +187,7 @@ export default function FormProduct() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    About product
+                    Acerca del producto
                   </label>
                   <textarea
                     type="text"

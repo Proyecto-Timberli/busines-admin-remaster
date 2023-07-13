@@ -14,8 +14,8 @@ export default function  HeaderStats({
           <div>
             <div className="flex flex-wrap justify-center">
               <CardButton
-                statSubtitle="Add client"
-                statTitle="Add"
+                statSubtitle="Agregar Cliente"
+                statTitle="Agrgar"
                 statIconName="print"
                 statIconColor="bg-orange-500"
                 onPress={onPress}
@@ -24,7 +24,7 @@ export default function  HeaderStats({
                 setFilter= {setFilter} 
                 array= {array}
                 atribute= {'id'}
-                placeholder= {'Search customer'}
+                placeholder= {'Buscar cliente...'}
               />  
             </div>
           </div>

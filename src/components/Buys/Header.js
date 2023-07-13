@@ -14,7 +14,7 @@ export default function  HeaderStats({
                 setFilter= {setFilter} 
                 array= {array}
                 atribute= {'id'}
-                placeholder= {'Search sale'}
+                placeholder= {'Buscar compra'}
               />  
             </div>
           </div>

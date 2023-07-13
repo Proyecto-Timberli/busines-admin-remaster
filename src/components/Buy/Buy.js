@@ -109,7 +109,7 @@ export default function Sell(){
             <div className="flex w-full flex-wrap items-center">
               <div className="relative w-full max-w-full flex-grow flex-1">
                 <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
-                  Cart
+                  Carro de compras
                 </h6>  
                 {car?.map(item=>
                 <CardProductInCart

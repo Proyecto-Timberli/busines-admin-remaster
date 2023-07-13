@@ -37,14 +37,14 @@ export default function FormLabel({refreshLabels}) {
               type="button"
               onClick={()=>alertConfirmacion("Create new label?", null, createLabel, null)}
             >
-              Create new label
+              Crear nueva etiqueta
             </button>
           </div>
         </div>
         <div className="flex-auto px-4 lg:px-10 py-10 pt-0" >
           <form className="dark:bg-stone-950">
             <h6 className="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
-              Label Information
+              Informacion de la etiqueta
             </h6>
             <div className="flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4">
@@ -53,7 +53,7 @@ export default function FormLabel({refreshLabels}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Name
+                    Nombre
                   </label>
                   <input
                     type="text"
@@ -70,7 +70,7 @@ export default function FormLabel({refreshLabels}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    About label
+                    Acerca de la etiqueta
                   </label>
                   <textarea
                     type="text"

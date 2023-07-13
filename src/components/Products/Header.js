@@ -19,15 +19,15 @@ export default function  Header({
             <div className="flex flex-wrap justify-center">
               <div className="w-full flex flex-wrap justify-center items-center">
               <CardButton
-                statSubtitle="Add product"
-                statTitle="Add"
+                statSubtitle="Agregar Producto"
+                statTitle="Agregar"
                 statIconName="print"
                 statIconColor="bg-orange-500"
                 onPress={onPress}
               />
                <CardButton
-                statSubtitle="Labels / New labels"
-                statTitle="Labels"
+                statSubtitle="Nueva etiqueta"
+                statTitle="Etiquetas"
                 statIconName=""
                 statIconColor="bg-green-500"
                 onPress={onPressLabels}
@@ -43,7 +43,7 @@ export default function  Header({
                 setFilter= {setFilter} 
                 array= {array}
                 atribute= {'id'}
-                placeholder= {'Search product...'}
+                placeholder= {'Buscar Producto...'}
                 />  
             
               </div>

@@ -57,7 +57,7 @@ export default function Summary(){
             <div className="flex w-full flex-wrap items-center">
               <div className="relative w-full max-w-full flex-grow flex-1">
                 <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
-                  Summary
+                  Resumen
                 </h6>
                 <div className='flex flex-col w-full'>
                   <div className='flex flex-wrap w-full mb-2'>

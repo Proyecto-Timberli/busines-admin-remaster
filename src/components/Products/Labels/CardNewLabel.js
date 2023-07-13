@@ -15,7 +15,7 @@ export default function CardNewLabel({
             className="flex flex-wrap justify-around items-center w-10/12 h-full"
             onClick={() => onPress(null)}>  
           <span className="font-semibold text-x text-blueGray-700 dark:text-slate-300">
-            New Label
+            Nueva Etiqueta
           </span>            
          </button> 
         </div>

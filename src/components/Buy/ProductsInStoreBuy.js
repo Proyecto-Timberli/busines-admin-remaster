@@ -16,14 +16,14 @@ export default function Products({ productInStore, pressCart, setStoreVisible}) 
       <div className="rounded-t mb-0 px-4 py-3 bg-transparent">
         <div className="flex flex-wrap items-center justify-between">
           <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
-              Add product in the cart
+              Agregar producto al carro
           </h6>
           <button
               className="bg-stone-950 active:bg-blueGray-600 text-white font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
               type="button"
               onClick={setStoreVisible}
             >
-              Cancel
+              Cancelar
             </button>
           <div className=" w-full max-w-full flex flex-row justify-center items-center">
             <SearchFilter 

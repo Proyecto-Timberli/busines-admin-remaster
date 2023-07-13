@@ -23,22 +23,22 @@ export default function  Header({
           <div>
             <div className="flex flex-wrap justify-center">
               <CardButton
-                statSubtitle="Add product"
-                statTitle="Add"
+                statSubtitle="Agregar producto"
+                statTitle="Agregar "
                 statIconName="cart"
                 statIconColor="bg-orange-500"
                 onPress={addProduct}
               />
                <CardButton
-                statSubtitle="Clean car"
-                statTitle="Clean"
+                statSubtitle="Limpiar carro"
+                statTitle="Limpiar"
                 statIconName="clean"
                 statIconColor="bg-red-500"
                 onPress={clean}
               />
                <CardButton
-                statSubtitle="Register buy"
-                statTitle="Register"
+                statSubtitle="Registrar compra"
+                statTitle="Registrar"
                 statIconName="register"
                 statIconColor="bg-green-500"
                 onPress={register}

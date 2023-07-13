@@ -72,7 +72,7 @@ export default function Sidebar() {
             </div>
             {/* Heading */}
             <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-                Register
+                Registrar
             </h6>
             {/* Navigation */}
 
@@ -88,7 +88,7 @@ export default function Sidebar() {
                             : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }
                     >
-                        Sell
+                        Vender
                     </p>
                 </Link>
               </li>
@@ -104,7 +104,7 @@ export default function Sidebar() {
                             : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }
                     >
-                        Buy
+                        Comprar
                     </p>
                 </Link>
               </li>
@@ -128,7 +128,7 @@ export default function Sidebar() {
                         : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                     }
                     >
-                        Products
+                        Productos
                     </p>
                 </Link>
               </li>
@@ -158,7 +158,7 @@ export default function Sidebar() {
                             : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }
                     >
-                        Customers
+                        Clientes
                     </p>
                 </Link>
               </li>
@@ -174,7 +174,7 @@ export default function Sidebar() {
                             : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }
                     >
-                        Providers
+                        Provedores
                     </p>
                 </Link>
               </li>
@@ -189,7 +189,7 @@ export default function Sidebar() {
                             : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }
                     >
-                        Sales
+                        Ventas
                     </p>
                 </Link>
               </li>
@@ -205,7 +205,7 @@ export default function Sidebar() {
                             : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }
                     >
-                        Buys
+                        Compras
                     </p>
                 </Link>
               </li>
@@ -230,7 +230,7 @@ export default function Sidebar() {
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
             <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-                Business
+                Negocio
             </h6>
             {/* Navigation */}
 
@@ -246,7 +246,7 @@ export default function Sidebar() {
                             : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }
                     >
-                        Statistics
+                        Estadisticas
                     </p>
                 </Link>
               </li>
@@ -261,7 +261,7 @@ export default function Sidebar() {
                           ? "text-lightBlue-500 hover:text-lightBlue-600"
                           : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }>
-                        Settings
+                        Configuracion
                     </p>
                 </Link>
               </li>
@@ -285,7 +285,7 @@ export default function Sidebar() {
                     <p 
                         className="text-blueGray-700 hover:text-blueGray-500 text-xs  py-3 font-bold block dark:text-slate-400"
                     >
-                        Help
+                        Ayuda
                     </p>
                 {/* </a> */}
               </li>

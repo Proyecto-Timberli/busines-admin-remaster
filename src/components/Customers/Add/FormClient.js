@@ -46,14 +46,14 @@ export default function FormClient() {
               type="button"
               onClick={()=>alertConfirmacion("Create client?", null, createClient, null)}
             >
-              Create client
+              Crear cliente
             </button>
           </div>
         </div>
         <div className="flex-auto px-4 lg:px-10 py-10 pt-0" >
           <form className="dark:bg-stone-950">
             <h6 className="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
-              Client Information
+            Informacion del cliente
             </h6>
             <div className="flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4">
@@ -62,7 +62,7 @@ export default function FormClient() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Name
+                    Nombre
                   </label>
                   <input
                     type="text"
@@ -96,7 +96,7 @@ export default function FormClient() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Phone
+                      Telefono
                   </label>
                   <input
                     type="text"
@@ -113,7 +113,7 @@ export default function FormClient() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Location
+                    Ubicacion
                   </label>
                   <input
                     type="text"
@@ -130,7 +130,7 @@ export default function FormClient() {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    About client
+                    Acerca del cliente
                   </label>
                   <textarea
                     type="text"

@@ -38,7 +38,7 @@ export default function FormBusiness({business, refresh}) {
               type="button"
               onClick={()=>alertConfirmacion("Save changes?", null, saveChanges, null)}
             >
-              Save changes
+              Guardar cambios
             </button>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function FormBusiness({business, refresh}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Name
+                    Nombre
                   </label>
                   <input
                     type="text"
@@ -71,7 +71,7 @@ export default function FormBusiness({business, refresh}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Owner
+                    Propietario
                   </label>
                   <input
                     
@@ -105,7 +105,7 @@ export default function FormBusiness({business, refresh}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Phone
+                    Telefono
                   </label>
                   <input
                     type="text"
@@ -122,7 +122,7 @@ export default function FormBusiness({business, refresh}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Location
+                    Ubicacion
                   </label>
                   <input
                     className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 dark:bg-stone-700 dark:text-slate-300"

@@ -22,7 +22,7 @@ export default function selectCustomer({
   return (
     <>
           <SelectComponent
-            text={'Client'}
+            text={'Cliente'}
             text2={state?.identifier}
             objValue={'identifier'}
             arraySelects={customers}

@@ -74,7 +74,7 @@ export default function ModificarVarios({
                     <button 
                         onClick={()=>alertConfirmacion("Actualizar Precios?",null,guardar,null)}
                         className="bg-fuchsia-600 text-white active:bg-fuchsia-700 text-xs font-bold uppercase px-4 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1  ml-3  ease-linear transition-all duration-150  dark:bg-fuchsia-950">     
-                            <p className="text-slate-200">Modify products</p>                               
+                            <p className="text-slate-200">Modificar precios</p>                               
                     </button>                               
             </div>
         </>

@@ -15,8 +15,8 @@ export default function Header({setPdfVisible, canceled}) {
             <div className="flex flex-wrap">
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardButton
-                  statSubtitle="Cancel buy"
-                  statTitle="Cancel"
+                  statSubtitle="Cancelar compra"
+                  statTitle="Cancelar"
                   statIconName="cancel"
                   statIconColor="bg-red-500"
                   onPress={canceled}

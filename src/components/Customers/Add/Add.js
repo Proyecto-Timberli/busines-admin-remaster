@@ -39,7 +39,7 @@ export default function Add(){
             <div className="flex w-full flex-wrap items-center">
               <div className="relative w-full max-w-full flex-grow flex-1">
                 <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
-                  Create new client
+                  Crear nuevo cliente
                 </h6>  
                 <FormClient client={client}/>     
               </div>

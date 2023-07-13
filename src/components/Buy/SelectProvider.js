@@ -19,7 +19,7 @@ export default function selectprovider({
   return (
     <>
           <SelectComponent
-            text={'Provider'}
+            text={'Provedor'}
             text2={state?.identifier}
             objValue={'identifier'}
             arraySelects={providers}

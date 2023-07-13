@@ -38,7 +38,7 @@ export default function Formprovider({provider}) {
               type="button"
               onClick={()=>alertConfirmacion("Save changes?", null, saveChanges, null)}
             >
-              Save changes
+              Guardar cambios
             </button>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Formprovider({provider}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Name
+                    Nombre
                   </label>
                   <input
                     type="text"
@@ -71,7 +71,7 @@ export default function Formprovider({provider}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Email address
+                    Email 
                   </label>
                   <input
                     type="email"
@@ -88,7 +88,7 @@ export default function Formprovider({provider}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Phone
+                    Telefono
                   </label>
                   <input
                     type="text"
@@ -105,7 +105,7 @@ export default function Formprovider({provider}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    Location
+                    Ubicacion
                   </label>
                   <input
                     type="text"
@@ -122,7 +122,7 @@ export default function Formprovider({provider}) {
                     className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
                     htmlFor="grid-password"
                   >
-                    About provider
+                    Acerca del provedor
                   </label>
                   <textarea
                     type="text"

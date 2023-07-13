@@ -4,7 +4,7 @@ import QRCode  from  "react-qr-code" ;
 import { formatDate, financial } from '@/apiFunctions/apiFunctions';
 
 export default function ResumenPdf({sale,businessDate}){
-    const {negocio,de,cuit,telefono,} = businessDate.myBusiness
+    const {negocio,de,cuit,telefosno,} = businessDate.myBusiness
     const {createdDate,id,client,idClient,wayToPay,total,sellProducts} = sale
     useEffect(()=>{
         console.log(document.getElementById(id+'D'));
