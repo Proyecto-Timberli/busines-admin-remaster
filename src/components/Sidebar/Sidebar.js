@@ -236,12 +236,12 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link className="flex flex-row  items-center"   href="/inside/statistics">
+                <Link className="flex flex-row  items-center"   href="/inside">
                     <Icon path={mdiFinance} size={1} color={'rgb(148 163 184)'} className="mr-1" />
                     <p 
                         className={
                             "text-xs uppercase py-3 font-bold block " +
-                            (pathname.indexOf("/inside/statistics") !== -1
+                            (pathname.indexOf("/inside") !== -1
                             ? "text-lightBlue-500 hover:text-lightBlue-600"
                             : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
                         }
