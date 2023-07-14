@@ -36,6 +36,26 @@ export default function Products({ productInStore, pressCart, setStoreVisible}) 
         </div>
       </div>
       <div className="p-4 flex flex-col overflow-y-auto h-96">
+      <div className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded   shadow-lg dark:bg-stone-700  py-1 xl:my-2 max-xl:my-2">
+        <div className="flex flex-wrap justify-around items-center">
+        <div className="flex flex-wrap justify-around items-center w-10/12 h-full">
+          <h5 
+            className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4">
+            Codigo de barra 
+          </h5>
+          <span className="font-bold text-xs text-blueGray-700 uppercase dark:text-slate-300 lg:w-1/3">
+            Nombre
+          </span>      
+          <span className={" text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4"}>
+            Etiqueta
+          </span>
+          <span className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/6">
+            Precio
+          </span>  
+        </div>
+        </div>
+        </div>
+        <div className="w-full border-solid border-b-2 border-slate-300  dark:border-stone-700  "></div>
         {!productInStore.length?<Loading color={'#fff'}/>:
           dataRender?.map(item=>
             <div key={item.id} className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded shadow-lg dark:bg-stone-700  py-3 xl:my-2 max-xl:my-2"

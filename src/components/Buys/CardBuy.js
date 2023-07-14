@@ -12,18 +12,18 @@ export default function CardStats({
     <>
       <div className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded  xl:mb-0 shadow-lg dark:bg-stone-700 py-1 ">
         <div className="flex flex-wrap justify-around items-center">
-          <h5 className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs">
+          <h5 className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4">
             {id}  
           </h5>
-          <span className="font-semibold text-x text-blueGray-700 dark:text-slate-300">
+          <span className="font-bold text-xs text-blueGray-700 dark:text-slate-300 lg:w-1/4">
             {financial(total)}
           </span>      
-          <p className="text-sm text-blueGray-700 dark:text-slate-300 mt-4">
+          <p className="text-sm text-blueGray-700 dark:text-slate-300 mt-4 lg:w-1/4" >
           <span className={" mr-2"}>
             {provider}
           </span>
           </p>
-          <span className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs">{formatDate(date).formatDate+" / "+formatDate(date).hora}</span>
+          <span className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4">{formatDate(date).formatDate+" / "+formatDate(date).hora}</span>
           
         </div>
       </div>
