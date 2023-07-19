@@ -66,6 +66,7 @@ export default function Products({ productInStore, pressCart, setStoreVisible}) 
                     <CardProduct
                         id={item.id}
                         name={item.name}
+                        barCode={item.barCode}
                         category={item.category}
                         price={item.price?financial(item.price):null}
                     />

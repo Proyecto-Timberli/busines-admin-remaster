@@ -65,6 +65,7 @@ export default function Products({ productInStore, pressCart, setStoreVisible}) 
                 <div className="flex flex-wrap justify-around items-center w-10/12 h-full">    
                     <CardProduct
                         id={item.id}
+                        barCode= {item.barCode}
                         name={item.name}
                         category={item.category}
                         price={item.price?financial(item.price):null}

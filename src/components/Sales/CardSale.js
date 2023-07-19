@@ -19,8 +19,8 @@ export default function CardStats({
             {financial(total)}
           </span>      
           <p className="text-sm text-blueGray-700 dark:text-slate-300 mt-4 lg:w-1/4">
-          <span className={" mr-2"}>
-            {customer}
+          <span className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4">
+          {customer?customer:"No asignado"}
           </span>
           </p>
           <span className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4">{formatDate(date).formatDate+" / "+formatDate(date).hora}</span>

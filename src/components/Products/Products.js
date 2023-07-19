@@ -81,6 +81,7 @@ export default function Products({ productsApi, dataRender, setProductsApi}) {
                     onClick={() => router.push(`/inside/products/detail?id=${item.id}`)}>    
                     <CardProduct
                         id={item.id}
+                        barCode={item.barCode}
                         name={item.name}
                         category={item.category}
                         price={item.price?financial(item.price):null}

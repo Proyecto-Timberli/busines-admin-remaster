@@ -84,7 +84,7 @@ const CardProduct = (
             <button onClick={()=>removeAmount()} className='mx-2'>
               <Icon path={mdiCartRemove } size={1} color={'white'}/>
             </button>
-            <p className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs">Amount: {cantidad}</p>
+            <p className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs">Cantidad: {cantidad}</p>
             <button onClick={()=>addAmount()} className='mx-2'>
               <Icon path={mdiCartPlus } size={1} color={'white'}/>
             </button>
