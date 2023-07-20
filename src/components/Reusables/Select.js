@@ -22,7 +22,7 @@ const Touchable = (text='Select a option',onPress)=>{
     const OptionComponent =()=>{
       return (
         <button className={'selectContainer-Select'} onClick={()=>onPress()}>
-          <p className={'selectText-Select'}>{item?.[value]}</p>
+          <p className={'selectText-Select'}>{item?item[value]:null}</p>
         </button>
       )
     }
@@ -36,7 +36,7 @@ function Select (
       title ="",
       data=[],
       objKey ='id',
-      objValue="name",
+      objValue="identifier",
       selectFunction
     }
   ){
@@ -68,7 +68,9 @@ function Select (
              </button>
             <p className='titleCategorias-Select'>{title}</p>
            </div>
-           {data.map(item=>renderOption(item))}
+           <div className='container-items-Select'>
+            {data.map(item=>renderOption(item))}
+           </div>
        </div>
        </div>}
       </>
@@ -76,7 +78,7 @@ function Select (
 }
 
 
-export default function ModalSelect({text='Seleccionar',text2='',arraySelects,selectFunction}){
+export default function ModalSelect({text='Seleccionar',text2='', objValue, arraySelects,selectFunction}){
 
     return(
         <>
@@ -86,7 +88,7 @@ export default function ModalSelect({text='Seleccionar',text2='',arraySelects,se
           <Select touchableText = {text2}
             title="Selecciona una opcion" 
             objKey='id' 
-            objValue= "name" 
+            objValue= {objValue?objValue:'name'}
             data={arraySelects} 
             selectFunction={selectFunction}/>
         </div>

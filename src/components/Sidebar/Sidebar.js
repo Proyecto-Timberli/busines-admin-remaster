@@ -113,7 +113,7 @@ export default function Sidebar() {
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
             <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-                Manage
+                Administrar
             </h6>
             {/* Navigation */}
             <ul>

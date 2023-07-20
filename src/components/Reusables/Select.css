@@ -26,7 +26,6 @@
     display: flex;
     z-index: 10000;
     /* pointer-events: none; */
-    overflow-y: auto;
 }   
 
 .container1-Select{
@@ -38,6 +37,15 @@
     flex-direction: column;
     align-items: center;
     border-radius: 5px;
+}
+.container-items-Select{
+    max-height: 70vh;
+    height:auto;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 .container-Select{
     width: 100%;

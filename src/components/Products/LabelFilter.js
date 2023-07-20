@@ -22,7 +22,7 @@ export default function  LabelFilter({
   return (
     <>
         <SelectComponent
-            text={'Selecciona una label'}
+            text={'Selecciona una etiqueta'}
             text2={labelSelect.name}
             arraySelects={[...labels,{id:'Ninguna',name:'Ninguna'}
             ]}
