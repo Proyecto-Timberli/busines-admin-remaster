@@ -30,6 +30,7 @@ export default function Products({ productInStore, pressCart, setStoreVisible}) 
               setFilter= {setDataRender} 
               array= {productInStore}
               atribute= {'name'}
+              atributes={['barCode', 'name','make']}
               placeholder= {'Search product...'}
             />  
           </div>

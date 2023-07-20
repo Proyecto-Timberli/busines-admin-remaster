@@ -1,12 +1,22 @@
 "use client"
 import React, { useState, useEffect} from "react";
 
-function filterBy(array, search, atribute) {
+function filterBy(array, search, atribute, atributes ) {
     // filtra array de objetos
     // 1 parametro array afiltrar
     // 2 parametro de busqueda
     // 3 parametro atributo a filtrar
-    if (array){
+    if(atributes?.length && array){
+        let  result = []
+        atributes.forEach(atribute => {
+            const resultFilter = array.filter( (e) =>e[atribute] && e[atribute].toLowerCase().includes(search.toLowerCase()))
+            if (resultFilter.length){
+                result = resultFilter
+            }   
+        })
+        return result
+    }
+    else if(array){
       return array.filter(
       (e) =>
           e[atribute] && e[atribute].toLowerCase().includes(search.toLowerCase())
@@ -16,17 +26,20 @@ export default function SerchFilter(
     {setFilter,  
     array, 
     atribute = 'id', 
+    atributes,
     placeholder= 'Search...' })
     {
     // filtra array de objetos devuelve componente de busqueda
     const [filterBySearch, setFilterBySearch] = useState("");
-    let filter = filterBy(array, filterBySearch, atribute);
+    let filter = filterBy(array, filterBySearch, atribute, atributes);
     const filtroBusqueda = function (e) {
         setFilterBySearch(e);
     };
     useEffect(() => {
-        setFilter(filter)   
-        // console.log(setFilter)
+        setFilter(filter)
+        if(filterBySearch==""){
+            setFilter(array)
+        } 
     },[filterBySearch])
    
     return(

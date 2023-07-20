@@ -42,7 +42,8 @@ export default function  Header({
               <SearchFilter 
                 setFilter= {setFilter} 
                 array= {array}
-                atribute= {'id'}
+                atribute= {'name'}
+                atributes={['barCode', 'name','make']}
                 placeholder= {'Buscar Producto...'}
                 />  
             

@@ -24,6 +24,7 @@ export default function  HeaderStats({
                 setFilter= {setFilter} 
                 array= {array}
                 atribute= {'id'}
+                atributes={['id', 'identifier','location']}
                 placeholder= {'Buscar cliente...'}
               />  
             </div>
