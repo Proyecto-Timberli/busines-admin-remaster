@@ -17,9 +17,10 @@ export default function CardProvider({
             {name}
           </span>      
           <span className={" text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4"}>
-            {phone}
+            {phone?phone:'Sin telefono'}
           </span>
-          <span className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4">{location}</span>        
+          <span className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4">
+            {location?location:"Sin ubicacion"}</span>        
         </div>
       </div>
     </>

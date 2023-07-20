@@ -17,10 +17,10 @@ export default function CardProduct({
             {name}
           </span>      
           <span className={" text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/4" }>
-            {category}
+            {category?category:"Sin etiqueta"}
           </span>
           <span className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs lg:w-1/6">
-            {price}
+            {price?price:"No hay precio"}
           </span>        
         
       
