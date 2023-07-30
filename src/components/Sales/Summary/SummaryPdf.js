@@ -43,9 +43,9 @@ return(
             <View style={{width:'100%',height:'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',marginBottom:'2%'}}>
                 <Text style={{width:'100%',fontSize:'12px',textAlign:'center'}}>Producto: {product.name}</Text>
                 <View style={{width:'100%',display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
-                <Text style={{width:'30%',fontSize:'12px',textAlign:'center'}}>Precio producto: ${product.price}</Text>            
+                <Text style={{width:'30%',fontSize:'12px',textAlign:'center'}}>Precio producto: ${product.priceSelect?product.priceSelect:""}</Text>            
                 <Text style={{width:'30%',fontSize:'12px',textAlign:'center'}}>Cantidad: {product.amount}</Text>          
-                <Text style={{width:'30%',fontSize:'12px',textAlign:'center'}}>Total cantidad ${product.price*product.amount}</Text> 
+                <Text style={{width:'30%',fontSize:'12px',textAlign:'center'}}>Total cantidad ${product.priceSelect*product.amount}</Text> 
                 </View>     
             </View>)}
         <Text style={{width:'80%',fontSize:'12px',textAlign:'right',marginTop:'4%'}}>Total: ${total}</Text>

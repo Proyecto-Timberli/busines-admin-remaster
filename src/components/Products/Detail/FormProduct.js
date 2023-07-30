@@ -5,11 +5,14 @@ import { alertConfirmacion } from '@/components/Reusables/Alerts'
 
 export default function FormProduct({product}) {
   const { userProfile } = useAuth()
-  const {barCode, buyprice, category, description,id,image, make, name, price, stock} = product
+  const {barCode, buyprice, category, description,id,image, make, name, price, priceList2, priceList3, priceList4 , stock} = product
   const [formState, setFormState] = useState({
     id:id,
     name: name?name:"",
     price: price?price:"",
+    priceList2: priceList2?priceList2:"",
+    priceList3: priceList3?priceList3:"",
+    priceList4: priceList4?priceList4:"",
     stock : stock?stock:"",
     category: category?category:"",
     make: make?make:"",
@@ -81,6 +84,57 @@ export default function FormProduct({product}) {
                     className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 dark:bg-stone-700 dark:text-slate-300"
                     value={formState.price}
                     name="price"
+                    onChange={(e)=>handleChangeInput(e)}
+                  />
+                </div>
+              </div>
+              <div className="w-full lg:w-6/12 px-4">
+                <div className="relative w-full mb-3">
+                  <label
+                    className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
+                    htmlFor="grid-password"
+                  >
+                    Precio 2
+                  </label>
+                  <input
+                    
+                    className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 dark:bg-stone-700 dark:text-slate-300"
+                    value={formState.priceList2}
+                    name="priceList2"
+                    onChange={(e)=>handleChangeInput(e)}
+                  />
+                </div>
+              </div>
+              <div className="w-full lg:w-6/12 px-4">
+                <div className="relative w-full mb-3">
+                  <label
+                    className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
+                    htmlFor="grid-password"
+                  >
+                    Precio 3
+                  </label>
+                  <input
+                    
+                    className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 dark:bg-stone-700 dark:text-slate-300"
+                    value={formState.priceList3}
+                    name="priceList3"
+                    onChange={(e)=>handleChangeInput(e)}
+                  />
+                </div>
+              </div>
+              <div className="w-full lg:w-6/12 px-4">
+                <div className="relative w-full mb-3">
+                  <label
+                    className="block uppercase text-blueGray-500 text-xs font-bold mb-2"
+                    htmlFor="grid-password"
+                  >
+                    Precio 4
+                  </label>
+                  <input
+                    
+                    className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 dark:bg-stone-700 dark:text-slate-300"
+                    value={formState.priceList4}
+                    name="priceList4"
                     onChange={(e)=>handleChangeInput(e)}
                   />
                 </div>

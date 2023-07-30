@@ -15,10 +15,14 @@ function existe(arrayDeObjetos,atributo,valor){
 }
 
 const CardProduct = (
-  {id, name, category, price, product, productInStore, reflectedStock, setReflectedStock, car,setCar})=>{
+  {id, name, category, price, priceList2=0, priceList3=0, priceList4=0,  product, productInStore, reflectedStock, setReflectedStock, car,setCar})=>{
 
   const [cantidad,setCantidad]= useState(1)
-  
+  const [prices, setPrices]= useState(price)
+
+  const priceChange = function (e) {
+    setPrices(e.target.value);
+  }
   ///////////////////////////////////////////////////////////////
   function reflectStock(carAmountChanged){
     //Refleja el stock
@@ -42,7 +46,7 @@ const CardProduct = (
     //Cuando cantidad vea cambios
     if(!existe(car,"id",id)){
       //Se carga el producto dentro de el car
-      const carUpdated = [...car,{id:id,name:name,amount:cantidad,price:price}]
+      const carUpdated = [...car,{id:id,name:name,amount:cantidad,price:prices}]
       setCar(carUpdated )
       reflectStock(carUpdated)
     }else{
@@ -57,14 +61,14 @@ const CardProduct = (
         let carAmountChanged = [...car]
         for(let i=0;i<carAmountChanged.length;i++){
           if(carAmountChanged[i].id===id){
-            carAmountChanged[i]={...carAmountChanged[i],amount:cantidad}
+            carAmountChanged[i]={...carAmountChanged[i],amount:cantidad,priceSelect:prices}
           }
         }
         setCar(carAmountChanged)
         reflectStock(carAmountChanged) 
       }
     }
-  },[cantidad])
+  },[cantidad, prices])
 
     function addAmount(){
       setCantidad(cantidad+1)
@@ -78,7 +82,14 @@ const CardProduct = (
           <div className="flex flex-wrap justify-around items-center w-10/12 h-full">    
             <p className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs">{name}</p>
             <p className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs">{category}</p>
-            <p className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs">{price} </p>
+            <p className="text-blueGray-700 dark:text-slate-300 uppercase font-bold text-xs">{prices} </p>
+            <select className="home-select" 
+              name="priceChange"  
+              onChange={(e) => priceChange(e)}>
+              <option key={0} value={price} >lista 1: {price}</option>
+              {[priceList2,priceList3,priceList4].map((e, index) =>
+              <option key={index} value={e}>lista {index+2}: {e}</option>)}
+            </select>
           </div >
           <div className="flex flex-row justify-between items-center"> 
             <button onClick={()=>removeAmount()} className='mx-2'>

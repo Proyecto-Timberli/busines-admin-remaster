@@ -87,9 +87,9 @@ export default function Summary(){
                       <div className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded shadow-lg dark:bg-stone-700 mb-2 mt-2 p-3">
                         <div className="flex flex-wrap justify-around items-center">
                           <p className='text-base text-blueGray-700 dark:text-slate-300'>{item.name}</p>
-                          <p className='text-base text-blueGray-700 dark:text-slate-300'>Precio por unidad: {item.price?financial(item.price):null}</p>
+                          <p className='text-base text-blueGray-700 dark:text-slate-300'>Precio por unidad: {item.priceSelect?financial(item.priceSelect):null}</p>
                           <p className='text-base text-blueGray-700 dark:text-slate-300'>Cantidad: {item.amount}</p>
-                          <p className='text-base text-blueGray-700 dark:text-slate-300'>Total Producto: {item.price?financial(item.price*item.amount):null}</p>
+                          <p className='text-base text-blueGray-700 dark:text-slate-300'>Total Producto: {item.priceSelect?financial(item.priceSelect*item.amount):null}</p>
                         </div>
                       </div>)}
                       <div className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded shadow-lg p-3 dark:bg-stone-700 mt-2">

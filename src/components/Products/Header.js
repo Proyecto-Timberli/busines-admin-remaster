@@ -2,10 +2,12 @@ import React from "react";
 import SearchFilter from '@/components/Reusables/SearchBars'
 import CardButton from "./CardButton";
 import LabelFilter from "./LabelFilter";
+import Orders from "./Orders";
 
 export default function  Header({
   setFilter, 
   array,
+  dataRender,
   labels,
   onPress,
   onPressLabels,
@@ -39,14 +41,17 @@ export default function  Header({
               />
               </div>
               <div className="w-full flex flex-wrap justify-center items-center mt-4">
-              <SearchFilter 
-                setFilter= {setFilter} 
-                array= {array}
-                atribute= {'name'}
-                atributes={['barCode', 'name','make']}
-                placeholder= {'Buscar Producto...'}
-                />  
-            
+                <SearchFilter 
+                  setFilter= {setFilter} 
+                  array= {array}
+                  atribute= {'name'}
+                  atributes={['barCode', 'name','make']}
+                  placeholder= {'Buscar Producto...'}
+                />     
+              </div>
+              <div className="w-full flex flex-wrap justify-center items-center mt-4">  
+               <Orders setFilter= {setFilter} 
+                  array= {dataRender}/>   
               </div>
             </div>
           </div>

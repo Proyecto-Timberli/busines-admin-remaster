@@ -8,8 +8,6 @@ export default function  Header({
   setWayToPay, 
   wayToPay,
   addProduct,
-  productInStore,
-  setProductInStore,
   clean,
   setProvider,
   provider,

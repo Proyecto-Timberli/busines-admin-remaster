@@ -6,6 +6,7 @@ import Header from './Header'
 import Products from './Products'
 import Footer from '@/components/Footers/FooterAdmin'
 import { useRouter,} from "next/navigation";
+import {ordenamiento} from '@/otherFunctions/orders'
 
 export default function ProductsIndex() {
   const router = useRouter();
@@ -14,6 +15,7 @@ export default function ProductsIndex() {
   const [productsApi, setProductsApi]=useState([])
   const [categoriesApi, setCategoriesApi]= useState([])
   const [dataRender, setDataRender]=useState([])
+
 
   useEffect(() => {
     if(userProfile){
@@ -31,6 +33,7 @@ export default function ProductsIndex() {
     <>
       <Header
         setFilter = {setDataRender} 
+        dataRender = {dataRender}
         array = {productsApi}
         labels= {categoriesApi}
         onPress = {()=>router.push('inside/products/add')}

@@ -11,7 +11,7 @@ import { financial, exist } from '@/apiFunctions/apiFunctions';
 import ProductsInStore from './ProductsInStoreBuy'
 import {Timestamp} from 'firebase/firestore';
 import { alertConfirmacion } from '@/components/Reusables/Alerts'
-
+import {ordenamiento} from '@/otherFunctions/orders'
 
 
 export default function Sell(){
@@ -100,7 +100,7 @@ export default function Sell(){
       <div className="px-4 md:px-10 mx-auto w-full -m-24">
       {storeVisible&&
       <ProductsInStore 
-        productInStore={productInStore}
+        productInStore={ordenamiento(productInStore,'name')}
         pressCart={addProductToCar}
         setStoreVisible={()=>setStoreVisible(false)}
       />}  
