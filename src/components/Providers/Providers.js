@@ -14,9 +14,10 @@ export default function Provider() {
   ////////////////////conexion Api////////////////////////////
   const [providersApi,setProvidersApi]=useState([])
   const [dataRender,setDataRender]=useState([])
+  const [loadingOn, setLoadingOn]=useState(true)
   useEffect(() => {
     if(userProfile){
-      getProviders(userProfile, setProvidersApi)
+      getProviders(userProfile, setProvidersApi, ()=>setLoadingOn(false))
     }
   },[userProfile]) 
   useEffect(() => {
@@ -63,7 +64,7 @@ export default function Provider() {
             </div>
           </div>
           <div className="w-full border-solid border-b-2 border-slate-300  dark:border-stone-700  "></div>
-          {!providersApi.length?<Loading color={'#fff'}/>:
+          {loadingOn?<Loading color={'#fff'}/>:
             dataRender?.map(item=>
               <button 
                 key={item.id}

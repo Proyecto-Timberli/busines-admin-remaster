@@ -14,9 +14,10 @@ export default function Sales() {
   ////////////////////conexion Api////////////////////////////
   const [buysApi,setBuysApi]=useState([])
   const [dataRender,setDataRender]=useState([])
+  const [loadingOn, setLoadingOn]=useState(true)
   useEffect(() => {
     if(userProfile){
-      getBuys(setBuysApi,userProfile)
+      getBuys(setBuysApi,userProfile,()=>setLoadingOn(false))
     }
   },[userProfile]) 
   useEffect(() => {
@@ -62,7 +63,7 @@ export default function Sales() {
             </div>
           </div>
           <div className="w-full border-solid border-b-2 border-slate-300  dark:border-stone-700  "></div>
-          {!buysApi.length?<Loading color='#fff'/>:
+          {loadingOn?<Loading color='#fff'/>:
             dataRender?.map(item=>
               <button 
                 key={item.id}

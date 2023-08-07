@@ -6,21 +6,19 @@ import Header from './Header'
 import Products from './Products'
 import Footer from '@/components/Footers/FooterAdmin'
 import { useRouter,} from "next/navigation";
-import {ordenamiento} from '@/otherFunctions/orders'
 
 export default function ProductsIndex() {
   const router = useRouter();
   const {userProfile,} = useAuth()
-
   const [productsApi, setProductsApi]=useState([])
   const [categoriesApi, setCategoriesApi]= useState([])
   const [dataRender, setDataRender]=useState([])
-
-
+  const [loadingOn, setLoadingOn]=useState(true)
+  
   useEffect(() => {
     if(userProfile){
       getCategories(userProfile, setCategoriesApi)
-      getProducts(userProfile,  setProductsApi)
+      getProducts(userProfile,  setProductsApi, ()=>setLoadingOn(false))
     }
   },[userProfile]) 
 
@@ -43,7 +41,8 @@ export default function ProductsIndex() {
         <Products 
           productsApi = {productsApi} 
           dataRender = {dataRender}
-          setProductsApi = {()=>getProducts(userProfile,  setProductsApi)}/>
+          setProductsApi = {()=>getProducts(userProfile,  setProductsApi, ()=>setLoadingOn(false))}
+          loadingOn={loadingOn}/>
         <Footer/> 
      </div>
     </>

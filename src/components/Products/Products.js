@@ -9,15 +9,9 @@ import SelectionVarious from './SelectionVarious'
 import ModificarVarios from "./ModificarVarios";
 import Loading from "../Reusables/Loading";
 
-export default function Products({ productsApi, dataRender, setProductsApi}) {    
+export default function Products({ productsApi, dataRender, setProductsApi, loadingOn=false }) {    
   const router = useRouter();
-
   const [arraySelection, setArraySelection]= useState([]);
-
-  useEffect(() => {
-    console.log(arraySelection)
-  },[arraySelection]);
-
   const onLongPressHandler=(params)=>{
 
     if(arraySelection.includes(params)){
@@ -72,7 +66,7 @@ export default function Products({ productsApi, dataRender, setProductsApi}) {
         </div>
         <div className="w-full border-solid border-b-2 border-slate-300  dark:border-stone-700  "></div>
 
-        {!productsApi.length?<Loading color={'#fff'}/>:
+        {loadingOn?<Loading color={'#fff'}/>:
           dataRender?.map(item=>
             <div key={item.id} className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded  xl:mb-0 shadow-lg dark:bg-stone-700  py-3 xl:my-4 max-xl:my-2">
               <div className="flex flex-wrap justify-around items-center">

@@ -13,10 +13,7 @@ import { formatDate, financial } from '@/apiFunctions/apiFunctions';
 import {alertConfirmacion} from '@/components/Reusables/Alerts'
 import Icon from '@mdi/react';
 import { mdiArrowLeft } from '@mdi/js';
-
-
-
-
+import {QRCodeCanvas} from 'qrcode.react';
 
 export default function Summary(){
   const searchParams = useSearchParams()
@@ -45,6 +42,9 @@ export default function Summary(){
     <>
       {pdfVisible&&businessApi? 
       <div className="px-4 md:px-10 mx-auto w-full m-16">
+        <div className='hidden'>
+          <QRCodeCanvas id={id} value={id}/>,
+        </div>
         <Icon onClick={()=>{setPdfVisible(false)}}path={mdiArrowLeft} size={2} color='rgb(52, 51, 72)'/>
         <PDFViewer style={{width:'100%' ,height:'90vh'}}><SummaryPdf sale={{...sale,id:id}} businessDate={businessApi}/></PDFViewer>
       </div>:
@@ -72,7 +72,7 @@ export default function Summary(){
                     </div>
                     <div className='max-sm:w-full sm:w-1/2 flex flex-wrap justify-center items-center rounded bg-slate-300 dark:bg-stone-700 p-3'>
                       < QRCode 
-                        id={id+'D'}
+                        id={id}
                         size = { 150} 
                         value = {id} 
                         viewBox = { `0 0 256 256` } 

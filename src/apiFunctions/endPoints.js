@@ -1,9 +1,6 @@
 import { getFirestore, doc , getDoc, collection, getDocs } from 'firebase/firestore';
 import { deleteFirestore, putFirestore, postFirestore, postFirestoreId } from '@/apiFunctions/apiFunctions'
 
-
-
-
 // endpoint business information
 //////////////////////////////////////////////////////////////////////////////
 export const getBusiness = async (userProfile,setState)=>{
@@ -20,21 +17,20 @@ export const getBusiness = async (userProfile,setState)=>{
 }
 
 export const postBusiness = async (userProfile, data)=>{
-    let response = { error: 'The business was not updated'};
+    let response = { error: 'No se han podiod actualizar los datos del negocio'};
     try {
       const selected = doc(getFirestore(), `users/${userProfile}`);
       await postFirestoreId(selected, data);
-      response = { success:'Bussines data update successfully'};
+      response = { success:'Los datos del negocio fueron actualizados'};
     } catch (error) {
         response = { error: error.message };
     }
     return response
 } 
 
-
 // endpoint sales
 //////////////////////////////////////////////////////////////////////////////
-export const getSales =  async (setState,userProfile)=>{
+export const getSales =  async (setState,userProfile,loadingOff=()=>{return(null)})=>{
     let response = { error: 'The sales was not geted' };
     try {
         const selectedCollection = collection(getFirestore(), `users/${userProfile}/sales`);
@@ -45,6 +41,7 @@ export const getSales =  async (setState,userProfile)=>{
         }));
         setState(salesData);
         response = { success: 'Sales retrieved successfully', salesData };
+        setTimeout(loadingOff, 500)
     } catch (error) {
         response = { error: error.message };
     }
@@ -74,11 +71,11 @@ export const getSale = async (userProfile,id,setState)=>{
 const deleteSale = async (userProfile, id)=>{
     //cancel sale
     // elimina venta de la base de datos
-    let response = { error: 'The sales was not deleted' };
+    let response = { error: 'No se ha podido eliminar la venta' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/sales", id)
         await deleteFirestore(selected)
-        response = { success: 'Sales deleted successfully' };
+        response = { success: 'Venta eliminada' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -87,7 +84,7 @@ const deleteSale = async (userProfile, id)=>{
 const putProductsStock = async (userProfile, data)=>{
     //cancel sale
     // restablece el stock de los productos 
-    let response = { error: 'The products were not updated' };
+    let response = { error: 'los productos no fueron actualizados' };
     try {
       await Promise.all(
         data.map(async (product) => {
@@ -98,20 +95,20 @@ const putProductsStock = async (userProfile, data)=>{
           await putFirestore(selected,(updatedDoc))
         })
       );
-      response = { success: 'Products updated successfully' };
+      response = { success: 'Prodcutos actualizados correctamente ' };
     } catch (error) {
       response = { error: error.message };
     }
     return response;
 }
 export const cancelSale = async (userProfile, data, id) => {
-    let response = {error : 'The sale could not be canceled'}
+    let response = {error : 'La venta no ha sido cancelada'}
     try{
       await deleteSale(userProfile, id)
       // elimina venta de la base de datos
       await putProductsStock(userProfile, data)
       // restablece el stock de los productos de la venta eliminada
-      response = { success: 'The sale was canceled'};
+      response = { success: 'La venta fue cancelada'};
     }catch(error) {
       response = { error: error.message };
     }
@@ -119,11 +116,9 @@ export const cancelSale = async (userProfile, data, id) => {
 }
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
-
-
 // endpoint customers
 //////////////////////////////////////////////////////////////////////////////
-export const getCustomers = async (userProfile, setState) => {
+export const getCustomers = async (userProfile, setState, loadingOff=()=>{return(null)}) => {
     let response = { error: 'The clients was not geted' };
     try {
       const selectedCollection = collection(getFirestore(), `users/${userProfile}/customers`);
@@ -134,6 +129,7 @@ export const getCustomers = async (userProfile, setState) => {
       }));
       setState(clientsData);
       response = { success: 'Clients retrieved successfully', clientsData };
+      setTimeout(loadingOff, 500)
     } catch (error) {
       response = { error: error.message };
     }
@@ -159,24 +155,23 @@ export const getClient = async(userProfile,id,setState)=>{
 }
 
 export const putClient= async(userProfile, id, data)=>{
-    let response = { error: 'The client was not updated' };
+    let response = { error: 'El cliente no fue actualizado' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/customers", id)
         await putFirestore(selected,data)
-        response = { success: 'Client updated successfully' };
+        response = { success: 'Cliente actualizado correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
     return response;
 }
   
-
 export const deleteClient = async (userProfile, id)=>{
-    let response = { error: 'The client was not deleted' };
+    let response = { error: 'El cliene no fue eliminado' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/customers", id)
         await deleteFirestore(selected)
-        response = { success: 'Client deleted successfully' };
+        response = { success: 'Cliente eliminado correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -184,19 +179,19 @@ export const deleteClient = async (userProfile, id)=>{
 }
 
 export const postClient = async (userProfile, data) => {
-    let response = { error: 'The client was not created'};
+    let response = { error: 'El cliente no fue creado'};
     try {
       const selectedCollection = collection(getFirestore(), `users/${userProfile}/customers`);
       await postFirestore(selectedCollection, data);
-      response = { success:'Client added successfully'};
+      response = { success:'Cliente añadido correctamente'};
     } catch (error) {
         response = { error: error.message };
     }
     return response
-  };
+};
 //////////////////////////////////////////////////////////////////////////////
 
-export const getProducts = async (userProfile, setState) => {
+export const getProducts = async (userProfile, setState, loadingOff=()=>{return(null)}) => {
     let response = { error: 'The products was not geted' };
     try {
       const selectedCollection = collection(getFirestore(), `users/${userProfile}/products`);
@@ -207,6 +202,7 @@ export const getProducts = async (userProfile, setState) => {
       }));
       setState(productsData);
       response = { success: 'Products retrieved successfully', productsData };
+      setTimeout(loadingOff, 500)
     } catch (error) {
       response = { error: error.message };
     }
@@ -249,11 +245,11 @@ export const getCategory = async(userProfile,id,setState)=>{
 }
 
 export const postCategory = async(userProfile, data)=>{
-    let response = { error: 'The label was not created' };
+    let response = { error: 'La etiqueta no ha sido creada' };
     try{
         const selectedCollection = collection(getFirestore(), "users/"+userProfile+"/categories")
         await postFirestore(selectedCollection,data)
-        response = { success: 'Label created successfully' };
+        response = { success: 'Etiqueta creada correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -261,11 +257,11 @@ export const postCategory = async(userProfile, data)=>{
 }
 
 export const putCategory= async(userProfile, id, data)=>{
-    let response = { error: 'The label was not updated' };
+    let response = { error: 'La etiqueta no fue actualizada' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/categories", id)
         await putFirestore(selected,data)
-        response = { success: 'Label updated successfully' };
+        response = { success: 'Etiquteta Actualizada correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -273,11 +269,11 @@ export const putCategory= async(userProfile, id, data)=>{
 }
 
 export const deleteCategory = async(userProfile, id)=>{
-    let response = { error: 'The label was not deleted' };
+    let response = { error: 'La etiqueta no fue eliminada' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/categories", id)
         await deleteFirestore(selected)
-        response = { success: 'Label deleted successfully' };
+        response = { success: 'Etiqueta creada correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -302,13 +298,12 @@ export const getProduct = async(userProfile,id,setState)=>{
     return response
 }
 
-
 export const deleteProduct = async(userProfile, id)=>{
-    let response = { error: 'The product was not deleted' };
+    let response = { error: 'El rpoducto no fue elimiando' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/products", id)
         await deleteFirestore(selected)
-        response = { success: 'Product deleted successfully' };
+        response = { success: 'Producto eliminado correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -317,11 +312,11 @@ export const deleteProduct = async(userProfile, id)=>{
 
 
 export const putProduct= async(userProfile, id, data)=>{
-    let response = { error: 'The product was not updated' };
+    let response = { error: 'El producto no fue actualizado' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/products", id)
         await putFirestore(selected,data)
-        response = { success: 'Product updated successfully' };
+        response = { success: 'Producto actualizado correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -329,11 +324,11 @@ export const putProduct= async(userProfile, id, data)=>{
 }
 
 export const postProduct = async(userProfile, data)=>{
-    let response = { error: 'The product was not created' };
+    let response = { error: 'El producto no fue creado'};
     try{
         const selectedCollection = collection(getFirestore(), "users/"+userProfile+"/products")
         await postFirestore(selectedCollection,data)
-        response = { success: 'Product created successfully' };
+        response = { success: 'Producto creado correctamnete' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -341,7 +336,7 @@ export const postProduct = async(userProfile, data)=>{
 }
 
 export const putProducts = async (userProfile, data) => {
-    let response = { error: 'The products were not updated' };
+    let response = { error: 'Los Productos no fueron actualizados' };
     try {
       await Promise.all(
         data.map(async (product) => {
@@ -349,20 +344,19 @@ export const putProducts = async (userProfile, data) => {
           await putFirestore(selected, product);
         })
       );
-      response = { success: 'Products updated successfully' };
+      response = { success: 'Productos actualizados correctamente' };
     } catch (error) {
       response = { error: error.message };
     }
     return response;
 };
 
-
 export const postSale = async (userProfile, data)=>{
-    let response = { error: 'The sale was not registered' };
+    let response = { error: 'No se ha podido generar la venta' };
     try{
         const selectedCollection = collection(getFirestore(), "users/"+userProfile+"/sales")
         await postFirestore(selectedCollection,data)
-        response = { success: 'Sale registered successfully' };
+        response = { success: 'Venta registrada correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -370,8 +364,7 @@ export const postSale = async (userProfile, data)=>{
 }
 
 ///////////////////////////////////////////////////////////////////
-
-export const getBuys =  async (setState,userProfile)=>{
+export const getBuys =  async (setState,userProfile,loadingOff=()=>{return(null)})=>{
     let response = { error: 'The buys was not geted' };
     try {
         const selectedCollection = collection(getFirestore(), `users/${userProfile}/buys`);
@@ -382,6 +375,7 @@ export const getBuys =  async (setState,userProfile)=>{
         }));
         setState(salesData);
         response = { success: 'Buys retrieved successfully', salesData };
+        setTimeout(loadingOff, 500)
     } catch (error) {
         response = { error: error.message };
     }
@@ -390,11 +384,11 @@ export const getBuys =  async (setState,userProfile)=>{
 
 const deleteBuy = async (userProfile, id)=>{
 
-    let response = { error: 'The buys was not deleted' };
+    let response = { error: 'La compra no ha sido eliminada' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/buys", id)
         await deleteFirestore(selected)
-        response = { success: 'Buys deleted successfully' };
+        response = { success: 'Compra eliminada correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -403,7 +397,7 @@ const deleteBuy = async (userProfile, id)=>{
 const putProductsStockBuyCancel = async (userProfile, data)=>{
     //cancel buy
     // restablece el stock de los productos 
-    let response = { error: 'The products were not updated' };
+    let response = { error: 'Los productos no han sido actualizados' };
     try {
       await Promise.all(
         data.map(async (product) => {
@@ -414,7 +408,7 @@ const putProductsStockBuyCancel = async (userProfile, data)=>{
           await putFirestore(selected,(updatedDoc))
         })
       );
-      response = { success: 'Products updated successfully' };
+      response = { success: 'Productos actualizados correctamente' };
     } catch (error) {
       response = { error: error.message };
     }
@@ -422,13 +416,13 @@ const putProductsStockBuyCancel = async (userProfile, data)=>{
 }
 
 export const cancelBuy = async (userProfile, data, id) => {
-    let response = {error : 'The buy could not be canceled'}
+    let response = {error : 'La venta no ha sido cancelada'}
     try{
       await deleteBuy(userProfile, id)
       // elimina venta de la base de datos
       await putProductsStockBuyCancel(userProfile, data)
       // restablece el stock de los productos de la venta eliminada
-      response = { success: 'The buy was canceled'};
+      response = { success: 'Venta cancelada correctamente'};
     }catch(error) {
       response = { error: error.message };
     }
@@ -455,7 +449,7 @@ export const getBuy= async (userProfile,id,setState)=>{
 
 // endpoint providers
 //////////////////////////////////////////////////////////////////////////////
-export const getProviders = async (userProfile, setState) => {
+export const getProviders = async (userProfile, setState, loadingOff=()=>{return(null)}) => {
     let response = { error: 'The providers was not geted' };
     try {
       const selectedCollection = collection(getFirestore(), `users/${userProfile}/providers`);
@@ -466,6 +460,7 @@ export const getProviders = async (userProfile, setState) => {
       }));
       setState(clientsData);
       response = { success: 'Providers retrieved successfully', clientsData };
+      setTimeout(loadingOff, 500)
     } catch (error) {
       response = { error: error.message };
     }
@@ -473,11 +468,11 @@ export const getProviders = async (userProfile, setState) => {
 };
 
 export const putProvider= async(userProfile, id, data)=>{
-    let response = { error: 'The provier was not updated' };
+    let response = { error: 'El provedor no fue actualizado' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/providers", id)
         await putFirestore(selected,data)
-        response = { success: 'Provider updated successfully' };
+        response = { success: 'Provedor actualizado correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -503,11 +498,11 @@ export const getProvider = async(userProfile,id,setState)=>{
 }
 
 export const deleteProvider = async (userProfile, id)=>{
-    let response = { error: 'The provider was not deleted' };
+    let response = { error: 'El provedor no ha sido eliminado' };
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/providers", id)
         await deleteFirestore(selected)
-        response = { success: 'Provider deleted successfully' };
+        response = { success: 'Provedor eliminado correctamente' };
     }catch (error) {
         response = { error: error.message };
     }
@@ -515,23 +510,23 @@ export const deleteProvider = async (userProfile, id)=>{
 }
 
 export const postProvider = async (userProfile, data) => {
-    let response = { error: 'The provider was not created'};
+    let response = { error: 'El provedor no ha sido creado'};
     try {
       const selectedCollection = collection(getFirestore(), `users/${userProfile}/providers`);
       await postFirestore(selectedCollection, data);
-      response = { success:'Provider added successfully'};
+      response = { success:'Provedor creado correctamente'};
     } catch (error) {
         response = { error: error.message };
     }
     return response
-  };
+};
 
 export const postBuy = async (userProfile, data)=>{
-    let response = { error: 'The buy was not registered' };
+    let response = { error: 'La compra no fue registrada' };
     try{
         const selectedCollection = collection(getFirestore(), "users/"+userProfile+"/buys")
         await postFirestore(selectedCollection,data)
-        response = { success: 'Buy registered successfully' };
+        response = { success: 'Compra registrada correctamente' };
     }catch (error) {
         response = { error: error.message };
     }

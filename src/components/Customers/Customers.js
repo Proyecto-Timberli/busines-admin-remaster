@@ -14,14 +14,14 @@ export default function Sales() {
   ////////////////////conexion Api////////////////////////////
   const [customersApi,setCustomersApi]=useState([])
   const [dataRender,setDataRender]=useState([])
+  const [loadingOn, setLoadingOn]=useState(true)
   useEffect(() => {
     if(userProfile){
-      getCustomers(userProfile, setCustomersApi)
+      getCustomers(userProfile, setCustomersApi, ()=>setLoadingOn(false))
     }
   },[userProfile]) 
   useEffect(() => {
     setDataRender([...customersApi])
-    console.log(customersApi)
   },[customersApi])
   /////////////////////////////////////////////////////
   
@@ -64,7 +64,7 @@ export default function Sales() {
             </div>
           </div>
           <div className="w-full border-solid border-b-2 border-slate-300  dark:border-stone-700  "></div>
-          {!customersApi.length?<Loading color={'#fff'}/>:
+          {loadingOn?<Loading color={'#fff'}/>:
             dataRender?.map(item=>
               <button 
                 key={item.id+"p"}
