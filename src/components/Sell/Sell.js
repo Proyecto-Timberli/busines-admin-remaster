@@ -1,8 +1,6 @@
 "use client"
-
 import React, { useEffect, useState } from "react";
 import { useAuth } from '@/context/authContext'
-import Loading from '@/components/Reusables/Loading'
 import Header from './Header'
 import Footer from '@/components/Footers/FooterAdmin'
 import CardProductInCart from "./CardProductInCart";
@@ -57,11 +55,11 @@ export default function Sell(){
     setTotal(0.00)
     setReflectedStock([])
     setStoreVisible(false)
-    return {success:'clean cart!'}
+    return {success:'Carro vacio!'}
   }
   async function register(ventar=car, productos=reflectedStock){
     if(!ventar[0]){
-      return {error:'There are no products in the cart'}
+      return {error:'No hay productos en el carro'}
             
     }else{
     let postVentar =  {
@@ -89,10 +87,10 @@ export default function Sell(){
         addProduct={()=>setStoreVisible(true)} 
         productInStore={productInStore}
         setProductInStore={setProductInStore}
-        clean={()=>alertConfirmacion('Clean cart', null, clean, null)}
+        clean={()=>alertConfirmacion('Vaciar carro?', null, clean, null)}
         setCustomer={setCustomer}
         customer={customer}
-        register={()=>alertConfirmacion('Register sale?', null,register, null)}
+        register={()=>alertConfirmacion('Registrar venta?', null,register, null)}
         />
       <div className="px-4 md:px-10 mx-auto w-full -m-24">
       {storeVisible&&

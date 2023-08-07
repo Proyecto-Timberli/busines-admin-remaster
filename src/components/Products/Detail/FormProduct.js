@@ -28,7 +28,7 @@ export default function FormProduct({product}) {
     })
   }
   const saveChanges = () => {
-    if(!formState.name){return {error:'Complete fields'}}
+    if(!formState.name){return {error:'Completa los campos'}}
     const response = putProduct(userProfile, id , formState)
     return response
   }
@@ -42,7 +42,7 @@ export default function FormProduct({product}) {
             <button
               className="bg-blueGray-700 active:bg-blueGray-600 text-white font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
               type="button"
-              onClick={()=>alertConfirmacion("Save changes?", null, saveChanges, null)}
+              onClick={()=>alertConfirmacion("Guardar cambios?", null, saveChanges, null)}
             >
               Guardar cambios
             </button>

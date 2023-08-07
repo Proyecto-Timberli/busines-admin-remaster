@@ -15,7 +15,7 @@ export default function  HeaderStats({
             <div className="flex flex-wrap justify-center">
               <CardButton
                 statSubtitle="Agregar Cliente"
-                statTitle="Agrgar"
+                statTitle="Agregar"
                 statIconName="print"
                 statIconColor="bg-orange-500"
                 onPress={onPress}

@@ -33,7 +33,7 @@ export default function Labels(){
             <div className="flex w-full flex-wrap items-center">
               <div className="relative w-full max-w-full flex-grow flex-1">
                 <h6 className="uppercase text-blueGray-100 mb-1 text-xs font-semibold">
-                  Labels
+                  Etiquetas
                 </h6>   
                 <div className="w-full flex max-lg:flex-col lg:flex-row justify-center items-center ">              
                   <div className="h-96 block  md:overflow-y-auto  items-center justify-between relative lg:w-1/2 max-lg:w-full py-3 px-2 mr-4">

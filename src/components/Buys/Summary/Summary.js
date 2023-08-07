@@ -6,17 +6,9 @@ import Loading from '@/components/Reusables/Loading'
 import Header from './Header'
 import Footer from '@/components/Footers/FooterAdmin'
 import QRCode  from  "react-qr-code" ;
-import SummaryPdf from './SummaryPdf';
-import { PDFViewer } from '@react-pdf/renderer';
-import {getBusiness, cancelBuy, getBuy } from '@/apiFunctions/endPoints'
+import {cancelBuy, getBuy } from '@/apiFunctions/endPoints'
 import { formatDate, financial } from '@/apiFunctions/apiFunctions';
 import {alertConfirmacion} from '@/components/Reusables/Alerts'
-import Icon from '@mdi/react';
-import { mdiArrowLeft } from '@mdi/js';
-
-
-
-
 
 export default function Summary(){
   const searchParams = useSearchParams()
@@ -24,8 +16,6 @@ export default function Summary(){
   const id = searchParams.get('id')
   const [buy,setBuy] = useState(null)
   const {userProfile, userPermissions} = useAuth()
-  const [businessApi,setBusinessApi] = useState(null)
-  const [pdfVisible,setPdfVisible] = useState(false)
 
   const canceled = async (userProfile, data, id, navigation)=>{
     const response = await cancelBuy(userProfile , data, id)
@@ -35,18 +25,11 @@ export default function Summary(){
 
   useEffect(()=>{
     getBuy(userProfile,id,setBuy)
-    getBusiness(userProfile,setBusinessApi)
   },[userProfile])
   
   return (
     <>
-      {pdfVisible&&businessApi? 
-      <div className="px-4 md:px-10 mx-auto w-full m-16">
-        <Icon onClick={()=>{setPdfVisible(false)}}path={mdiArrowLeft} size={2} color='rgb(52, 51, 72)'/>
-        <PDFViewer style={{width:'100%' ,height:'90vh'}}><SummaryPdf buy={{...buy,id:id}} businessDate={businessApi}/></PDFViewer>
-      </div>:
-      <>
-      <Header setPdfVisible={()=>setPdfVisible(true)} canceled={()=>alertConfirmacion('Cancel buy?',null,()=>canceled(userProfile, buy?.buyProducts, id,()=>router.push('/inside/buys')),null)}
+      <Header setPdfVisible={()=>setPdfVisible(true)} canceled={()=>alertConfirmacion('Cancelar compra?',null,()=>canceled(userProfile, buy?.buyProducts, id,()=>router.push('/inside/buys')),null)}
       />
       <div className="px-4 md:px-10 mx-auto w-full -m-24">
         <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-blueGray-700">
@@ -84,9 +67,9 @@ export default function Summary(){
                       <div className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded shadow-lg dark:bg-stone-700 mb-2 mt-2 p-3">
                         <div className="flex flex-wrap justify-around items-center">
                           <p className='text-base text-blueGray-700 dark:text-slate-300'>{item.name}</p>
-                          <p className='text-base text-blueGray-700 dark:text-slate-300'>Precio por unidad: {item.price?financial(item.price):null}</p>
+                          <p className='text-base text-blueGray-700 dark:text-slate-300'>Precio por unidad: {item.buyprice?financial(item.buyprice):null}</p>
                           <p className='text-base text-blueGray-700 dark:text-slate-300'>Cantidad: {item.amount}</p>
-                          <p className='text-base text-blueGray-700 dark:text-slate-300'>Total Producto: {item.price?financial(item.price*item.amount):null}</p>
+                          <p className='text-base text-blueGray-700 dark:text-slate-300'>Total Producto: {item.buyprice?financial(item.buyprice*item.amount):null}</p>
                         </div>
                       </div>)}
                       <div className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded shadow-lg p-3 dark:bg-stone-700 mt-2">
@@ -106,7 +89,6 @@ export default function Summary(){
         </div>
       <Footer/> 
      </div>
-     </>}
     </>
   );
 }

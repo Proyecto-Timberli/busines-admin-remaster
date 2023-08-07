@@ -69,7 +69,7 @@ export default function Products({ productInStore, pressCart, setStoreVisible}) 
                         name={item.name}
                         barCode={item.barCode}
                         category={item.category}
-                        price={item.price?financial(item.price):null}
+                        price={item.buyprice?financial(item.buyprice):null}
                     />
                 </div> 
                 <button onClick={()=>pressCart(item)}> 

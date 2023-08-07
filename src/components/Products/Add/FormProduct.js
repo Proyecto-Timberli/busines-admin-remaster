@@ -29,7 +29,7 @@ export default function FormProduct() {
     Promise.all
   }
   const createProduct = () => {
-    if(!formState.name){return {error:'Complete fields'}}
+    if(!formState.name){return {error:'Completa los campos'}}
     const response = postProduct(userProfile, formState)
     setFormState({
       name:"",
@@ -57,7 +57,7 @@ export default function FormProduct() {
             <button
               className="bg-blueGray-700 active:bg-blueGray-600 text-white font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
               type="button"
-              onClick={()=>alertConfirmacion("Create new product?", null, createProduct, null)}
+              onClick={()=>alertConfirmacion("Crear nuevo producto?", null, createProduct, null)}
             >
               Crear producto
             </button>

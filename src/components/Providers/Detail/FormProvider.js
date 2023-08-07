@@ -21,7 +21,7 @@ export default function Formprovider({provider}) {
   }
   const saveChanges = async () => {
     if(!formState.identifier){
-      return {error: 'Completed fields'}
+      return {error: 'Completa los campos'}
     }
     const response = await putProvider(userProfile, provider.id , formState)
     return response
@@ -36,7 +36,7 @@ export default function Formprovider({provider}) {
             <button
               className="bg-blueGray-700 active:bg-blueGray-600 text-white font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
               type="button"
-              onClick={()=>alertConfirmacion("Save changes?", null, saveChanges, null)}
+              onClick={()=>alertConfirmacion("Guardar cambios?", null, saveChanges, null)}
             >
               Guardar cambios
             </button>

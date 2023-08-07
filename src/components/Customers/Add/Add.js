@@ -22,13 +22,6 @@ export default function Add(){
   const id = searchParams.get('id')
   const [client, setClient] = useState(null)
   const { userProfile, userPermissions } = useAuth()
-
-//   useEffect(()=>{
-//     getClient(userProfile,id,setClient)
-//   },[userProfile])
-//   useEffect(()=>{
-//     console.log(client)
-//   },[client])
   
   return (
     <>

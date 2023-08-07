@@ -49,7 +49,7 @@ export default function Summary(){
         <PDFViewer style={{width:'100%' ,height:'90vh'}}><SummaryPdf sale={{...sale,id:id}} businessDate={businessApi}/></PDFViewer>
       </div>:
       <>
-      <Header setPdfVisible={()=>setPdfVisible(true)} canceled={()=>alertConfirmacion('Cancel sale?',null,()=>canceled(userProfile, sale?.sellProducts, id,()=>router.push('/inside/sales')),null)}
+      <Header setPdfVisible={()=>setPdfVisible(true)} canceled={()=>alertConfirmacion('Cancelar venta?',null,()=>canceled(userProfile, sale?.sellProducts, id,()=>router.push('/inside/sales')),null)}
       />
       <div className="px-4 md:px-10 mx-auto w-full -m-24">
         <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-blueGray-700">

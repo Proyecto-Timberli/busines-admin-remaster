@@ -32,7 +32,7 @@ export default function Sell(){
     //suma todos los productos
     let value = 0
     car?.forEach(product =>{
-      value=(value+(product.amount*product.price))})
+      value=(value+(product.amount*product.buyprice))})
     setTotal(value)
   }
   useEffect(() => {
@@ -53,13 +53,13 @@ export default function Sell(){
     setTotal(0.00)
     setReflectedStock([])
     setStoreVisible(false)
-    return {success:'clean cart!'}
+    return {success:'Carro vacio!'}
   }
 
   async function register(ventar=car, productos=reflectedStock){
     try{
       if(!ventar[0]){
-        return {error:'There are no products in the cart'}
+        return {error:'No hay productos en el carro'}
               
       }else{
         let postVentar =  {
@@ -92,10 +92,10 @@ export default function Sell(){
         addProduct={()=>setStoreVisible(true)} 
         productInStore={productInStore}
         setProductInStore={setProductInStore}
-        clean={()=>alertConfirmacion('Clean cart', null, clean, null)}
+        clean={()=>alertConfirmacion('Vaciar carro?', null, clean, null)}
         setProvider={setProvider}
         provider={provider}
-        register={()=>alertConfirmacion('Register buy?', null,register, null)}
+        register={()=>alertConfirmacion('Registrar compra?', null,register, null)}
         />
       <div className="px-4 md:px-10 mx-auto w-full -m-24">
       {storeVisible&&
@@ -117,7 +117,7 @@ export default function Sell(){
                   id={item.id}
                   name={item.name}
                   category={item.category}
-                  price={item.price?financial(item.price):null}
+                  price={item.buyprice?financial(item.buyprice):null}
                   product={item} 
                   productInStore={productInStore}
                   car={car}
