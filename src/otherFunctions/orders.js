@@ -14,13 +14,13 @@ export function ordenamiento(array, atribute, orden) {
             c = a[atribute].toLowerCase()
             d = b[atribute].toLowerCase()
         }
-        else if (atribute === "projects") {
+        else if (atribute === "identifier") {
+            c = a[atribute].toLowerCase()
+            d = b[atribute].toLowerCase()
+        }
+        else if (atribute === "numero") {
             d = Number(a[atribute].length)
             c = Number(b[atribute].length)
-        }
-        else if (atribute === "scoreAverage") {
-            d = Number(a[atribute])
-            c = Number(b[atribute])
         }
         else {
             c = Number(a[atribute])

@@ -1,9 +1,11 @@
 import React from "react";
 import SearchFilter from '@/components/Reusables/SearchBars'
 import CardButton from "./CardButton";
+import Orders from "../Customers/Orders";
 
 export default function  HeaderStats({
   setFilter, 
+  dataRender,
   array,
   onPress
 }) {
@@ -27,6 +29,10 @@ export default function  HeaderStats({
                 atributes={['id', 'identifier','location']}
                 placeholder= {'Buscar provedor...'}
               />  
+            </div>
+            <div className="w-full flex flex-wrap justify-center items-center mt-4">  
+               <Orders setFilter= {setFilter} 
+                  array= {dataRender}/>   
             </div>
           </div>
         </div>

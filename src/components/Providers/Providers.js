@@ -29,6 +29,7 @@ export default function Provider() {
     <>
       <Header
         setFilter = {setDataRender} 
+        dataRender = {dataRender}
         array = {providersApi}
         onPress = {()=>router.push('inside/providers/add')}
       />

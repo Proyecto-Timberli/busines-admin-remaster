@@ -30,6 +30,7 @@ export default function Sales() {
       <Header
         setFilter = {setDataRender} 
         array = {customersApi}
+        dataRender = {dataRender}
         onPress = {()=>router.push('inside/customers/add')}
       />
       <div className="px-4 md:px-10 mx-auto w-full -m-24">
