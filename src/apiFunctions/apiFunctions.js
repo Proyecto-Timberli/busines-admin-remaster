@@ -50,7 +50,8 @@ export const postFirestorePlus = (selectedCollection,array)=>{
     
 }
 export function formatDate (date){
-    date=date.split(" ")
+    date = new Date(date).toString()
+    date = date.split(" ")
     const formatDate=(date[1]+" "+date[2]+" "+date[3])
     const hora=(date[4])
     const dia=(date[2])

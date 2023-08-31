@@ -3,6 +3,44 @@ import { useAuth } from '@/context/authContext'
 import { putProduct } from '@/apiFunctions/endPoints'
 import { alertConfirmacion } from '@/components/Reusables/Alerts'
 
+function validate(input) {
+  let errors = {};
+  if (!input.name) {
+    errors.name = '*ingresa un nombre'
+  }
+  else if (input.name.length >= 400){
+    errors.name = '*No puede tener mas de 400 caracteres'
+  }
+  if (input.price && (typeof Number(input.price) !== 'number' || isNaN(Number(input.price)))){
+    errors.price = '*Debe ingresar solo numeros sin otros caracteres'
+  }
+  if (input.priceList2 && (typeof Number(input.priceList2 ) !== 'number' || isNaN(Number(input.priceList2)))){
+    errors.priceList2  = '*Debe ingresar solo numeros sin otros caracteres'
+  }
+  if (input.priceList3 && (typeof Number(input.priceList3 ) !== 'number' || isNaN(Number(input.priceList3)))){
+    errors.priceList3  = '*Debe ingresar solo numeros sin otros caracteres'
+  }
+  if (input.priceList4 && (typeof Number(input.priceList4 ) !== 'number' || isNaN(Number(input.priceList4)))){
+    errors.priceList4  = '*Debe ingresar solo numeros sin otros caracteres'
+  }
+  if (input.stock && (typeof Number(input.stock) !== 'number' || isNaN(Number(input.stock)))){
+    errors.stock = '*Debe ingresar solo numeros sin otros caracteres'
+  }
+  if (input.category && input.category.length >= 100){
+    errors.category = '*No puede tener mas de 100 caracteres'
+  }
+  if (input.make && input.make.length >= 100){
+    errors.make = '*No puede tener mas de 100 caracteres'
+  }
+  if (input.buyprice && (typeof Number(input.buyprice) !== 'number' || isNaN(Number(input.buyprice)))){
+    errors.buyprice = '*Debe ingresar solo numeros sin otros caracteres'
+  }
+  if (input.description && input.description.length >= 100){
+    errors.description = '*No puede tener mas de 400 caracteres'
+  }
+
+  return errors;
+};
 export default function FormProduct({product}) {
   const { userProfile } = useAuth()
   const {barCode, buyprice, category, description,id,image, make, name, price, priceList2, priceList3, priceList4 , stock} = product
@@ -21,6 +59,7 @@ export default function FormProduct({product}) {
     image: image?image:"", 
     description: description?description:""
   })
+  const [formErrors, setFormErrors] = useState(false)
   const handleChangeInput = (e)=>{
     setFormState({
       ...formState,
@@ -28,9 +67,12 @@ export default function FormProduct({product}) {
     })
   }
   const saveChanges = () => {
-    if(!formState.name){return {error:'Completa los campos'}}
-    const response = putProduct(userProfile, id , formState)
-    return response
+    if(Object.keys(validate(formState)).length){
+      setFormErrors(true)
+    }else{
+      const response = putProduct(userProfile, id , formState)
+      return response
+    }
   }
 
   return (
@@ -70,6 +112,10 @@ export default function FormProduct({product}) {
                     onChange={(e)=>handleChangeInput(e)}
                   />
                 </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).name&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).name}</p>}
+                </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
                 <div className="relative w-full mb-3">
@@ -86,6 +132,10 @@ export default function FormProduct({product}) {
                     name="price"
                     onChange={(e)=>handleChangeInput(e)}
                   />
+                </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).price&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).price}</p>}
                 </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
@@ -104,6 +154,10 @@ export default function FormProduct({product}) {
                     onChange={(e)=>handleChangeInput(e)}
                   />
                 </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).priceList2&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).priceList2}</p>}
+                </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
                 <div className="relative w-full mb-3">
@@ -120,6 +174,10 @@ export default function FormProduct({product}) {
                     name="priceList3"
                     onChange={(e)=>handleChangeInput(e)}
                   />
+                </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).priceList3&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).priceList3}</p>}
                 </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
@@ -138,6 +196,10 @@ export default function FormProduct({product}) {
                     onChange={(e)=>handleChangeInput(e)}
                   />
                 </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).priceList4&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).priceList4}</p>}
+                </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
                 <div className="relative w-full mb-3">
@@ -154,6 +216,10 @@ export default function FormProduct({product}) {
                     name="stock"
                     onChange={(e)=>handleChangeInput(e)}
                   />
+                </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).stock&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).stock}</p>}
                 </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
@@ -172,6 +238,10 @@ export default function FormProduct({product}) {
                     onChange={(e)=>handleChangeInput(e)}
                   />
                 </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).category&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).category}</p>}
+                </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
                 <div className="relative w-full mb-3">
@@ -187,6 +257,10 @@ export default function FormProduct({product}) {
                     name="make"
                     onChange={(e)=>handleChangeInput(e)}
                   />
+                </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).make&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).make}</p>}
                 </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
@@ -204,6 +278,10 @@ export default function FormProduct({product}) {
                     name="buyprice"
                     onChange={(e)=>handleChangeInput(e)}
                   />
+                </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).buyprice&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).buyprice}</p>}
                 </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
@@ -239,6 +317,10 @@ export default function FormProduct({product}) {
                     name="description"
                     onChange={(e)=>handleChangeInput(e)}
                   ></textarea>
+                </div>
+                <div className='h-6 flex items-center'>       
+                  {validate(formState).description&&formErrors&&
+                  <p className='text-red-600'>{validate(formState).description}</p>}
                 </div>
               </div>
             </div>

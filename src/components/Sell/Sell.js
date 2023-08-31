@@ -7,7 +7,6 @@ import CardProductInCart from "./CardProductInCart";
 import {getProducts, putProducts, postSale} from '@/apiFunctions/endPoints'
 import { financial, exist } from '@/apiFunctions/apiFunctions';
 import ProductsInStore from './ProductsInStore'
-import {Timestamp} from 'firebase/firestore';
 import { alertConfirmacion } from '@/components/Reusables/Alerts'
 import {ordenamiento} from '@/otherFunctions/orders'
 
@@ -67,7 +66,7 @@ export default function Sell(){
       client: customer?.identifier?customer.identifier:null,
       total: total,
       sellProducts: ventar,
-      createdDate: Timestamp.now().toDate().toString(),
+      createdDate: Date.now(),
       wayToPay: wayToPay?wayToPay.name:null
     }
     let response = await postSale(userProfile, postVentar)

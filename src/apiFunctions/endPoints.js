@@ -1,5 +1,11 @@
-import { getFirestore, doc , getDoc, collection, getDocs } from 'firebase/firestore';
+import { getFirestore, doc , getDoc, collection, getDocs, query, orderBy, limit } from 'firebase/firestore';
 import { deleteFirestore, putFirestore, postFirestore, postFirestoreId } from '@/apiFunctions/apiFunctions'
+ 
+
+
+
+
+
 
 // endpoint business information
 //////////////////////////////////////////////////////////////////////////////
@@ -34,7 +40,7 @@ export const getSales =  async (setState,userProfile,loadingOff=()=>{return(null
     let response = { error: 'The sales was not geted' };
     try {
         const selectedCollection = collection(getFirestore(), `users/${userProfile}/sales`);
-        const querySnapshot = await getDocs(selectedCollection);
+        const querySnapshot = await getDocs(query(selectedCollection, orderBy("createdDate",'desc')));
         const salesData = querySnapshot.docs.map((sale) => ({
           ...sale.data(),
           id: sale.id,
@@ -368,7 +374,7 @@ export const getBuys =  async (setState,userProfile,loadingOff=()=>{return(null)
     let response = { error: 'The buys was not geted' };
     try {
         const selectedCollection = collection(getFirestore(), `users/${userProfile}/buys`);
-        const querySnapshot = await getDocs(selectedCollection);
+        const querySnapshot = await getDocs(query(selectedCollection, orderBy("createdDate",'desc')));
         const salesData = querySnapshot.docs.map((sale) => ({
           ...sale.data(),
           id: sale.id,

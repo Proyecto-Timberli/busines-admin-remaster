@@ -2,14 +2,12 @@
 
 import React, { useEffect, useState } from "react";
 import { useAuth } from '@/context/authContext'
-import Loading from '@/components/Reusables/Loading'
 import Header from './HeaderBuy'
 import Footer from '@/components/Footers/FooterAdmin'
 import CardProductInCart from "./CardProductInCartBuy";
 import {getProducts, putProducts, postBuy} from '@/apiFunctions/endPoints'
 import { financial, exist } from '@/apiFunctions/apiFunctions';
 import ProductsInStore from './ProductsInStoreBuy'
-import {Timestamp} from 'firebase/firestore';
 import { alertConfirmacion } from '@/components/Reusables/Alerts'
 import {ordenamiento} from '@/otherFunctions/orders'
 
@@ -67,7 +65,7 @@ export default function Sell(){
           provider: provider?.identifier?provider.identifier:null,
           total: total,
           buyProducts: ventar,
-          createdDate: Timestamp.now().toDate().toString(),
+          createdDate: Date.now(),
           wayToPay: wayToPay?wayToPay.name:null
         }
         let response = await postBuy(userProfile, postVentar)

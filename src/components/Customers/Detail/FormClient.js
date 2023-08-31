@@ -40,7 +40,7 @@ export default function FormClient({client}) {
             >
               Guardar cambios
             </button>
-          </div>
+          </div>  
         </div>
         <div className="flex-auto px-4 lg:px-10 py-10 pt-0" >
           <form className="dark:bg-stone-950">

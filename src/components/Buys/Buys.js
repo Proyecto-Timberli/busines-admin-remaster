@@ -75,6 +75,7 @@ export default function Sales() {
                   total={item.total?item.total:null}
                   date={item.createdDate}
                   resume={item.buyProducts}
+                  provider={item.provider}
                 />
                 </button> )}
           </div>

@@ -7,7 +7,8 @@ export default function CardStats({
   total,
   customer,
   resume,
-}) {
+}) 
+{
   return (
     <>
       <div className="relative flex flex-col min-w-0 break-words bg-slate-300 rounded  xl:mb-0 shadow-lg dark:bg-stone-700 py-1 ">
