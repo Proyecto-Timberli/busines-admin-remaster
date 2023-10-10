@@ -7,6 +7,7 @@ import QRCode  from  "react-qr-code" ;
 import { useAuth } from '@/context/authContext'
 import CopyToClipboard from '@/components/Reusables/CopyToClipBoard'
 import {alertConfirmacion} from '@/components/Reusables/Alerts'
+import Footer from '@/components/Footers/FooterAdmin'
 
 export default function Profile() {
   const {user, logout } = useAuth()
@@ -15,9 +16,9 @@ export default function Profile() {
     <>
       <Header 
       />
-        <section className="relative block h-40 dark:bg-stone-950">
+        <section className="relative block h-40">
         </section>
-        <section className="relative py-16 bg-blueGray-200 dark:bg-stone-800">
+        <section className="relative  bg-blueGray-200 dark:bg-stone-800">
           <div className="container mx-auto px-4">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64 dark:bg-stone-950">
               <div className="px-6">
@@ -70,6 +71,7 @@ export default function Profile() {
               </div>
             </div>
           </div>
+        <Footer/>
         </section>
     </>
   );
