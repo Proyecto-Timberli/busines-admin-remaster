@@ -1,12 +1,6 @@
-import { getFirestore, doc , getDoc, collection, getDocs, query, orderBy, limit } from 'firebase/firestore';
+import { getFirestore, doc , getDoc, collection, getDocs, query, orderBy, where, limit } from 'firebase/firestore';
 import { deleteFirestore, putFirestore, postFirestore, postFirestoreId } from '@/apiFunctions/apiFunctions'
  
-
-
-
-
-
-
 // endpoint business information
 //////////////////////////////////////////////////////////////////////////////
 export const getBusiness = async (userProfile,setState)=>{
@@ -214,7 +208,6 @@ export const getProducts = async (userProfile, setState, loadingOff=()=>{return(
     }
     return response
 };
-
 export const getCategories = async (userProfile, setState) => {
     let response = { error: 'The labels was not geted' };
     try {
@@ -231,6 +224,101 @@ export const getCategories = async (userProfile, setState) => {
     }
     return response
 };
+export const postAccessProfile = async (userProfile, data)=>{
+    let response = { error: 'el perfil de acceso no ha sido creado' };
+    try{
+        const selectedCollection = collection(getFirestore(), "users/"+userProfile+"/profilesForUsers")
+        await postFirestore(selectedCollection,data)
+        response = { success: 'Perfil de acceso creado correctamente' };
+    }catch (error) {
+        response = { error: error.message };
+    }
+    return response;
+}
+export const putAccessProfile = async (userProfile, id, data)=>{
+    let response = { error: 'El perfil de acceso no fue actualizado' };
+    try{
+        const selected = doc(getFirestore(), "users/"+userProfile+"/profilesForUsers", id)
+        await putFirestore(selected,data)
+        response = { success: 'Perfil de acceso Actualizada correctamente' };
+    }catch (error) {
+        response = { error: error.message };
+    }
+    return response;
+}
+export const deleteAccessProfile = async(userProfile, id)=>{
+    let response = { error: 'El perfil no fue eliminado' };
+    try{
+        const selected = doc(getFirestore(), "users/"+userProfile+"/profilesForUsers", id)
+        await deleteFirestore(selected)
+        response = { success: 'El perfil fue eliminado' };
+    }catch (error) {
+        response = { error: error.message };
+    }
+    return response;
+}
+export const getAccessProfiles = async (userProfile, setState)=>{
+    let response = { error: 'The access profiles was not geted' };
+    try {
+        const selectedCollection = collection(getFirestore(), "users/"+userProfile+"/profilesForUsers")
+        const querySnapshot = await getDocs(selectedCollection);
+        const accessProfiles = querySnapshot.docs.map((profile) => ({
+            ...profile.data(),
+            id: profile.id,
+        }));
+        setState(accessProfiles);
+        response = { success: 'Access profiles retrieved successfully', accessProfiles };
+    } catch (error) {
+        response = { error: error.message };
+    }
+    return response
+}
+export const postLinkAccesProfile = async (userProfile, data, userCode)=>{
+    let response = { error: 'No fue posible vincular el profile' };
+    try{
+        const selectedDoc= doc(getFirestore(), "users/"+userCode)
+        const userExist = await getDoc(selectedDoc)
+        if(!userExist._document){
+            return  { error: 'Usuario no encontrado' };
+        }
+        const selectedCollection = collection(getFirestore(), "users/"+userCode+"/myProfiles")
+        await postFirestore(selectedCollection,{...data, idProfile:data.id})
+        putAccessProfile(userProfile, data.id, {...data, usersLinked:[...data.usersLinked, {userCode:userCode, identifier:userExist.data().identifier}]})
+        response = { success: 'Perfil de acceso vinculado a usuario '+userCode };
+    }catch(error) {
+        response = { error: error.message };
+    }
+    return response
+}
+
+export const putLinkAccesProfile = async (userProfile, data, userCode)=>{
+    let response = { error: 'No fue posible actualizar el profile' };
+    try{ 
+        const selectedCollection = collection(getFirestore(), `users/${userCode}/myProfiles`);
+        const querySnapshot= await getDocs(query(selectedCollection, where("idProfile", "==", data.id )));
+        const selected = doc(getFirestore(), "users/"+userProfile+"/myProfiles/"+querySnapshot.docs[0].id);
+        await putFirestore(selected,data)
+        response = { success: 'Perfil de acceso Actualizado correctamente' };
+    }catch(error) {
+        response = { error: error.message };
+    }
+    return response
+}
+
+export const deleteLinkAccesProfile = async (userProfile, data, userCode)=>{
+    let response = { error: 'No fue posible eliminar el vinculo' };
+    try{ 
+        const selectedCollection = collection(getFirestore(), `users/${userCode}/myProfiles`);
+        const querySnapshot= await getDocs(query(selectedCollection, where("idProfile", "==", data.id )));
+        const selected = doc(getFirestore(), "users/"+userCode+"/myProfiles/"+querySnapshot.docs[0].id)
+        await deleteFirestore(selected)
+        putAccessProfile(userProfile, data.id, data)
+        response = { success: 'Vinculo eliminado correctamente' };
+    }catch(error) {
+        response = { error: error.message };
+    }
+    return response
+}
 
 export const getCategory = async(userProfile,id,setState)=>{
     let response = { error: 'The label was not geted' };
@@ -279,7 +367,7 @@ export const deleteCategory = async(userProfile, id)=>{
     try{
         const selected = doc(getFirestore(), "users/"+userProfile+"/categories", id)
         await deleteFirestore(selected)
-        response = { success: 'Etiqueta creada correctamente' };
+        response = { success: 'Etiqueta eliminada' };
     }catch (error) {
         response = { error: error.message };
     }

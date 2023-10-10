@@ -1,30 +1,19 @@
 "use client"
-import React,{useEffect} from "react";
+import React from "react";
 import Link from "next/link";
 import Burger from "./Burger.js";
 import DarkMode from '@/components/DarkMode/Dark.js'
 import { useAuth } from '@/context/authContext'
 import Icon from '@mdi/react';
 import { mdiLogout } from '@mdi/js';
+import { mdiAccountCircle } from '@mdi/js';
 import {alertConfirmacion} from '@/components/Reusables/Alerts'
-import {useRouter} from 'next/navigation'
 
+export default function Navbar() {
 
-export default function Navbar(props) {
-  const router = useRouter()
   const {user, logout} = useAuth()
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
-  useEffect(()=>{
-    // setTimeout(()=>{
-    //   // espera 9 segundos para que cargen los datos del usuario, si no hay usuario logeado protege las vistas
-    //   if(!user){
-    //   console.log(user)
-    //   router.push('/')}
-    // }, 9000)
-    
-  },[user])
-  
   return (
     <>
       <nav className="top-0 fixed z-50 w-full flex  items-center justify-between px-2 py-3 navbar-expand-lg bg-blueGray-700 shadow">
@@ -83,13 +72,12 @@ export default function Navbar(props) {
               </li>
               </>:
               <li className="flex items-center">
-              <button onClick={()=>alertConfirmacion('Exit app?',null,logout,null)}
-                className="hover:text-blueGray-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              >
-                <i className="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2" ></i>  
-                Logout
-                <Icon path={mdiLogout} size={1} />
-              </button>
+                <Link href="/inside/profile"
+                  className="hover:text-blueGray-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                >
+                  <i className="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2" ></i>  
+                  <Icon path={mdiAccountCircle} size={1} />
+                </Link>
             </li>
               }
             </ul>

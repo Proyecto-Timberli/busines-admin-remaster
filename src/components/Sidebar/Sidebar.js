@@ -265,6 +265,21 @@ export default function Sidebar() {
                     </p>
                 </Link>
               </li>
+
+              <li className="items-center">
+                <Link className="flex flex-row  items-center"   href="/inside/accessprofiles">             
+                    <Icon path={mdiCogOutline} size={1} color={'rgb(148 163 184)'} className="mr-1" />
+                    <p 
+                        className={
+                          "text-xs uppercase py-3 font-bold block " +
+                          (pathname.indexOf("/inside/accessprofiles") !== -1
+                          ? "text-lightBlue-500 hover:text-lightBlue-600"
+                          : "text-blueGray-700 hover:text-blueGray-500 dark:text-slate-400")
+                        }>
+                        Perfiles de acceso
+                    </p>
+                </Link>
+              </li>
             </ul>
 
             {/* Divider */}

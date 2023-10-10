@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+"use client"
+import React, { useState, useEffect } from "react";
 import { useAuth } from '@/context/authContext'
 import { putCategory, deleteCategory } from '@/apiFunctions/endPoints'
 import { alertConfirmacion } from '@/components/Reusables/Alerts'
@@ -15,6 +16,13 @@ export default function FormLabelEdit({
     name:name,
     description:description,
   })
+  useEffect(()=>{
+    setFormState({
+      id:id,
+      name:name,
+      description:description,
+    })
+  },[id])
   const handleChangeInput = (e)=>{
     setFormState({
       ...formState,

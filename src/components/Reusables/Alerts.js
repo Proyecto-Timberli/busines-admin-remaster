@@ -73,7 +73,7 @@ export  function alertInformation(title,text,title2,text2){
         }
     })
 }
-export  function  alertForm(title,text,checkOk){
+export  function  alertForm(title, text, checkOk, placeholder="Write the name of your company"){
     swal({
         title:title,
         text:text,
@@ -81,7 +81,7 @@ export  function  alertForm(title,text,checkOk){
         content: {
             element: "input",
             attributes: {
-              placeholder: "Write the name of your company",
+              placeholder: placeholder,
             },
         },
         buttons:["Cancel","Ok"],
@@ -90,15 +90,13 @@ export  function  alertForm(title,text,checkOk){
     .then(async(res) => {
         if(res){
             const valueRes = await checkOk(res)
-            console.log(valueRes)
-            if(valueRes.value){
+            if(valueRes.value || valueRes.success){
                 swal({
                     icon:"success",
                 }) 
             }else{
                 swal({
-                    title:valueRes.res,
-                    text:valueRes.res,
+                    title:valueRes.error,
                     icon:"error",
                 })  
             }        
@@ -106,7 +104,7 @@ export  function  alertForm(title,text,checkOk){
         }
         else{
             swal({
-                title:'Fill in the fields',
+                title:'Completa el campo',
                 icon:"error",
             })  
         }
